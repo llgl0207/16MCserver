@@ -284,9 +284,9 @@ default-rule:
     #===== Choose a Challenge =====
     #- challenge-vanilla
     #- challenge-bronze
-    - challenge-silver
+    #- challenge-silver
     #- challenge-gold
-    #- challenge-platinum
+    - challenge-platinum
     #- challenge-formula
     
     #===== Choose Strategies =====

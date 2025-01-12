@@ -1,118 +1,141 @@
-[22:51:53] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[22:51:53] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[22:51:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:51:54] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\PlayerDoll-Main-2.3.jar'...
-[22:51:55] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\PlayerDoll-Main-2.3.jar' in 530ms.
-[22:51:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[22:51:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - ChainMining (1.0.9), DuelTime (3.1.3), LevelledMobs (4.2.0.1 b93), LuckPerms (5.4.152), PlayerDoll (2.3), SkinsRestorer (15.5.1)
-[22:51:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:52:00] [ServerMain/INFO]: Loaded 1290 recipes
-[22:52:00] [ServerMain/INFO]: Loaded 1399 advancements
-[22:52:02] [Server thread/INFO]: Starting minecraft server version 1.21
-[22:52:02] [Server thread/INFO]: Loading properties
-[22:52:02] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[22:52:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:52:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:52:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:52:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
-[22:52:04] [Server thread/INFO]: Default game type: SURVIVAL
-[22:52:04] [Server thread/INFO]: Generating keypair
-[22:52:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:52:04] [Server thread/INFO]: Using default channel type
-[22:52:04] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[22:52:04] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[22:52:06] [Server thread/INFO]: [ChainMining] Loading server plugin ChainMining v1.0.9
-[22:52:06] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[22:52:06] [Server thread/INFO]: [PlayerDoll] Loading server plugin PlayerDoll v2.3
-[22:52:06] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.152
-[22:52:06] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.2.0.1 b93
-[22:52:06] [Server thread/INFO]: [LevelledMobs] Loading commands
-[22:52:07] [Server thread/INFO]: [DuelTime] Loading server plugin DuelTime v3.1.3
-[22:52:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:52:07] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[22:52:08] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[22:52:09] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[22:52:10] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[22:52:10] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.152
-[22:52:11] [Server thread/INFO]:         __    
-[22:52:11] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.152
-[22:52:11] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[22:52:11] [Server thread/INFO]: 
-[22:52:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[22:52:11] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[22:52:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[22:52:11] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[22:52:12] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[22:52:12] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1353ms)
-[22:52:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:52:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:52:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:52:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:52:12] [Server thread/INFO]: Preparing level "world"
-[22:52:12] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_nether is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_nether's world directory if you want to be able to load the duplicate world.
-[22:52:12] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_the_end is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_the_end's world directory if you want to be able to load the duplicate world.
-[22:52:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:52:13] [Server thread/INFO]: Time elapsed: 971 ms
-[22:52:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:52:14] [Server thread/INFO]: Time elapsed: 138 ms
-[22:52:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:52:14] [Server thread/INFO]: Time elapsed: 106 ms
-[22:52:14] [Server thread/INFO]: [ChainMining] Enabling ChainMining v1.0.9
-[22:52:14] [Server thread/INFO]: [ChainMining] 插件启用成功，作者PuddingKC，QQ:3116078709
-[22:52:14] [Server thread/INFO]: [PlayerDoll] Enabling PlayerDoll v2.3
-[22:52:14] [Server thread/WARN]: [PlayerDoll] Config [Basic Config] version does not match the latest (32).
+[21:55:23] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[21:55:23] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[21:55:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:55:24] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[21:55:24] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - ChainMining (1.0.9), DuelTime (3.1.3), GSit (1.13.0), LevelledMobs (4.2.0.1 b93), LuckPerms (5.4.152), PlayerDoll (2.3), SkinsRestorer (15.5.1)
+[21:55:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:55:30] [ServerMain/INFO]: Loaded 1290 recipes
+[21:55:30] [ServerMain/INFO]: Loaded 1399 advancements
+[21:55:32] [Server thread/INFO]: Starting minecraft server version 1.21
+[21:55:32] [Server thread/INFO]: Loading properties
+[21:55:32] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[21:55:33] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:55:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:55:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:55:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
+[21:55:34] [Server thread/INFO]: Default game type: SURVIVAL
+[21:55:34] [Server thread/INFO]: Generating keypair
+[21:55:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:55:34] [Server thread/INFO]: Using default channel type
+[21:55:34] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:55:34] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:55:36] [Server thread/INFO]: [ChainMining] Loading server plugin ChainMining v1.0.9
+[21:55:36] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[21:55:36] [Server thread/INFO]: [PlayerDoll] Loading server plugin PlayerDoll v2.3
+[21:55:36] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.152
+[21:55:37] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.2.0.1 b93
+[21:55:37] [Server thread/INFO]: [LevelledMobs] Loading commands
+[21:55:38] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.13.0
+[21:55:38] [Server thread/INFO]: [DuelTime] Loading server plugin DuelTime v3.1.3
+[21:55:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:55:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[21:55:39] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[21:55:40] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[21:55:41] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:55:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.152
+[21:55:41] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
+ If this message is repeated a lot, please see https://skinsrestorer.net/firewall
+[21:55:41] [Server thread/INFO]:         __    
+[21:55:41] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.152
+[21:55:41] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:55:41] [Server thread/INFO]: 
+[21:55:41] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:55:41] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:55:42] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:55:42] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:55:42] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1031ms)
+[21:55:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:55:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:55:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:55:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:55:42] [Server thread/INFO]: Preparing level "world"
+[21:55:42] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_nether is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_nether's world directory if you want to be able to load the duplicate world.
+[21:55:42] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_the_end is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_the_end's world directory if you want to be able to load the duplicate world.
+[21:55:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:55:43] [Server thread/INFO]: Time elapsed: 1027 ms
+[21:55:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:55:44] [Server thread/INFO]: Time elapsed: 127 ms
+[21:55:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:55:44] [Server thread/INFO]: Time elapsed: 103 ms
+[21:55:44] [Server thread/INFO]: [ChainMining] Enabling ChainMining v1.0.9
+[21:55:44] [Server thread/ERROR]: Cannot load plugins\ChainMining\config.yml
+org.bukkit.configuration.InvalidConfigurationException: while scanning a simple key
+ in 'reader', line 28, column 1:
+    -OAK WOOD
+    ^
+could not find expected ':'
+ in 'reader', line 29, column 1:
+    -SPRUCE WOOD
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:180) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.getConfig(JavaPlugin.java:156) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at [苦力怕论坛]ChainMining_1.0.9.jar/com.puddingkc.ChainMining.updateConfig(ChainMining.java:59) ~[[苦力怕论坛]ChainMining_1.0.9.jar:?]
+	at [苦力怕论坛]ChainMining_1.0.9.jar/com.puddingkc.ChainMining.onEnable(ChainMining.java:42) ~[[苦力怕论坛]ChainMining_1.0.9.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 28, column 1:
+    -OAK WOOD
+    ^
+could not find expected ':'
+ in 'reader', line 29, column 1:
+    -SPRUCE WOOD
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:502) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:307) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:237) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntryKey.produce(ParserImpl.java:586) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:277) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:207) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	... 19 more
+[21:55:44] [Server thread/INFO]: [ChainMining] 插件启用成功，作者PuddingKC，QQ:3116078709
+[21:55:44] [Server thread/INFO]: [PlayerDoll] Enabling PlayerDoll v2.3
+[21:55:44] [Server thread/WARN]: [PlayerDoll] Config [Basic Config] version does not match the latest (32).
 Default values will be used.
-[22:52:14] [Server thread/INFO]: [PlayerDoll] Saved config [Basic Config]
-[22:52:14] [Server thread/WARN]: [PlayerDoll] Config [Flag Config] version does not match the latest (32).
+[21:55:44] [Server thread/INFO]: [PlayerDoll] Saved config [Basic Config]
+[21:55:44] [Server thread/WARN]: [PlayerDoll] Config [Flag Config] version does not match the latest (32).
 Default values will be used.
-[22:52:14] [Server thread/INFO]: [PlayerDoll] Saved config [Flag Config]
-[22:52:14] [Server thread/WARN]: [PlayerDoll] Config [Permission Config] version does not match the latest (32).
+[21:55:44] [Server thread/INFO]: [PlayerDoll] Saved config [Flag Config]
+[21:55:44] [Server thread/WARN]: [PlayerDoll] Config [Permission Config] version does not match the latest (32).
 Default values will be used.
-[22:52:14] [Server thread/INFO]: [PlayerDoll] Saved config [Permission Config]
-[22:52:14] [Server thread/WARN]: [PlayerDoll] Language Config [default] Not Up to Date, Generate From Resource.
-[22:52:14] [Server thread/INFO]: [PlayerDoll] Config [LANGUAGE] Saved Successfully
-[22:52:14] [Thread-13/INFO]: [PlayerDoll] Checking New Versions...
-[22:52:14] [Thread-13/WARN]: Exception in thread "Thread-13" java.lang.RuntimeException: java.net.UnknownHostException: raw.githubusercontent.com
-[22:52:14] [Thread-13/WARN]: 	at PlayerDoll-Main-2.3.jar//me.autobot.playerdoll.PlayerDoll.lambda$checkUpdate$1(PlayerDoll.java:268)
-[22:52:14] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
-[22:52:14] [Thread-13/WARN]: Caused by: java.net.UnknownHostException: raw.githubusercontent.com
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
-[22:52:14] [Thread-13/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-[22:52:14] [Thread-13/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:752)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1243)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1129)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
-[22:52:14] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
-[22:52:14] [Thread-13/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1325)
-[22:52:14] [Thread-13/WARN]: 	at PlayerDoll-Main-2.3.jar//me.autobot.playerdoll.PlayerDoll.lambda$checkUpdate$1(PlayerDoll.java:258)
-[22:52:14] [Thread-13/WARN]: 	... 1 more
-[22:52:14] [Server thread/INFO]: [PlayerDoll] Config did not assign Server Branch. Detecting...
-[22:52:14] [Server thread/INFO]: [PlayerDoll] Server is running on PAPERSERIES
-[22:52:14] [Server thread/INFO]: [PlayerDoll] Detected Server Version [1.21 (v1_21_R1)]
-[22:52:14] [Server thread/ERROR]: Could not pass event CommandRegisterEvent to PlayerDoll v2.3
+[21:55:44] [Server thread/INFO]: [PlayerDoll] Saved config [Permission Config]
+[21:55:44] [Thread-13/INFO]: [PlayerDoll] Checking New Versions...
+[21:55:44] [Server thread/INFO]: [PlayerDoll] Config did not assign Server Branch. Detecting...
+[21:55:44] [Server thread/INFO]: [PlayerDoll] Server is running on PAPERSERIES
+[21:55:44] [Server thread/INFO]: [PlayerDoll] Detected Server Version [1.21 (v1_21_R1)]
+[21:55:44] [Server thread/ERROR]: Could not pass event CommandRegisterEvent to PlayerDoll v2.3
 java.lang.NullPointerException: Argument Class does not exist.
 	at java.base/java.util.Objects.requireNonNull(Objects.java:246) ~[?:?]
 	at PlayerDoll-Main-2.3.jar/me.autobot.playerdoll.api.command.CommandArgUtil.getArgumentImpl(CommandArgUtil.java:28) ~[PlayerDoll-Main-2.3.jar:?]
@@ -137,27 +160,71 @@ java.lang.NullPointerException: Argument Class does not exist.
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[22:52:14] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.2.0.1 b93
-[22:52:14] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[22:52:14] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[22:52:14] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21 for nametag support
-[22:52:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[22:52:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[22:52:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[22:52:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[22:52:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[22:52:14] [Server thread/INFO]: [LevelledMobs] Current rules hash: 9b0f48e3273bb9cc29d2891ad33fb3410fec8cf1e77c2092ff670fd38f6d4ff5
-[22:52:14] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[22:52:14] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[22:52:14] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[22:52:14] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[22:52:14] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 597ms)
-[22:52:14] [Server thread/INFO]: [DuelTime] Enabling DuelTime v3.1.3
-[22:52:16] [Server thread/INFO]: [spark] Starting background profiler...
-[22:52:16] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[22:52:16] [Server thread/INFO]: Done preparing level "world" (4.555s)
-[22:52:16] [Server thread/INFO]: Running delayed init tasks
-[22:52:16] [Server thread/WARN]: [PlayerDoll] Task #7 for PlayerDoll v2.3 generated an exception
+[21:55:44] [Thread-13/WARN]: Exception in thread "Thread-13" java.lang.RuntimeException: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[21:55:44] [Thread-13/WARN]: 	at PlayerDoll-Main-2.3.jar//me.autobot.playerdoll.PlayerDoll.lambda$checkUpdate$1(PlayerDoll.java:268)
+[21:55:44] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[21:55:44] [Thread-13/WARN]: Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1326)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[21:55:44] [Thread-13/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1325)
+[21:55:44] [Thread-13/WARN]: 	at PlayerDoll-Main-2.3.jar//me.autobot.playerdoll.PlayerDoll.lambda$checkUpdate$1(PlayerDoll.java:258)
+[21:55:44] [Thread-13/WARN]: 	... 1 more
+[21:55:44] [Thread-13/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.validator.Validator.validate(Validator.java:256)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310)
+[21:55:44] [Thread-13/WARN]: 	... 19 more
+[21:55:44] [Thread-13/WARN]: Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
+[21:55:44] [Thread-13/WARN]: 	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
+[21:55:44] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383)
+[21:55:44] [Thread-13/WARN]: 	... 24 more
+[21:55:44] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.2.0.1 b93
+[21:55:44] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[21:55:44] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
+[21:55:44] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21 for nametag support
+[21:55:44] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[21:55:44] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[21:55:44] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[21:55:44] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[21:55:44] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[21:55:44] [Server thread/INFO]: [LevelledMobs] Current rules hash: 6cd49f946ae1c18e9d4b3a480426339ede532cfb376c8698b77d72bb1fd4ea99
+[21:55:44] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[21:55:44] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[21:55:45] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[21:55:45] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[21:55:45] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 621ms)
+[21:55:45] [Server thread/INFO]: [GSit] Enabling GSit v1.13.0
+[21:55:45] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[21:55:45] [Server thread/INFO]: [DuelTime] Enabling DuelTime v3.1.3
+[21:55:46] [Server thread/INFO]: [spark] Starting background profiler...
+[21:55:46] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[21:55:46] [Server thread/INFO]: Done preparing level "world" (4.545s)
+[21:55:46] [Server thread/INFO]: Running delayed init tasks
+[21:55:46] [Server thread/WARN]: [PlayerDoll] Task #7 for PlayerDoll v2.3 generated an exception
 java.lang.NullPointerException: Class Constructor cannot be Null.
 	at java.base/java.util.Objects.requireNonNull(Objects.java:246) ~[?:?]
 	at PlayerDoll-Main-2.3.jar/me.autobot.playerdoll.api.connection.ConnectionFetcher.setDollCustomLoginListener(ConnectionFetcher.java:65) ~[PlayerDoll-Main-2.3.jar:?]
@@ -167,57 +234,1081 @@ java.lang.NullPointerException: Class Constructor cannot be Null.
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[22:52:16] [Server thread/INFO]: Done (24.193s)! For help, type "help"
-[22:52:16] [Server thread/INFO]: Timings Reset
-[22:59:20] [User Authenticator #0/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[22:59:26] [Server thread/INFO]: mrpckannan joined the game
-[22:59:26] [Server thread/INFO]: mrpckannan[/127.0.0.1:50286] logged in with entity id 110 at ([world]82.58435147495287, 115.58071206244905, -13.434500977407385)
-[23:00:01] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[23:00:01] [Server thread/INFO]: mrpckannan left the game
-[23:02:30] [User Authenticator #1/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[23:02:32] [Server thread/INFO]: mrpckannan joined the game
-[23:02:32] [Server thread/INFO]: mrpckannan[/127.0.0.1:50304] logged in with entity id 294 at ([world]67.84858231717655, 112.0, 29.475593965364258)
-[23:06:48] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[23:06:48] [Server thread/INFO]: mrpckannan left the game
-[23:10:41] [User Authenticator #2/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[23:10:44] [Server thread/INFO]: mrpckannan joined the game
-[23:10:44] [Server thread/INFO]: mrpckannan[/127.0.0.1:50320] logged in with entity id 724 at ([world]122.39936312838968, 110.97978753458142, 9.145929303058873)
-[23:17:46] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[23:17:46] [Server thread/INFO]: mrpckannan left the game
-[23:32:37] [Server thread/INFO]: Stopping the server
-[23:32:37] [Server thread/INFO]: Stopping server
-[23:32:37] [Server thread/INFO]: [DuelTime] Disabling DuelTime v3.1.3
-[23:32:37] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.1 b93
-[23:32:37] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[23:32:37] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[23:32:37] [Craft Scheduler Thread - 1 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[23:32:37] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 7ms)
-[23:32:37] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.152
-[23:32:37] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[23:32:37] [Craft Scheduler Thread - 0 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[23:32:37] [Server thread/INFO]: [LuckPerms] Closing storage...
-[23:32:37] [Server thread/INFO]: [LuckPerms] Goodbye!
-[23:32:37] [Server thread/INFO]: [PlayerDoll] Disabling PlayerDoll v2.3
-[23:32:39] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
-[23:32:39] [Server thread/INFO]: [ChainMining] Disabling ChainMining v1.0.9
-[23:32:39] [Server thread/INFO]: Saving players
-[23:32:39] [Server thread/INFO]: Saving worlds
-[23:32:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 88 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[23:32:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 21 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[23:32:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[23:32:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[23:32:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:32:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:32:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:32:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:55:46] [Server thread/INFO]: Done (24.602s)! For help, type "help"
+[21:55:46] [Server thread/INFO]: Timings Reset
+[21:56:39] [User Authenticator #0/INFO]: UUID of player kobe_bryant is 9f7f62ed-43cd-35db-ad7c-73913a79719f
+[21:56:41] [Server thread/INFO]: kobe_bryant joined the game
+[21:56:41] [Server thread/INFO]: kobe_bryant[/127.0.0.1:49951] logged in with entity id 145 at ([world]-103324.24965584278, 71.0, -11465.238125485948)
+[21:57:01] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
+[21:57:01] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
+[21:57:26] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[21:57:26] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[21:57:45] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
+[21:57:45] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
+[21:58:03] [Server thread/INFO]: kobe_bryant was slain by Lvl 50 | Zombie
+[22:02:15] [User Authenticator #1/INFO]: UUID of player qixue is 7c143665-fd3d-3446-9504-6fd8b8647028
+[22:02:18] [Server thread/INFO]: qixue joined the game
+[22:02:18] [Server thread/INFO]: qixue[/127.0.0.1:50635] logged in with entity id 1131 at ([world]69.49932859876009, 107.0, -16.931162424629605)
+[22:04:47] [User Authenticator #2/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
+[22:04:48] [Server thread/INFO]: mrpckannan joined the game
+[22:04:48] [Server thread/INFO]: mrpckannan[/127.0.0.1:50887] logged in with entity id 2038 at ([world]66.44071724528726, 133.36427628592105, -43.50784829971981)
+[22:06:10] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
+[22:06:10] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
+[22:06:28] [Server thread/INFO]: mrpckannan was slain by Zombie ❤
+[22:06:41] [Server thread/INFO]: mrpckannan issued server command: /time set day
+[22:06:41] [Server thread/INFO]: [mrpckannan: Set the time to 1000]
+[22:06:46] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:overworld run tp @s -29.72 75.00 -228.28 511.83 31.65
+[22:06:46] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to -29.720000, 75.000000, -228.280000]
+[22:06:53] [Server thread/INFO]: mrpckannan issued server command: /mine
+[22:07:27] [Server thread/INFO]: qixue issued server command: /mine
+[22:07:50] [Async Chat Thread - #0/INFO]: [Not Secure] [无段位]<mrpckannan> 开语音吗
+[22:08:04] [Async Chat Thread - #0/INFO]: [Not Secure] [无段位]<qixue> 不用吧
+[22:08:15] [Async Chat Thread - #0/INFO]: [Not Secure] [无段位]<qixue> 现在没多少人
+[22:08:28] [Async Chat Thread - #0/INFO]: [Not Secure] [无段位]<mrpckannan> 待会还有一个xyt
+[22:09:53] [Server thread/INFO]: qixue has reached the goal [Sky's the Limit]
+[22:17:40] [Server thread/INFO]: qixue fell from a high place
+[22:23:00] [Server thread/INFO]: qixue issued server command: /tp
+[22:23:16] [Server thread/INFO]: qixue issued server command: /tp mrpckannan
+[22:23:16] [Server thread/INFO]: [qixue: Teleported qixue to mrpckannan]
+[22:24:09] [Server thread/INFO]: qixue was shot by Lvl 4 | Skeleton
+[22:25:24] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[22:25:24] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[22:26:10] [Server thread/INFO]: mrpckannan issued server command: /gamemode creative
+[22:26:10] [Server thread/INFO]: [mrpckannan: Set own game mode to Creative Mode]
+[22:28:05] [Server thread/INFO]: qixue lost connection: Disconnected
+[22:28:05] [Server thread/INFO]: qixue left the game
+[22:28:05] [User Authenticator #3/INFO]: UUID of player qixue is 7c143665-fd3d-3446-9504-6fd8b8647028
+[22:28:09] [Server thread/INFO]: qixue joined the game
+[22:28:09] [Server thread/INFO]: qixue[/127.0.0.1:51788] logged in with entity id 12074 at ([world]62.640707149343484, 109.0, -5.917252162711253)
+[22:30:03] [Server thread/INFO]: kobe_bryant issued server command: /tp -95593 -13 53497
+[22:30:03] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to -95592.500000, -13.000000, 53497.500000]
+[22:30:03] [Server thread/WARN]: kobe_bryant moved too quickly! 7730.979797407432,-82.0,65005.53127643414
+[22:30:11] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
+[22:30:11] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
+[22:30:30] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[22:30:30] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[22:30:41] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
+[22:30:41] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
+[22:30:48] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
+[22:30:48] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
+[22:30:50] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
+[22:30:50] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
+[22:31:02] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
+[22:31:02] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
+[22:31:06] [Server thread/INFO]: kobe_bryant issued server command: /spawnpoint
+[22:31:06] [Server thread/INFO]: [kobe_bryant: Set spawn point to -95579, 56, 53608 [0.0] in minecraft:overworld for kobe_bryant]
+[22:31:08] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
+[22:31:08] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
+[22:31:30] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
+[22:31:30] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
+[22:31:36] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
+[22:31:36] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
+[22:32:02] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
+[22:32:02] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
+[22:32:10] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
+[22:32:10] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
+[22:32:26] [Server thread/INFO]: kobe_bryant was impaled by Lvl 50 | Drowned
+[22:34:16] [Server thread/INFO]: mrpckannan was doomed to fall by kobe_bryant
+[22:34:24] [Server thread/INFO]: mrpckannan issued server command: /tp kobe_bryant
+[22:34:24] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to kobe_bryant]
+[22:34:30] [Server thread/INFO]: qixue issued server command: /kill
+[22:34:30] [Server thread/INFO]: qixue was killed
+[22:34:30] [Server thread/INFO]: [qixue: Killed qixue]
+[22:34:48] [Server thread/INFO]: mrpckannan tried to swim in lava
+[22:34:52] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:overworld run tp @s -29.72 75.00 -228.28 511.83 31.65
+[22:34:52] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to -29.720000, 75.000000, -228.280000]
+[22:34:52] [Server thread/WARN]: mrpckannan moved too quickly! -90.22,-32.5,-216.78
+[22:35:07] [Server thread/INFO]: mrpckannan issued server command: /gamemode creative
+[22:35:07] [Server thread/INFO]: [mrpckannan: Set own game mode to Creative Mode]
+[22:36:09] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
+[22:36:09] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
+[22:36:47] [Server thread/INFO]: mrpckannan issued server command: /time set day
+[22:36:47] [Server thread/INFO]: [mrpckannan: Set the time to 1000]
+[22:38:12] [Server thread/INFO]: kobe_bryant issued server command: /dt qixue
+[22:38:21] [Server thread/INFO]: kobe_bryant issued server command: /dt adminhelp qixue
+[22:38:41] [Server thread/INFO]: kobe_bryant issued server command: /dt send qixue
+[22:39:00] [Server thread/INFO]: mrpckannan issued server command: /gamemode creative
+[22:39:00] [Server thread/INFO]: [mrpckannan: Set own game mode to Creative Mode]
+[22:39:04] [Server thread/INFO]: kobe_bryant issued server command: /dt send mrpckannan
+[22:39:11] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
+[22:39:11] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
+[22:39:46] [User Authenticator #4/INFO]: UUID of player xt is 91cb7b62-d334-3570-bb07-93b9602db9ff
+[22:39:54] [Server thread/INFO]: xt joined the game
+[22:39:54] [Server thread/INFO]: xt[/127.0.0.1:52137] logged in with entity id 18568 at ([world]71.5, 271.0, -22.5)
+[22:40:09] [Server thread/INFO]: kobe_bryant issued server command: /dt send xt
+[22:40:16] [User Authenticator #4/INFO]: UUID of player Kousaka_Haruka is d79d2332-0714-3285-a4cf-0497307cb9c8
+[22:40:17] [Server thread/INFO]: Kousaka_Haruka joined the game
+[22:40:17] [Server thread/INFO]: Kousaka_Haruka[/127.0.0.1:52149] logged in with entity id 18722 at ([world]213.30000001192093, 1.0, 1.2871590094149787)
+[22:40:27] [Server thread/INFO]: kobe_bryant issued server command: /tp -95593 -13 53497
+[22:40:27] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to -95592.500000, -13.000000, 53497.500000]
+[22:40:27] [Server thread/WARN]: kobe_bryant moved too quickly! -95662.28733230795,-120.0,53510.2338972096
+[22:40:41] [Server thread/INFO]: kobe_bryant was shot by Lvl 50 | Skeleton
+[22:41:10] [Async Chat Thread - #2/INFO]: [Not Secure] [青铜III]<Kousaka_Haruka> 输入/dt help查指令
+[22:41:43] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode survival
+[22:41:43] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Survival Mode]
+[22:41:54] [Server thread/INFO]: Kousaka_Haruka issued server command: /mine setting
+[22:42:00] [Server thread/INFO]: kobe_bryant issued server command: /dt send qixue
+[22:42:13] [Server thread/INFO]: Kousaka_Haruka issued server command: /kill
+[22:42:13] [Server thread/INFO]: Kousaka_Haruka was killed
+[22:42:13] [Server thread/INFO]: [Kousaka_Haruka: Killed Kousaka_Haruka]
+[22:42:17] [Server thread/INFO]: xt fell from a high place
+[22:42:28] [Server thread/INFO]: Kousaka_Haruka was slain by kobe_bryant
+[22:42:41] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp xt
+[22:42:41] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to xt]
+[22:42:41] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -8.291756750009867,8.5,-2.124106323082156
+[22:45:29] [Server thread/INFO]: Kousaka_Haruka issued server command: //give Kousaka_Haruka skull 1 3 {SkullOwner:"<Kousaka_Haruka>"}
+[22:46:31] [Server thread/INFO]: xt lost connection: Disconnected
+[22:46:31] [Server thread/INFO]: xt left the game
+[22:46:57] [Server thread/INFO]: mrpckannan issued server command: /give @s minecraft:tnt 1
+[22:46:57] [Server thread/INFO]: [mrpckannan: Gave 1 [TNT] to mrpckannan]
+[22:47:11] [Server thread/INFO]: mrpckannan issued server command: /time set day
+[22:47:11] [Server thread/INFO]: [mrpckannan: Set the time to 1000]
+[22:47:39] [Server thread/INFO]: kobe_bryant issued server command: /tp qixue
+[22:47:39] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to qixue]
+[22:47:41] [Server thread/WARN]: qixue moved too quickly! 1.1126514570865425,-15.891695574879023,-7.29187685109612
+[22:47:47] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[22:47:47] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[22:48:08] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp ~
+[22:48:11] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp qixue
+[22:48:11] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to qixue]
+[22:48:11] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -28.61308251556295,4.0,-36.31430157301892
+[22:49:15] [Server thread/INFO]: kobe_bryant issued server command: /tp -95593 ~ 53497
+[22:49:15] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to -95592.500000, 271.000000, 53497.500000]
+[22:49:15] [Server thread/WARN]: kobe_bryant moved too quickly! -95680.81443189824,0.0,53523.26201747041
+[22:49:28] [Server thread/INFO]: mrpckannan issued server command: /gamemode creative
+[22:49:28] [Server thread/INFO]: [mrpckannan: Set own game mode to Creative Mode]
+[22:49:38] [Server thread/INFO]: mrpckannan issued server command: /give @s minecraft:structure_block
+[22:49:38] [Server thread/INFO]: [mrpckannan: Gave 1 [Structure Block] to mrpckannan]
+[22:50:16] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[22:50:16] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[22:51:01] [Server thread/INFO]: Kousaka_Haruka was impaled by kobe_bryant with [海神三叉戟]
+[22:51:10] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
+[22:51:10] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
+[22:51:13] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
+[22:51:13] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to mrpckannan]
+[22:51:13] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -52.414896175502136,-29.0,-266.61023046095613
+[22:52:22] [Async Chat Thread - #4/INFO]: [Not Secure] [无段位]<qixue> 有水草吗
+[22:54:40] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[22:54:40] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[22:55:25] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[22:55:25] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[22:55:25] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 149.68737404848798,8.0,-80.35068535745086
+[22:55:59] [Server thread/INFO]: qixue issued server command: /tell mrpckannan
+[22:56:12] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[22:56:12] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[22:56:12] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 30.87506063168985,2.0,160.29975667298277
+[22:56:22] [Server thread/INFO]: qixue issued server command: /tell mrpckannan
+[22:56:50] [Server thread/INFO]: qixue issued server command: /tell Kousaka_Haruka
+[22:56:56] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
+[22:56:56] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
+[22:57:44] [Server thread/INFO]: Kousaka_Haruka was impaled by kobe_bryant
+[22:58:10] [Server thread/INFO]: kobe_bryant issued server command: /tp -95615 130 52890
+[22:58:10] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to -95614.500000, 130.000000, 52890.500000]
+[22:58:10] [Server thread/WARN]: kobe_bryant moved too quickly! -40.9104733539134,61.0,-585.2755957472546
+[22:58:12] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[22:58:12] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[22:58:12] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -95676.60111559699,-0.4352391020161548,52909.93123449726
+[22:58:23] [Server thread/INFO]: kobe_bryant issued server command: /spawnpoint
+[22:58:23] [Server thread/INFO]: [kobe_bryant: Set spawn point to -95616, 78, 52893 [0.0] in minecraft:overworld for kobe_bryant]
+[22:58:55] [Server thread/INFO]: kobe_bryant experienced kinetic energy
+[22:59:36] [Server thread/INFO]: mrpckannan was slain by Lvl 4 | Zombie
+[22:59:39] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:overworld run tp @s -29.72 75.00 -228.28 511.83 31.65
+[22:59:39] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to -29.720000, 75.000000, -228.280000]
+[22:59:43] [Server thread/INFO]: Kousaka_Haruka was impaled by kobe_bryant
+[22:59:45] [Server thread/INFO]: mrpckannan issued server command: /time set day
+[22:59:45] [Server thread/INFO]: [mrpckannan: Set the time to 1000]
+[22:59:48] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[22:59:48] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[22:59:48] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -95687.91905822896,-33.75081292125532,52906.87271716622
+[23:00:21] [Server thread/INFO]: kobe_bryant was shot by Kousaka_Haruka
+[23:00:26] [Server thread/INFO]: Kousaka_Haruka was killed by [卡卡大玉的能量剑] while trying to hurt kobe_bryant
+[23:00:29] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[23:00:29] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[23:00:55] [Server thread/INFO]: mrpckannan was shot by Lvl 13 | Skeleton
+[23:01:07] [Server thread/INFO]: mrpckannan issued server command: /weather clear
+[23:01:07] [Server thread/INFO]: [mrpckannan: Set the weather to clear]
+[23:01:10] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:overworld run tp @s -29.72 75.00 -228.28 511.83 31.65
+[23:01:10] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to -29.720000, 75.000000, -228.280000]
+[23:01:20] [Server thread/INFO]: Kousaka_Haruka was shot by kobe_bryant
+[23:01:24] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[23:01:24] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[23:01:24] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -95690.38202269534,-34.833890739061786,52910.36000159367
+[23:01:45] [Server thread/INFO]: Kousaka_Haruka was slain by kobe_bryant using [海神三叉戟]
+[23:01:51] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[23:01:51] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[23:02:02] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
+[23:02:02] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[23:04:31] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[23:04:31] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[23:04:32] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival Kousaka_Haruka
+[23:04:32] [Server thread/INFO]: [kobe_bryant: Set Kousaka_Haruka's game mode to Survival Mode]
+[23:04:33] [Server thread/INFO]: Kousaka_Haruka was blown up by kobe_bryant
+[23:04:35] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:overworld run tp @s -29.72 75.00 -228.28 511.83 31.65
+[23:04:35] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to -29.720000, 75.000000, -228.280000]
+[23:04:35] [Server thread/WARN]: mrpckannan moved too quickly! -97.94285404045975,-32.0,-209.87065596137958
+[23:04:38] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[23:04:38] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[23:04:38] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -95813.4947863557,-42.443009912478544,52931.01531828892
+[23:04:41] [Server thread/INFO]: Kousaka_Haruka was blown up by kobe_bryant
+[23:04:48] [Server thread/INFO]: Kousaka_Haruka issued server command: /kick kobe_bryant
+[23:04:48] [Server thread/INFO]: kobe_bryant lost connection: Kicked by an operator
+[23:04:48] [Server thread/INFO]: kobe_bryant left the game
+[23:04:48] [Server thread/INFO]: [Kousaka_Haruka: Kicked kobe_bryant: Kicked by an operator]
+[23:04:53] [User Authenticator #5/INFO]: UUID of player kobe_bryant is 9f7f62ed-43cd-35db-ad7c-73913a79719f
+[23:04:54] [Server thread/INFO]: kobe_bryant joined the game
+[23:04:54] [Server thread/INFO]: kobe_bryant[/127.0.0.1:55363] logged in with entity id 37920 at ([world]-95752.77924598461, 65.0, 52911.56774475073)
+[23:05:01] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[23:05:01] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[23:05:02] [Server thread/INFO]: Kousaka_Haruka was blown up by kobe_bryant
+[23:05:20] [Server thread/INFO]: Kousaka_Haruka issued server command: /team modify Haotianzong friendlyFire true
+[23:05:25] [Server thread/INFO]: Kousaka_Haruka issued server command: /team modify Haotianzong friendlyFire false
+[23:05:25] [Server thread/INFO]: [Kousaka_Haruka: Disabled friendly fire for team [Haotianzong]]
+[23:05:37] [Server thread/INFO]: kobe_bryant issued server command: /team remove Haotianzong
+[23:05:37] [Server thread/INFO]: [kobe_bryant: Removed team [Haotianzong]]
+[23:05:50] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[23:05:50] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[23:05:50] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -95679.90009137543,-46.0,52919.53164156717
+[23:05:54] [Server thread/INFO]: kobe_bryant issued server command: /fill -95622 62 52942
+[23:06:08] [Server thread/INFO]: kobe_bryant issued server command: /fill -95622 62 52942 -95645 69 52913 dirt
+[23:06:08] [Server thread/INFO]: [kobe_bryant: Successfully filled 3878 block(s)]
+[23:06:24] [Server thread/INFO]: kobe_bryant issued server command: /fill -95625 64 52887 -95625 64 52887
+[23:06:41] [Server thread/INFO]: kobe_bryant issued server command: /fill -95625 64 52887 -95642 69 52918 dirt
+[23:06:41] [Server thread/INFO]: [kobe_bryant: Successfully filled 1426 block(s)]
+[23:06:44] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
+[23:06:44] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[23:07:12] [Server thread/INFO]: kobe_bryant issued server command: /tp mrpckannan
+[23:07:12] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to mrpckannan]
+[23:07:18] [Server thread/INFO]: Kousaka_Haruka issued server command: /tps kobe_bryant
+[23:07:22] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[23:07:22] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[23:07:41] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
+[23:07:41] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to kobe_bryant]
+[23:07:41] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 35.26714560904063,-6.1944581233462515,173.70471079399098
+[23:07:51] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
+[23:07:51] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
+[23:07:54] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[23:07:54] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[23:07:58] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode adventure
+[23:07:58] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Adventure Mode]
+[23:07:59] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
+[23:07:59] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[23:08:00] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
+[23:08:00] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
+[23:08:21] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
+[23:08:21] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[23:08:21] [Server thread/INFO]: kobe_bryant issued server command: /tp 1000000 200 0
+[23:08:21] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to 1000000.500000, 200.000000, 0.500000]
+[23:08:21] [Server thread/WARN]: kobe_bryant moved too quickly! 999999.9956965877,64.59239885406362,6.30699042572851
+[23:08:54] [Server thread/INFO]: kobe_bryant issued server command: /fill 999984 127 -16
+[23:08:59] [Server thread/INFO]: Kousaka_Haruka issued server command: /kill
+[23:08:59] [Server thread/INFO]: Kousaka_Haruka was killed
+[23:08:59] [Server thread/INFO]: [Kousaka_Haruka: Killed Kousaka_Haruka]
+[23:09:03] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
+[23:09:03] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
+[23:09:16] [Server thread/INFO]: kobe_bryant issued server command: /gamemode adventure
+[23:09:16] [Server thread/INFO]: [kobe_bryant: Set own game mode to Adventure Mode]
+[23:09:20] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[23:09:20] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[23:09:33] [Server thread/INFO]: kobe_bryant issued server command: /fill 999984 127 -16 1000015 79 15 air
+[23:09:38] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
+[23:09:38] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
+[23:09:44] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[23:09:44] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[23:09:52] [Server thread/INFO]: mrpckannan issued server command: /time set day
+[23:09:52] [Server thread/INFO]: [mrpckannan: Set the time to 1000]
+[23:09:56] [Server thread/INFO]: kobe_bryant issued server command: /fill 999984 127 -16 1000015 109 15 air
+[23:09:56] [Server thread/INFO]: [kobe_bryant: Successfully filled 19456 block(s)]
+[23:09:59] [Server thread/INFO]: mrpckannan issued server command: /gamemode creative
+[23:09:59] [Server thread/INFO]: [mrpckannan: Set own game mode to Creative Mode]
+[23:10:10] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
+[23:10:10] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
+[23:10:13] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
+[23:10:13] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
+[23:10:16] [Server thread/INFO]: qixue fell from a high place
+[23:10:18] [Server thread/INFO]: kobe_bryant issued server command: /fill
+[23:10:19] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
+[23:10:19] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[23:10:24] [Server thread/INFO]: kobe_bryant issued server command: /fill 999984 108 -16
+[23:10:25] [Server thread/WARN]: qixue moved too quickly! -0.04571167947673871,2.0,-9.848783843993225
+[23:10:46] [Server thread/INFO]: kobe_bryant issued server command: /fill 999984 108 -16 1000015 78 15 air
+[23:10:46] [Server thread/INFO]: [kobe_bryant: Successfully filled 17965 block(s)]
+[23:11:08] [Server thread/INFO]: kobe_bryant issued server command: /fill 1000015 77 15
+[23:11:24] [Server thread/INFO]: kobe_bryant issued server command: /fill 1000015 77 15 999984 72 -13 airt
+[23:11:29] [Server thread/INFO]: kobe_bryant issued server command: /fill 1000015 77 15 999984 72 -13 air
+[23:11:29] [Server thread/INFO]: [kobe_bryant: Successfully filled 3907 block(s)]
+[23:11:39] [Server thread/INFO]: kobe_bryant issued server command: /fill 1000015 71 -12
+[23:11:49] [Server thread/INFO]: kobe_bryant issued server command: /fill 1000015 71 -12 999984 71 15 air
+[23:11:49] [Server thread/INFO]: [kobe_bryant: Successfully filled 444 block(s)]
+[23:11:57] [Server thread/INFO]: kobe_bryant issued server command: /kill
+[23:11:57] [Server thread/INFO]: kobe_bryant was killed
+[23:11:57] [Server thread/INFO]: [kobe_bryant: Killed kobe_bryant]
+[23:12:05] [Server thread/INFO]: kobe_bryant issued server command: /tp 1000000 200 0
+[23:12:05] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to 1000000.500000, 200.000000, 0.500000]
+[23:12:18] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
+[23:12:18] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
+[23:12:24] [Server thread/INFO]: kobe_bryant issued server command: /tp 500000 200 0
+[23:12:24] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to 500000.500000, 200.000000, 0.500000]
+[23:12:27] [Server thread/INFO]: qixue lost connection: Disconnected
+[23:12:27] [Server thread/INFO]: qixue left the game
+[23:12:41] [Server thread/INFO]: Villager Villager['Villager'/43191, uuid='59ace8be-9164-419f-a862-12dfecaf9698', l='ServerLevel[world]', x=500021.28, y=87.50, z=105.37, cpos=[31251, 6], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[23:12:44] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 86 0
+[23:12:52] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
+[23:12:52] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
+[23:13:03] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 86 0 500031 97 31 air
+[23:13:03] [Server thread/INFO]: [kobe_bryant: Successfully filled 6798 block(s)]
+[23:13:10] [Server thread/INFO]: kobe_bryant issued server command: /fill 500031 85 31
+[23:13:17] [Server thread/INFO]: Villager Villager['Villager'/43056, uuid='29e46288-d0be-412b-be58-047313e3f4f6', l='ServerLevel[world]', x=500016.52, y=86.00, z=65.90, cpos=[31251, 4], tl=960, v=true] died, message: 'Villager froze to death'
+[23:13:25] [Server thread/INFO]: Villager Villager['Villager'/43042, uuid='0d0128cc-1ee7-497e-88d4-9f6c9c0833ad', l='ServerLevel[world]', x=500015.30, y=88.00, z=44.50, cpos=[31250, 2], tl=1120, v=true] died, message: 'Villager froze to death'
+[23:13:27] [Server thread/INFO]: Villager Villager['Villager'/43093, uuid='a4ecae8d-b70c-4fef-bb00-b184395c37e5', l='ServerLevel[world]', x=500016.50, y=85.00, z=71.70, cpos=[31251, 4], tl=1160, v=true] died, message: 'Villager froze to death'
+[23:13:27] [Server thread/INFO]: kobe_bryant issued server command: /fill 500031 85 31 500000 46 0 air
+[23:13:29] [Server thread/INFO]: Villager Villager['Villager'/43040, uuid='398e9a1c-8568-4dd6-ab15-9181e9a66c04', l='ServerLevel[world]', x=500005.61, y=85.00, z=46.44, cpos=[31250, 2], tl=1200, v=true] died, message: 'Villager froze to death'
+[23:13:35] [Server thread/INFO]: kobe_bryant issued server command: /fill 500031 85 31 500000 54 0 air
+[23:13:35] [Server thread/INFO]: [kobe_bryant: Successfully filled 31800 block(s)]
+[23:13:44] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 31 0
+[23:13:53] [Server thread/INFO]: Villager Villager['Villager'/43039, uuid='03391772-5f34-4c52-b73a-731ed2e41b0b', l='ServerLevel[world]', x=500010.48, y=83.00, z=65.48, cpos=[31250, 4], tl=1680, v=true] died, message: 'Villager froze to death'
+[23:13:55] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 31 0 500031 53 31 air
+[23:13:55] [Server thread/INFO]: [kobe_bryant: Successfully filled 23453 block(s)]
+[23:14:19] [Server thread/INFO]: kobe_bryant issued server command: /fill 500031 30 31
+[23:14:36] [Server thread/INFO]: kobe_bryant issued server command: /fill 500031 30 31 500000 -3 0 air
+[23:14:43] [Server thread/INFO]: kobe_bryant issued server command: /fill 500031 30 31 500000 -1 0 air
+[23:14:44] [Server thread/INFO]: [kobe_bryant: Successfully filled 29494 block(s)]
+[23:14:59] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 -2 0
+[23:15:22] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 -2 0 500031 -42 31 air
+[23:15:29] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 -2 0 500031 -36 31 air
+[23:15:36] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 -2 0 500031 -33 31 air
+[23:15:36] [Server thread/INFO]: [kobe_bryant: Successfully filled 30996 block(s)]
+[23:15:39] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
+[23:15:39] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
+[23:15:43] [Server thread/INFO]: mrpckannan issued server command: /tp kobe_bryant
+[23:15:43] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to kobe_bryant]
+[23:15:49] [Server thread/INFO]: kobe_bryant issued server command: /fill 500031 -34 31
+[23:16:15] [Server thread/INFO]: kobe_bryant issued server command: /fill 500031 -34 31 500000 -59 0 air
+[23:16:15] [Server thread/INFO]: [kobe_bryant: Successfully filled 26117 block(s)]
+[23:16:22] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 -60 0
+[23:16:39] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 -60 0 500031 -64 31 air
+[23:16:39] [Server thread/INFO]: [kobe_bryant: Successfully filled 5116 block(s)]
+[23:17:07] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
+[23:17:07] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to mrpckannan]
+[23:17:07] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 499956.6487598714,-180.86874612707632,-49.668265430505585
+[23:17:41] [Server thread/INFO]: kobe_bryant issued server command: /fill 500031 94 -1
+[23:17:56] [Server thread/INFO]: kobe_bryant issued server command: /fill 500031 94 -1 500000 64 -32 air
+[23:17:56] [Server thread/INFO]: [kobe_bryant: Successfully filled 17635 block(s)]
+[23:18:02] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 63 -32
+[23:18:20] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 63 -32 500031 33 -1 air
+[23:18:20] [Server thread/INFO]: [kobe_bryant: Successfully filled 31092 block(s)]
+[23:18:31] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 32 -32
+[23:18:52] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
+[23:18:52] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to mrpckannan]
+[23:18:52] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 15.333050423767418,61.148019167468014,-10.071693739684413
+[23:18:52] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 15.333050423767418,61.148019167468014,-10.071693739684413
+[23:18:52] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 15.333050423767418,61.148019167468014,-10.071693739684413
+[23:18:52] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 15.333050423767418,61.148019167468014,-10.071693739684413
+[23:19:08] [Server thread/INFO]: Kousaka_Haruka issued server command: /kill
+[23:19:08] [Server thread/INFO]: Kousaka_Haruka was killed
+[23:19:08] [Server thread/INFO]: [Kousaka_Haruka: Killed Kousaka_Haruka]
+[23:19:11] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 32 -32 500031 3 -1 air
+[23:19:11] [Server thread/INFO]: [kobe_bryant: Successfully filled 21867 block(s)]
+[23:19:20] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 2 -32
+[23:19:35] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 2 -32 500031 -20 -1 air
+[23:19:35] [Server thread/INFO]: [kobe_bryant: Successfully filled 21534 block(s)]
+[23:20:07] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 -21 -32
+[23:20:21] [Server thread/INFO]: Villager Villager['Villager'/43092, uuid='27f31ab2-012b-4cc7-ba58-74775972650d', l='ServerLevel[world]', x=500003.50, y=84.51, z=73.70, cpos=[31250, 4], tl=9440, v=true] died, message: 'Villager froze to death'
+[23:20:35] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 -21 -32 500031 -44 -1 air
+[23:20:35] [Server thread/INFO]: [kobe_bryant: Successfully filled 24219 block(s)]
+[23:20:43] [Server thread/INFO]: kobe_bryant issued server command: /fill
+[23:20:53] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 -45 -32
+[23:21:08] [Server thread/INFO]: kobe_bryant issued server command: /fill 500000 -45 -32 500031 -64 -1 air
+[23:21:08] [Server thread/INFO]: [kobe_bryant: Successfully filled 20478 block(s)]
+[23:21:54] [Server thread/INFO]: kobe_bryant issued server command: /tp mrpckannan
+[23:21:54] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to mrpckannan]
+[23:21:58] [Server thread/INFO]: kobe_bryant issued server command: /tp Kousaka_Haruka
+[23:21:58] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to Kousaka_Haruka]
+[23:22:31] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
+[23:22:31] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
+[23:23:01] [Server thread/INFO]: mrpckannan has made the advancement [Minecraft: Trial(s) Edition]
+[23:23:15] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
+[23:23:15] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
+[23:23:17] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
+[23:23:17] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[23:23:28] [Server thread/INFO]: mrpckannan issued server command: /tp Kousaka_Haruka
+[23:23:28] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to Kousaka_Haruka]
+[23:23:28] [Server thread/WARN]: mrpckannan moved too quickly! -49.902808934544126,100.9030594577234,643.6617409665853
+[23:23:28] [Server thread/WARN]: mrpckannan moved too quickly! -48.45242365825027,100.9030594577234,644.8091576251331
+[23:23:28] [Server thread/WARN]: mrpckannan moved too quickly! -48.2808861395861,100.9030594577234,644.9448629509511
+[23:23:28] [Server thread/WARN]: mrpckannan moved too quickly! -48.12478699310296,100.9030594577234,645.0683548010046
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.853471055055905,100.9030594577234,645.2829959947157
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.853471055055905,100.9030594577234,645.2829959947157
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.853471055055905,100.9030594577234,645.2829959947157
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.73583925497107,100.9030594577234,645.3760558796982
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.73583925497107,100.9030594577234,645.3760558796982
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.628794313808854,100.9030594577234,645.460740377473
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.628794313808854,100.9030594577234,645.460740377473
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.628794313808854,100.9030594577234,645.460740377473
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.4861457420909,100.9030594577234,645.5189736880194
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.4861457420909,100.9030594577234,645.5189736880194
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.26586019318049,100.9030594577234,645.5343068328448
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -47.26586019318049,100.9030594577234,645.5343068328448
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -46.97492499298883,100.9030594577234,645.5106008257388
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -46.97492499298883,100.9030594577234,645.5106008257388
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -46.97492499298883,100.9030594577234,645.5106008257388
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -46.97492499298883,100.9030594577234,645.5106008257388
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -46.20596724396974,100.9030594577234,645.3598092293867
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -46.20596724396974,100.9030594577234,645.3598092293867
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -45.738996346692375,100.9030594577234,645.2388304941182
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -45.738996346692375,100.9030594577234,645.2388304941182
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -45.738996346692375,100.9030594577234,645.2388304941182
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -45.223577473017215,100.9030594577234,645.0910806725522
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -45.223577473017215,100.9030594577234,645.0910806725522
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -45.223577473017215,100.9030594577234,645.0910806725522
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -45.223577473017215,100.9030594577234,645.0910806725522
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -44.06451338609013,100.9030594577234,644.7245237663458
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -44.06451338609013,100.9030594577234,644.7245237663458
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -43.42850940338808,100.9030594577234,644.5097545353597
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -43.42850940338808,100.9030594577234,644.5097545353597
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -42.7593391691193,100.9030594577234,644.2764906134637
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -42.7593391691193,100.9030594577234,644.2764906134637
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -42.7593391691193,100.9030594577234,644.2764906134637
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -42.05998764505499,100.9030594577234,644.0263965223546
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -42.05998764505499,100.9030594577234,644.0263965223546
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -41.33317114648521,100.9030594577234,643.7609869768203
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -41.33317114648521,100.9030594577234,643.7609869768203
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -40.58136152039516,100.9030594577234,643.4816403673574
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -40.58136152039516,100.9030594577234,643.4816403673574
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -39.89721474093622,100.9030594577234,643.2274349454199
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -39.89721474093622,100.9030594577234,643.2274349454199
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -39.89721474093622,100.9030594577234,643.2274349454199
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -39.27464115368612,100.9030594577234,642.99610800479
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -39.27464115368612,100.9030594577234,642.99610800479
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -38.708099172960885,100.9030594577234,642.78560048275
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -38.708099172960885,100.9030594577234,642.78560048275
+[23:23:29] [Server thread/WARN]: mrpckannan moved too quickly! -38.708099172960885,100.9030594577234,642.78560048275
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -38.19254595564277,100.9030594577234,642.5940386321729
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -38.19254595564277,100.9030594577234,642.5940386321729
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -37.72339251436236,100.9030594577234,642.4197173431237
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -37.296462870493144,100.9030594577234,642.2610849655173
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -37.296462870493144,100.9030594577234,642.2610849655173
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -36.90795688337549,100.9030594577234,642.1167294977352
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -36.90795688337549,100.9030594577234,642.1167294977352
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -36.90795688337549,100.9030594577234,642.1167294977352
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -36.55441642490945,100.9030594577234,641.9853660182674
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -36.55441642490945,100.9030594577234,641.9853660182674
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -36.23269459843338,100.9030594577234,641.8658252485068
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -36.23269459843338,100.9030594577234,641.8658252485068
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.93992772790267,100.9030594577234,641.7570431448894
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.93992772790267,100.9030594577234,641.7570431448894
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.673509868041606,100.9030594577234,641.6580514277447
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.673509868041606,100.9030594577234,641.6580514277447
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.673509868041606,100.9030594577234,641.6580514277447
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.431069608580955,100.9030594577234,641.5679689625468
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.431069608580955,100.9030594577234,641.5679689625468
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.2104489661135,100.9030594577234,641.4859939168543
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.2104489661135,100.9030594577234,641.4859939168543
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.009684175682125,100.9030594577234,641.4113966231242
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -35.009684175682125,100.9030594577234,641.4113966231242
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.8269882111243,100.9030594577234,641.3435130838735
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.8269882111243,100.9030594577234,641.3435130838735
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.8269882111243,100.9030594577234,641.3435130838735
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.66073487858529,100.9030594577234,641.281739061375
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.66073487858529,100.9030594577234,641.281739061375
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.509444341614625,100.9030594577234,641.2255246992812
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.509444341614625,100.9030594577234,641.2255246992812
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.371769949003564,100.9030594577234,641.1743696283016
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.24648624811684,100.9030594577234,641.1278185123687
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.24648624811684,100.9030594577234,641.1278185123687
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.04381094529515,100.9030594577234,641.0437180424121
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -34.04381094529515,100.9030594577234,641.0437180424121
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -33.77132693118649,100.9030594577234,640.9241600071305
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -33.77132693118649,100.9030594577234,640.9241600071305
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -33.43595333433795,100.9030594577234,640.7710570700172
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -33.43595333433795,100.9030594577234,640.7710570700172
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -33.04375304020088,100.9030594577234,640.5866423041591
+[23:23:30] [Server thread/WARN]: mrpckannan moved too quickly! -33.04375304020088,100.9030594577234,640.5866423041591
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -32.60033846379285,100.9030594577234,640.3727854951605
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -32.60033846379285,100.9030594577234,640.3727854951605
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -32.11099897485748,100.9030594577234,640.1308806321596
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -31.58128251964291,100.9030594577234,639.8609708433883
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -31.58128251964291,100.9030594577234,639.8609708433883
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -31.01527988616307,100.9030594577234,639.5648097723127
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -31.01527988616307,100.9030594577234,639.5648097723127
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -30.417002272999113,100.9030594577234,639.2435418982532
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -30.417002272999113,100.9030594577234,639.2435418982532
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -29.789638534455776,100.9030594577234,638.8989728562922
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -29.789638534455776,100.9030594577234,638.8989728562922
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -29.136771285460753,100.9030594577234,638.5316978239791
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -28.460793828344976,100.9030594577234,638.1436111191401
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -27.764180739812318,100.9030594577234,637.7359907021814
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -27.049288635961062,100.9030594577234,637.3098548116866
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -27.049288635961062,100.9030594577234,637.3098548116866
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -26.39873680270763,100.9030594577234,636.9220711401604
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -26.39873680270763,100.9030594577234,636.9220711401604
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -25.8067346173856,100.9030594577234,636.5691879889015
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -25.268012613216683,100.9030594577234,636.2480643120012
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -25.268012613216683,100.9030594577234,636.2480643120012
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -24.777775575294427,100.9030594577234,635.9558417576002
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -24.777775575294427,100.9030594577234,635.9558417576002
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -24.777775575294427,100.9030594577234,635.9558417576002
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -24.331659857928187,100.9030594577234,635.6899192254313
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -23.925694543425067,100.9030594577234,635.4479297141836
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -23.925694543425067,100.9030594577234,635.4479297141836
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -23.55626609658036,100.9030594577234,635.2277192526017
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -23.55626609658036,100.9030594577234,635.2277192526017
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -23.55626609658036,100.9030594577234,635.2277192526017
+[23:23:31] [Server thread/WARN]: mrpckannan moved too quickly! -22.91416248579759,100.9030594577234,634.8449714330401
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -22.151901195694478,100.9030594577234,634.3905995188758
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -22.151901195694478,100.9030594577234,634.3905995188758
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.94211410362594,100.9030594577234,634.265548747142
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.751207844341693,100.9030594577234,634.1517525415848
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.751207844341693,100.9030594577234,634.1517525415848
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.751207844341693,100.9030594577234,634.1517525415848
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.577483143386303,100.9030594577234,634.0481979915431
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.577483143386303,100.9030594577234,634.0481979915431
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.419393660960793,100.9030594577234,633.9539633482896
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.419393660960793,100.9030594577234,633.9539633482896
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.355849828195176,100.9030594577234,633.8120574936128
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.355849828195176,100.9030594577234,633.8120574936128
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.388260178815173,100.9030594577234,633.6446922507587
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.388260178815173,100.9030594577234,633.6446922507587
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.388260178815173,100.9030594577234,633.6446922507587
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.388260178815173,100.9030594577234,633.6446922507587
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.709160053605288,100.9030594577234,633.2473441967932
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.709160053605288,100.9030594577234,633.2473441967932
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.982522430932278,100.9030594577234,633.021060339942
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -21.982522430932278,100.9030594577234,633.021060339942
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -22.322198847378374,100.9030594577234,632.778561092306
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -22.322198847378374,100.9030594577234,632.778561092306
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -22.722221041162015,100.9030594577234,632.5213058386305
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -22.722221041162015,100.9030594577234,632.5213058386305
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -23.177157893905445,100.9030594577234,632.2506226190721
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -23.177157893905445,100.9030594577234,632.2506226190721
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -23.68213357291131,100.9030594577234,631.9678856257348
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -23.68213357291131,100.9030594577234,631.9678856257348
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -24.232578099959497,100.9030594577234,631.6740140224158
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -24.232578099959497,100.9030594577234,631.6740140224158
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -24.232578099959497,100.9030594577234,631.6740140224158
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -24.82433249100454,100.9030594577234,631.3698443708613
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -25.453678859370115,100.9030594577234,631.0563034951424
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -25.453678859370115,100.9030594577234,631.0563034951424
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -26.11723392808325,100.9030594577234,630.7342348051882
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -26.81191891500984,100.9030594577234,630.4044058040561
+[23:23:32] [Server thread/WARN]: mrpckannan moved too quickly! -26.81191891500984,100.9030594577234,630.4044058040561
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -27.534932128327085,100.9030594577234,630.0675149195487
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -27.534932128327085,100.9030594577234,630.0675149195487
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -27.534932128327085,100.9030594577234,630.0675149195487
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -28.28372402840276,100.9030594577234,629.7241977209844
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -29.055974534104678,100.9030594577234,629.3750325764601
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -29.055974534104678,100.9030594577234,629.3750325764601
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -29.055974534104678,100.9030594577234,629.3750325764601
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -29.84957237154171,100.9030594577234,629.0205458009584
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -29.84957237154171,100.9030594577234,629.0205458009584
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -31.493500694856806,100.9030594577234,628.297993040198
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -31.493500694856806,100.9030594577234,628.297993040198
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -32.343998252150854,100.9030594577234,627.9409838847258
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -32.343998252150854,100.9030594577234,627.9409838847258
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -33.21231286993121,100.9030594577234,627.5896509041951
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -33.21231286993121,100.9030594577234,627.5896509041951
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -34.097031268750655,100.9030594577234,627.2441715006083
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -34.097031268750655,100.9030594577234,627.2441715006083
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -34.99750993157416,100.9030594577234,626.90729697202
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -34.99750993157416,100.9030594577234,626.90729697202
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -35.9128728657126,100.9030594577234,626.5806924758382
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -35.9128728657126,100.9030594577234,626.5806924758382
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -36.841780487137996,100.9030594577234,626.2634337094154
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -36.841780487137996,100.9030594577234,626.2634337094154
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -37.78301377434974,100.9030594577234,625.9546795573185
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -37.78301377434974,100.9030594577234,625.9546795573185
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -38.735463417750324,100.9030594577234,625.6536646044814
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -38.735463417750324,100.9030594577234,625.6536646044814
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -38.735463417750324,100.9030594577234,625.6536646044814
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -39.6981563073917,100.9030594577234,625.3598670979155
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -39.6981563073917,100.9030594577234,625.3598670979155
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -40.67017055138082,100.9030594577234,625.072637467646
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -40.67017055138082,100.9030594577234,625.072637467646
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -41.65066722807087,100.9030594577234,624.7913846049782
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -41.65066722807087,100.9030594577234,624.7913846049782
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -42.639452248380195,100.9030594577234,624.5185513848479
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -42.639452248380195,100.9030594577234,624.5185513848479
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -42.639452248380195,100.9030594577234,624.5185513848479
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -43.63595852668169,100.9030594577234,624.2544360962727
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -43.63595852668169,100.9030594577234,624.2544360962727
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -43.63595852668169,100.9030594577234,624.2544360962727
+[23:23:33] [Server thread/WARN]: mrpckannan moved too quickly! -43.63595852668169,100.9030594577234,624.2544360962727
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -44.63981420058782,100.9030594577234,624.0003717880841
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -44.63981420058782,100.9030594577234,624.0003717880841
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -45.650863800069956,100.9030594577234,623.7596984950152
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -45.650863800069956,100.9030594577234,623.7596984950152
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -46.66863013292698,100.9030594577234,623.533167285121
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -46.66863013292698,100.9030594577234,623.533167285121
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -48.72219316803742,100.9030594577234,623.1210359603763
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -48.72219316803742,100.9030594577234,623.1210359603763
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -48.72219316803742,100.9030594577234,623.1210359603763
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -49.757009241170834,100.9030594577234,622.9344159265087
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -49.757009241170834,100.9030594577234,622.9344159265087
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -50.79657200062093,100.9030594577234,622.7597455217376
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -50.79657200062093,100.9030594577234,622.7597455217376
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -50.79657200062093,100.9030594577234,622.7597455217376
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -50.79657200062093,100.9030594577234,622.7597455217376
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -51.840541553987975,100.9030594577234,622.5982683037821
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -51.840541553987975,100.9030594577234,622.5982683037821
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -51.840541553987975,100.9030594577234,622.5982683037821
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -52.88854771577441,100.9030594577234,622.4502247652648
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -52.88854771577441,100.9030594577234,622.4502247652648
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -54.995265105706395,100.9030594577234,622.1917892900074
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -54.995265105706395,100.9030594577234,622.1917892900074
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -56.053343962587476,100.9030594577234,622.0791731922741
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -56.053343962587476,100.9030594577234,622.0791731922741
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -57.114122977265254,100.9030594577234,621.9729164309008
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -57.114122977265254,100.9030594577234,621.9729164309008
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -58.079431908442075,100.9030594577234,621.8762227752644
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -58.079431908442075,100.9030594577234,621.8762227752644
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -58.9578630611292,100.9030594577234,621.7882315460995
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -58.9578630611292,100.9030594577234,621.7882315460995
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -58.9578630611292,100.9030594577234,621.7882315460995
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -59.757235433112285,100.9030594577234,621.7081595252516
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -59.757235433112285,100.9030594577234,621.7081595252516
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -60.484664312581245,100.9030594577234,621.6352939841802
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -60.484664312581245,100.9030594577234,621.6352939841802
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -61.14662461197558,100.9030594577234,621.5689863398942
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -61.14662461197558,100.9030594577234,621.5689863398942
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -61.74900850178504,100.9030594577234,621.508646381855
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -61.74900850178504,100.9030594577234,621.508646381855
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -61.74900850178504,100.9030594577234,621.508646381855
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -62.79601198521364,100.9030594577234,621.4037694963243
+[23:23:34] [Server thread/WARN]: mrpckannan moved too quickly! -62.79601198521364,100.9030594577234,621.4037694963243
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -63.249951054688566,100.9030594577234,621.3582990498734
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -63.249951054688566,100.9030594577234,621.3582990498734
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -63.66303561981577,100.9030594577234,621.3169209424105
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -63.66303561981577,100.9030594577234,621.3169209424105
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -64.03894258491512,100.9030594577234,621.2792668635342
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -64.03894258491512,100.9030594577234,621.2792668635342
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -64.38101793301406,100.75305945176294,621.2450016507692
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -64.38101793301406,100.75305945176294,621.2450016507692
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -64.38101793301406,100.75305945176294,621.2450016507692
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -64.69230650875541,100.5130594422262,621.2138203062543
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -64.69230650875541,100.5130594422262,621.2138203062543
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -64.97557912084388,100.2190594305437,621.185445281928
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -64.97557912084388,100.2190594305437,621.185445281928
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -64.97557912084388,100.2190594305437,621.185445281928
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -65.23335720527352,99.89265941757371,621.159624009047
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -65.23335720527352,99.89265941757371,621.159624009047
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -65.46793526886499,99.54681940383126,621.136126650048
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -65.46793526886499,99.54681940383126,621.136126650048
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -65.68140131288528,99.18931538962534,621.1147440527427
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -65.68140131288528,99.18931538962534,621.1147440527427
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -65.68140131288528,99.18931538962534,621.1147440527427
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -65.87565541854211,98.82481297514131,621.0952858886341
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -65.87565541854211,98.82481297514131,621.0952858886341
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.05242665978433,98.45611152049044,621.077578958785
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.05242665978433,98.45611152049044,621.077578958785
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.21328849395077,98.08489064173945,621.061465652158
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.21328849395077,98.08489064173945,621.061465652158
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.35967276726102,97.71215810852839,621.0468025427047
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.35967276726102,97.71215810852839,621.0468025427047
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.4928824598124,97.33851858264129,621.0334591127177
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.4928824598124,97.33851858264129,621.0334591127177
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.65688951836357,96.96433486114856,621.0451983461495
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.65688951836357,96.96433486114856,621.0451983461495
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.65688951836357,96.96433486114856,621.0451983461495
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.84892218078222,96.58982462229245,621.0797628039504
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -66.84892218078222,96.58982462229245,621.0797628039504
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -67.0664581434553,96.21511847301834,621.1350982165258
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -67.30720211002874,95.8402947774934,621.2093351984905
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -67.30720211002874,95.8402947774934,621.2093351984905
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -67.56906536076018,95.46540055421796,621.3007726090954
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -67.56906536076018,95.46540055421796,621.3007726090954
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -67.85005987182934,95.09046401429225,621.408018130781
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -67.85005987182934,95.09046401429225,621.408018130781
+[23:23:35] [Server thread/WARN]: mrpckannan moved too quickly! -67.85005987182934,95.09046401429225,621.408018130781
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -68.14846383030762,94.71550208437635,621.5296490339646
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -68.14846383030762,94.71550208437635,621.5296490339646
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -68.46266652731863,94.34052492046635,621.6644483744963
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -68.46266652731863,94.34052492046635,621.6644483744963
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -68.79111365554915,93.96553861615988,621.8114637338002
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -68.79111365554915,93.96553861615988,621.8114637338002
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -69.13243423087839,93.59054682761554,621.9697504287274
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -69.13243423087839,93.59054682761554,621.9697504287274
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -69.48546964340507,93.21555174852847,622.1382940393675
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -69.48546964340507,93.21555174852847,622.1382940393675
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -69.48546964340507,93.21555174852847,622.1382940393675
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -69.84925454377326,92.84055469511576,622.316016685355
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -69.84925454377326,92.84055469511576,622.316016685355
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -70.22299775868488,92.46555645710767,622.5017817735015
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -70.22299775868488,92.46555645710767,622.5017817735015
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -70.6058030400922,92.09055750834236,622.694865484224
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -70.6058030400922,92.09055750834236,622.694865484224
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -70.6058030400922,92.09055750834236,622.694865484224
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -70.99685480224828,91.7155581331227,622.8946091416823
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -70.99685480224828,91.7155581331227,622.8946091416823
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -71.39541086210197,91.34055850203045,623.100413350845
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -71.39541086210197,91.34055850203045,623.100413350845
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -71.80079583305734,90.96555871741462,623.3117326622175
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -71.80079583305734,90.96555871741462,623.3117326622175
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -72.21239511329428,90.59055884068466,623.5280707167457
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -72.21239511329428,90.59055884068466,623.5280707167457
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -72.58695046910454,90.21555890868623,623.7249383520401
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -72.58695046910454,90.21555890868623,623.7249383520401
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -72.92779585271497,89.8405589435267,623.904087905321
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -72.92779585271497,89.8405589435267,623.904087905321
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -73.23796516073948,89.46555895847052,624.067114003505
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -73.23796516073948,89.46555895847052,624.067114003505
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -73.52021923917631,89.09055896147635,624.215467757128
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -73.52021923917631,89.09055896147635,624.215467757128
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -73.77707045795624,88.71555895731937,624.3504696768157
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -73.77707045795624,88.71555895731937,624.3504696768157
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -74.01080507378215,88.34055894886474,624.4733214272719
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -74.01080507378215,88.34055894886474,624.4733214272719
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -74.22350358031368,87.96555893783147,624.5851165234092
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -74.22350358031368,87.96555893783147,624.5851165234092
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -74.4170592268356,87.59055892525106,624.6868500638259
+[23:23:36] [Server thread/WARN]: mrpckannan moved too quickly! -74.4170592268356,87.59055892525106,624.6868500638259
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -74.59319487024676,87.21555891174235,624.7794275882733
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -74.59319487024676,87.21555891174235,624.7794275882733
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -74.7751560750839,86.84055889767666,624.8197291429293
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -74.7751560750839,86.84055889767666,624.8197291429293
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -74.96463073537102,86.61555888923724,624.8136219034318
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -74.96463073537102,86.61555888923724,624.8136219034318
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -75.16582526829744,86.48055888417359,624.7684015048918
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -75.16582526829744,86.48055888417359,624.7684015048918
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -75.16582526829744,86.48055888417359,624.7684015048918
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -75.37875775777214,86.3995588811354,624.6883890222034
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -75.37875775777214,86.3995588811354,624.6883890222034
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -75.60300118912299,86.35095887931249,624.5772073187159
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -75.60300118912299,86.35095887931249,624.5772073187159
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -75.83760742176848,86.32179887821874,624.4377172001081
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -75.83760742176848,86.32179887821874,624.4377172001081
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -76.08219889544283,86.30430287756249,624.272915598014
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -76.08219889544283,86.30430287756249,624.272915598014
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -76.3381609951593,86.29380527716874,624.0870780647858
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -76.3381609951593,86.29380527716874,624.0870780647858
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -76.57108651261414,86.2875067169325,623.9179659046744
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -76.57108651261414,86.2875067169325,623.9179659046744
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -76.78304873960677,86.28372758079074,623.7640738345378
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -76.78304873960677,86.28372758079074,623.7640738345378
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -77.01207964826587,86.43146010506615,623.5909485284066
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -77.01207964826587,86.43146010506615,623.5909485284066
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -77.25700247889505,86.67009962559187,623.4007179983824
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -77.25700247889505,86.67009962559187,623.4007179983824
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -77.51738150567941,86.96328334386776,623.1960676545701
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -77.51738150567941,86.96328334386776,623.1960676545701
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -77.7950397082435,87.28919358079376,622.9825699426528
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -77.7950397082435,87.28919358079376,622.9825699426528
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -78.09310006494722,87.63473972890982,622.7698310616983
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -78.09310006494722,87.63473972890982,622.7698310616983
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -78.41121551997499,87.99206742373993,622.5619832586103
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -78.41121551997499,87.99206742373993,622.5619832586103
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -78.74908506302852,88.35646404659846,622.3650994494419
+[23:23:37] [Server thread/WARN]: mrpckannan moved too quickly! -79.47837612519824,89.09628482003986,622.0107372881679
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -79.86680176336453,89.4689945022598,621.853085134677
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -79.86680176336453,89.4689945022598,621.853085134677
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -80.26919518487962,89.84262031755223,621.7069311758559
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -80.26919518487962,89.84262031755223,621.7069311758559
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -80.68429928960843,90.21679581268816,621.5712405744858
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -80.68429928960843,90.21679581268816,621.5712405744858
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -81.11097493543078,90.59130111573019,621.4451607569184
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -81.11097493543078,90.59130111573019,621.4451607569184
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -81.54818068395171,90.96600430351586,621.3278267528634
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -81.99496882620453,91.34082622214773,621.2184514393341
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -81.99496882620453,91.34082622214773,621.2184514393341
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -81.99496882620453,91.34082622214773,621.2184514393341
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -82.45047694700465,91.71571937928732,621.1163185343919
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -82.45047694700465,91.71571937928732,621.1163185343919
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -82.9139202485115,92.09065527953153,621.0207762214538
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -82.9139202485115,92.09065527953153,621.0207762214538
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -83.38458456466962,92.46561682563853,620.9312313474126
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -83.38458456466962,92.46561682563853,620.9312313474126
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -83.86182000434975,92.84059375926319,620.8471441429244
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -83.86182000434975,92.84059375926319,620.8471441429244
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -83.86182000434975,92.84059375926319,620.8471441429244
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -84.34503516660725,93.21557992539844,620.7680234178729
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -84.34503516660725,93.21557992539844,620.7680234178729
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -84.83369187656699,93.59057163104006,620.693422189239
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -84.83369187656699,93.59057163104006,620.693422189239
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -85.32729557604277,93.9655666603855,620.6228445742158
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -85.32729557604277,93.9655666603855,620.6228445742158
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -85.82540103610789,94.34056368395323,620.555928447684
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -85.82540103610789,94.34056368395323,620.555928447684
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -85.82540103610789,94.34056368395323,620.555928447684
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -86.32759811583652,94.71556190405434,620.492255156472
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -86.32759811583652,94.71556190405434,620.492255156472
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -86.83351856956627,95.09056084207546,620.431532845486
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -86.83351856956627,95.09056084207546,620.431532845486
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -87.34282215050929,95.4655602108486,620.3734068164068
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -87.34282215050929,95.4655602108486,620.3734068164068
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -87.85520437730513,95.84055983807295,620.317643403931
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -87.85520437730513,95.84055983807295,620.317643403931
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -88.37038817190778,96.21555962036803,620.264029972626
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -88.37038817190778,96.21555962036803,620.264029972626
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -88.88811061617189,96.59055949570553,620.2121948329141
+[23:23:38] [Server thread/WARN]: mrpckannan moved too quickly! -88.88811061617189,96.59055949570553,620.2121948329141
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -89.40814323169452,96.9655594268685,620.1619779385983
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -89.40814323169452,96.9655594268685,620.1619779385983
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -89.40814323169452,96.9655594268685,620.1619779385983
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -89.930278103123,97.34055939152674,620.1132336476355
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -89.930278103123,97.34055939152674,620.1132336476355
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -90.45432602748092,97.71555937628216,620.0658294257628
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -90.45432602748092,97.71555937628216,620.0658294257628
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -90.45432602748092,97.71555937628216,620.0658294257628
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -90.45432602748092,97.71555937628216,620.0658294257628
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -91.4585826541864,98.46555937714456,619.9776165349266
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -91.4585826541864,98.46555937714456,619.9776165349266
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -91.89398838669449,98.84055938553423,619.9393709338225
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -91.89398838669449,98.84055938553423,619.9393709338225
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -92.2902076146958,99.2155593965285,619.9045674358147
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -92.2902076146958,99.2155593965285,619.9045674358147
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -92.65076712256827,99.59055940908554,619.8728962517148
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -92.65076712256827,99.59055940908554,619.8728962517148
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -92.65076712256827,99.59055940908554,619.8728962517148
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -92.97887628418825,99.96555942258021,619.8440754733533
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -92.97887628418825,99.96555942258021,619.8440754733533
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -93.27745562986745,100.34055943663749,619.8178485642885
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -93.27745562986745,100.34055943663749,619.8178485642885
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -93.54916284226606,100.71555945103232,619.7939820763518
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -93.54916284226606,100.71555945103232,619.7939820763518
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -93.79641641267462,101.09055946562968,619.7722635717033
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -93.79641641267462,101.09055946562968,619.7722635717033
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -94.02141716823088,101.46555948034856,619.7524997319038
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -94.02141716823088,101.46555948034856,619.7524997319038
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -94.22616786168795,101.84055949514035,619.7345146371678
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -94.22616786168795,101.84055949514035,619.7345146371678
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -94.4124909981037,102.2155595099759,619.7181482004863
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -94.4124909981037,102.2155595099759,619.7181482004863
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -94.58204505712855,102.59055952483769,619.7032547426769
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -94.73633925528789,102.96555953971523,619.6897016956799
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -94.87674697965942,103.19055954864174,619.677368422557
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -94.87674697965942,103.19055954864174,619.677368422557
+[23:23:39] [Server thread/WARN]: mrpckannan moved too quickly! -95.05298421107999,103.32555955399766,619.6589321162052
+[23:23:43] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[23:23:43] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[23:23:47] [Server thread/INFO]: mrpckannan issued server command: /gamemode creative
+[23:23:47] [Server thread/INFO]: [mrpckannan: Set own game mode to Creative Mode]
+[23:24:00] [Server thread/INFO]: mrpckannan issued server command: /tp Kousaka_Haruka
+[23:24:00] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to Kousaka_Haruka]
+[23:24:00] [Server thread/WARN]: mrpckannan moved too quickly! -270.3826594857781,148.21557918460226,651.4853887941958
+[23:24:30] [Server thread/INFO]: kobe_bryant issued server command: /spawnpoint
+[23:24:30] [Server thread/INFO]: [kobe_bryant: Set spawn point to 172, -11, 43 [0.0] in minecraft:overworld for kobe_bryant]
+[23:25:12] [Server thread/INFO]: mrpckannan issued server command: /tp 0 ~ 0
+[23:25:12] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to 0.500000, 142.696712, 0.500000]
+[23:25:16] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
+[23:25:16] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to mrpckannan]
+[23:25:16] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 1264.0166570999609,29.10147391105852,102.84658797192834
+[23:26:12] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
+[23:26:12] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to mrpckannan]
+[23:26:12] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -973.7199089399663,-8.161515243847433,55.38094021625608
+[23:26:59] [Server thread/INFO]: Kousaka_Haruka issued server command: /dt help
+[23:27:09] [Server thread/INFO]: Kousaka_Haruka issued server command: /dt rank
+[23:27:31] [Server thread/INFO]: Kousaka_Haruka issued server command: /dt rank v Arena
+[23:27:36] [Server thread/INFO]: Kousaka_Haruka issued server command: /dt rank v dueltime:classic_win_rate
+[23:28:30] [Server thread/INFO]: mrpckannan issued server command: /time set midnight
+[23:28:30] [Server thread/INFO]: [mrpckannan: Set the time to 18000]
+[23:29:31] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
+[23:29:31] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
+[23:29:40] [Server thread/INFO]: kobe_bryant issued server command: /spawnpoint
+[23:29:40] [Server thread/INFO]: [kobe_bryant: Set spawn point to 177, -13, 57 [0.0] in minecraft:overworld for kobe_bryant]
+[23:29:50] [Server thread/INFO]: kobe_bryant issued server command: /kill
+[23:29:50] [Server thread/INFO]: kobe_bryant was killed
+[23:29:50] [Server thread/INFO]: [kobe_bryant: Killed kobe_bryant]
+[23:29:59] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[23:29:59] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[23:31:12] [Server thread/INFO]: kobe_bryant issued server command: /effect @a 17 1000000 255
+[23:31:13] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
+[23:31:13] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
+[23:31:17] [Server thread/INFO]: mrpckannan issued server command: /time set day
+[23:31:17] [Server thread/INFO]: [mrpckannan: Set the time to 1000]
+[23:31:23] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
+[23:31:23] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
+[23:31:29] [Server thread/INFO]: mrpckannan issued server command: /tp Kousaka_Haruka
+[23:31:29] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to Kousaka_Haruka]
+[23:31:39] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
+[23:31:39] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
+[23:31:41] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
+[23:31:41] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[23:32:03] [Server thread/INFO]: kobe_bryant issued server command: /effect give @a minecraft:hunger 255
+[23:32:03] [Server thread/INFO]: [kobe_bryant: Applied effect Hunger to 3 targets]
+[23:32:07] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
+[23:32:07] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
+[23:32:33] [Server thread/INFO]: kobe_bryant issued server command: /effect give @a minecraft:hunger infinite 255
+[23:32:33] [Server thread/INFO]: [kobe_bryant: Applied effect Hunger to 3 targets]
+[23:32:50] [Server thread/INFO]: kobe_bryant has completed the challenge [A Balanced Diet]
+[23:33:51] [Server thread/INFO]: kobe_bryant hit the ground too hard
+[23:33:58] [Server thread/INFO]: kobe_bryant issued server command: /clear kobe_bryant
+[23:33:58] [Server thread/INFO]: [kobe_bryant: Removed 25 item(s) from player kobe_bryant]
+[23:34:00] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[23:34:00] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[23:34:15] [Server thread/INFO]: kobe_bryant issued server command: /tp @a
+[23:34:21] [Server thread/INFO]: kobe_bryant issued server command: /tp @p
+[23:34:21] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to kobe_bryant]
+[23:34:29] [Server thread/INFO]: kobe_bryant issued server command: /tp Kousaka_Haruka
+[23:34:29] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to Kousaka_Haruka]
+[23:34:59] [Server thread/INFO]: kobe_bryant issued server command: /effect give @a minecraft:levitation
+[23:34:59] [Server thread/INFO]: [kobe_bryant: Applied effect Levitation to 3 targets]
+[23:35:11] [Server thread/INFO]: mrpckannan issued server command: /gamemode creative
+[23:35:11] [Server thread/INFO]: [mrpckannan: Set own game mode to Creative Mode]
+[23:35:19] [Server thread/INFO]: kobe_bryant issued server command: /effect give @a minecraft:levitation infinite 255
+[23:35:19] [Server thread/INFO]: [kobe_bryant: Applied effect Levitation to 3 targets]
+[23:35:20] [Server thread/INFO]: Kousaka_Haruka has completed the challenge [Great View From Up Here]
+[23:35:20] [Server thread/INFO]: kobe_bryant has completed the challenge [Great View From Up Here]
+[23:35:20] [Server thread/INFO]: mrpckannan has completed the challenge [Great View From Up Here]
+[23:35:30] [Server thread/INFO]: Kousaka_Haruka issued server command: /effect clear
+[23:35:30] [Server thread/INFO]: [Kousaka_Haruka: Removed every effect from Kousaka_Haruka]
+[23:35:32] [Server thread/INFO]: kobe_bryant issued server command: /tp Kousaka_Haruka
+[23:35:32] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to Kousaka_Haruka]
+[23:35:33] [Server thread/INFO]: kobe_bryant has made the advancement [Who Needs Rockets?]
+[23:35:34] [Server thread/INFO]: Kousaka_Haruka has made the advancement [Who Needs Rockets?]
+[23:35:43] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,23.229631695312037,0.0
+[23:35:45] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,23.211784393078233,0.0
+[23:35:51] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,23.229631722732847,0.0
+[23:35:52] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,23.2068672720834,0.0
+[23:35:56] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,23.229630893784815,0.0
+[23:35:57] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,23.192595641140542,0.0
+[23:36:00] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,23.229456504790505,0.0
+[23:36:03] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,23.229616350426113,0.0
+[23:36:11] [Server thread/WARN]: mrpckannan moved too quickly! 0.0,23.22963172274285,0.0
+[23:36:13] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,23.229631722741033,0.0
+[23:36:14] [Server thread/INFO]: kobe_bryant issued server command: /kill
+[23:36:14] [Server thread/INFO]: kobe_bryant was killed
+[23:36:14] [Server thread/INFO]: [kobe_bryant: Killed kobe_bryant]
+[23:36:14] [Server thread/WARN]: mrpckannan moved too quickly! 0.0,23.229630002522754,0.0
+[23:36:16] [Server thread/WARN]: mrpckannan moved too quickly! 0.0,23.228404142109866,0.0
+[23:36:19] [Server thread/INFO]: kobe_bryant issued server command: /tp Kousaka_Haruka
+[23:36:19] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to Kousaka_Haruka]
+[23:36:19] [Server thread/WARN]: mrpckannan moved too quickly! 0.0,22.918930572050158,0.0
+[23:36:27] [Server thread/INFO]: mrpckannan issued server command: /tp Kousaka_Haruka
+[23:36:27] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to Kousaka_Haruka]
+[23:36:27] [Server thread/WARN]: mrpckannan moved too quickly! -47.72470357681262,-8802.351291630503,17.377685345384634
+[23:36:27] [Server thread/INFO]: kobe_bryant issued server command: /spawnpoint
+[23:36:27] [Server thread/INFO]: [kobe_bryant: Set spawn point to 34, 130, -42 [0.0] in minecraft:overworld for kobe_bryant]
+[23:36:52] [Server thread/INFO]: kobe_bryant issued server command: /effect give @a minecraft:wind_charged infinite 255
+[23:36:52] [Server thread/INFO]: [kobe_bryant: Applied effect Wind Charged to 3 targets]
+[23:37:08] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival @a
+[23:37:08] [Server thread/INFO]: [kobe_bryant: Set mrpckannan's game mode to Survival Mode]
+[23:37:08] [Server thread/INFO]: [kobe_bryant: Set Kousaka_Haruka's game mode to Survival Mode]
+[23:37:08] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
+[23:37:14] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[23:37:14] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[23:37:18] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ ~ ~ 31 133 -19 minecraft:smooth_quartz_slab
+[23:37:18] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 215 block(s)]
+[23:37:28] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:overworld run tp @s 515.76 70.00 1139.74 383.55 44.85
+[23:37:28] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to 515.760000, 70.000000, 1139.740000]
+[23:37:38] [Server thread/INFO]: kobe_bryant issued server command: /effect give @a minecraft:levitation infinite 255
+[23:37:38] [Server thread/INFO]: [kobe_bryant: Applied effect Levitation to 3 targets]
+[23:37:38] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
+[23:37:38] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
+[23:37:40] [Server thread/WARN]: mrpckannan moved too quickly! 0.0,23.22638245316955,-0.02570835639608049
+[23:37:40] [Server thread/WARN]: mrpckannan moved too quickly! 0.0,15.401259499707237,0.0
+[23:37:43] [Server thread/INFO]: Kousaka_Haruka issued server command: /kick kobe_bryant
+[23:37:43] [Server thread/INFO]: kobe_bryant lost connection: Kicked by an operator
+[23:37:43] [Server thread/INFO]: kobe_bryant left the game
+[23:37:43] [Server thread/INFO]: [Kousaka_Haruka: Kicked kobe_bryant: Kicked by an operator]
+[23:37:47] [User Authenticator #6/INFO]: UUID of player kobe_bryant is 9f7f62ed-43cd-35db-ad7c-73913a79719f
+[23:37:48] [Server thread/INFO]: kobe_bryant joined the game
+[23:37:48] [Server thread/INFO]: kobe_bryant[/127.0.0.1:56197] logged in with entity id 59086 at ([world]42.79151959214078, 225.7763025142871, -12.702177808153296)
+[23:37:48] [Server thread/INFO]: Kousaka_Haruka issued server command: /kill
+[23:37:48] [Server thread/INFO]: Kousaka_Haruka was killed
+[23:37:48] [Server thread/INFO]: [Kousaka_Haruka: Killed Kousaka_Haruka]
+[23:37:51] [Server thread/INFO]: Kousaka_Haruka issued server command: /kick kobe_bryant
+[23:37:51] [Server thread/INFO]: kobe_bryant lost connection: Kicked by an operator
+[23:37:51] [Server thread/INFO]: kobe_bryant left the game
+[23:37:51] [Server thread/INFO]: [Kousaka_Haruka: Kicked kobe_bryant: Kicked by an operator]
+[23:37:53] [User Authenticator #6/INFO]: UUID of player kobe_bryant is 9f7f62ed-43cd-35db-ad7c-73913a79719f
+[23:37:54] [Server thread/INFO]: kobe_bryant joined the game
+[23:37:54] [Server thread/INFO]: kobe_bryant[/127.0.0.1:56205] logged in with entity id 59194 at ([world]42.79151959214078, 348.6327149060601, -12.702177808153296)
+[23:37:54] [Server thread/INFO]: Kousaka_Haruka issued server command: /kick kobe_bryant
+[23:37:54] [Server thread/INFO]: kobe_bryant lost connection: Kicked by an operator
+[23:37:54] [Server thread/INFO]: kobe_bryant left the game
+[23:37:54] [Server thread/INFO]: [Kousaka_Haruka: Kicked kobe_bryant: Kicked by an operator]
+[23:37:56] [User Authenticator #6/INFO]: UUID of player kobe_bryant is 9f7f62ed-43cd-35db-ad7c-73913a79719f
+[23:37:57] [Server thread/INFO]: kobe_bryant joined the game
+[23:37:57] [Server thread/INFO]: kobe_bryant[/127.0.0.1:56207] logged in with entity id 59208 at ([world]42.79151959214078, 394.12840994864547, -12.702177808153296)
+[23:37:57] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,10.59581854475448,0.0
+[23:38:05] [Server thread/WARN]: kobe_bryant moved too quickly! 0.0,23.229631722741942,0.0
+[23:38:07] [Server thread/INFO]: kobe_bryant issued server command: /kill
+[23:38:07] [Server thread/INFO]: kobe_bryant was killed
+[23:38:07] [Server thread/INFO]: [kobe_bryant: Killed kobe_bryant]
+[23:38:32] [Server thread/INFO]: mrpckannan issued server command: /weather clear
+[23:38:32] [Server thread/INFO]: [mrpckannan: Set the weather to clear]
+[23:38:52] [Server thread/INFO]: kobe_bryant issued server command: /fill 38 133 -25
+[23:39:01] [Server thread/INFO]: kobe_bryant issued server command: /fill 38 133 -25 53 133 -20 air
+[23:39:01] [Server thread/INFO]: [kobe_bryant: Successfully filled 69 block(s)]
+[23:39:40] [Server thread/INFO]: kobe_bryant issued server command: /effect give @a minecraft:wither infinite 100
+[23:39:40] [Server thread/INFO]: [kobe_bryant: Applied effect Wither to 3 targets]
+[23:39:41] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:overworld run tp @s 61.88 107.50 -11.37 295.05 3.00
+[23:39:41] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to 61.880000, 107.500000, -11.370000]
+[23:39:46] [Server thread/INFO]: mrpckannan withered away
+[23:39:47] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
+[23:39:47] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
+[23:40:05] [Server thread/INFO]: kobe_bryant issued server command: /effect give kobe_bryant minecraft:wither 255
+[23:40:33] [Server thread/INFO]: kobe_bryant withered away
+[23:41:03] [Server thread/INFO]: kobe_bryant was burned to a crisp while fighting kobe_bryant
+[23:42:22] [Server thread/INFO]: kobe_bryant was shot by kobe_bryant
+[23:42:49] [Server thread/INFO]: kobe_bryant issued server command: /tp mrpckannan
+[23:42:49] [Server thread/INFO]: [kobe_bryant: Teleported kobe_bryant to mrpckannan]
+[23:42:49] [Server thread/WARN]: kobe_bryant moved too quickly! 57.23995979646497,-14.5,95.05032803304921
+[23:43:18] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ ~ ~ 31 133 -39 minecraft:smooth_quartz_slab
+[23:43:18] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 338 block(s)]
+[23:43:44] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ ~ ~ 56 133 -27 minecraft:smooth_quartz_slab
+[23:43:48] [Server thread/INFO]: mrpckannan issued server command: /gamerule randomTickSpeed 20
+[23:43:48] [Server thread/INFO]: [mrpckannan: Gamerule randomTickSpeed is now set to: 20]
+[23:44:13] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
+[23:44:13] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
+[23:44:24] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ ~ ~ 56 133 -27 minecraft:smooth_quartz
+[23:44:24] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 300 block(s)]
+[23:45:17] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ ~ ~ 31 134 -39 minecraft:smooth_quartz_slab
+[23:45:17] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 376 block(s)]
+[23:45:38] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ ~ ~ 31 134 -39 minecraft:air
+[23:45:38] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 378 block(s)]
+[23:46:32] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ ~ ~ 56 134 -27 minecraft:smooth_quartz_slab
+[23:46:32] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 300 block(s)]
+[23:46:33] [Server thread/INFO]: kobe_bryant lost connection: Disconnected
+[23:46:33] [Server thread/INFO]: kobe_bryant left the game
+[23:47:13] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ ~ ~ 31 135 -39 minecraft:smooth_quartz_slab
+[23:47:13] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 378 block(s)]
+[23:47:42] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ ~ ~ 31 135 -39 minecraft:air
+[23:47:42] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 378 block(s)]
+[23:49:22] [Server thread/INFO]: mrpckannan issued server command: /gamemode creative
+[23:49:22] [Server thread/INFO]: [mrpckannan: Set own game mode to Creative Mode]
+[23:49:43] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
+[23:49:43] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
+[23:49:47] [Server thread/INFO]: mrpckannan issued server command: /tp Kousaka_Haruka
+[23:49:47] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to Kousaka_Haruka]
+[23:54:58] [Server thread/INFO]: Kousaka_Haruka lost connection: Disconnected
+[23:54:58] [Server thread/INFO]: Kousaka_Haruka left the game
+[23:55:05] [Server thread/INFO]: mrpckannan lost connection: Disconnected
+[23:55:05] [Server thread/INFO]: mrpckannan left the game
+[23:55:43] [Server thread/INFO]: Stopping the server
+[23:55:43] [Server thread/INFO]: Stopping server
+[23:55:43] [Server thread/INFO]: [DuelTime] Disabling DuelTime v3.1.3
+[23:55:43] [Server thread/INFO]: [GSit] Disabling GSit v1.13.0
+[23:55:43] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[23:55:43] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.1 b93
+[23:55:43] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[23:55:43] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[23:55:43] [Craft Scheduler Thread - 0 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[23:55:43] [Craft Scheduler Thread - 2 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[23:55:43] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 3ms)
+[23:55:43] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.152
+[23:55:43] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[23:55:43] [Server thread/INFO]: [LuckPerms] Closing storage...
+[23:55:43] [Server thread/INFO]: [LuckPerms] Goodbye!
+[23:55:43] [Server thread/INFO]: [PlayerDoll] Disabling PlayerDoll v2.3
+[23:55:45] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[23:55:45] [Server thread/INFO]: [ChainMining] Disabling ChainMining v1.0.9
+[23:55:45] [Server thread/INFO]: Saving players
+[23:55:45] [Server thread/INFO]: Saving worlds
+[23:55:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Saved 27 block chunks, 108 entity chunks, 1 poi chunks in world 'world' in 0.23s
+[23:55:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Saved 11 block chunks, 55 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[23:55:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[23:55:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[23:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:55:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
