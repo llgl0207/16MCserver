@@ -1,7 +1,65 @@
+# 语言
+messages:
+  toggle-on: '&8[&e连锁挖矿&8] &a已开启'
+  toggle-off: '&8[&e连锁挖矿&8] &c已关闭'
+  reload-success: '&8[&e连锁挖矿&8] &a插件重载成功'
+  no-permissions: '&8[&e连锁挖矿&8] &c你没有使用该命令的权限'
+  no-player: '&8[&e连锁挖矿&8] &c指定的玩家不在线或不存在'
+
+# 最大连锁次数，不能大于100
+max-chain-size: 30
+
+# 耐久扣除方式
+# true为一次连锁只扣一点耐久
+# false为按照连锁方块数量扣耐久
+single-durability-loss: false
+
+# 玩家进服是否自动启用连锁挖矿
+automatically-enable: false
+
+# 支持连锁挖掘的方块
 enabled-blocks:
 - DIAMOND_ORE
+- DEEPSLATE_DIAMOND_ORE
 - IRON_ORE
+- DEEPSLATE_IRON_ORE
 - COAL_ORE
+- DEEPSLATE_COAL_ORE
 - REDSTONE_ORE
+- DEEPSLATE_REDSTONE_ORE
 - EMERALD_ORE
+- DEEPSLATE_EMERALD_ORE
 - LAPIS_ORE
+- DEEPSLATE_LAPIS_ORE
+- COPPER_ORE
+- DEEPSLATE_COPPER_ORE
+- OAK_LOG
+- SPRUCE_LOG
+- BIRCH_LOG
+- JUNGLE_LOG
+- ACACIA_LOG
+- CHERRY_LOG
+- SAND
+- GRAVEL
+- CLAY
+
+
+# 可以触发连锁的工具
+enabled-tools:
+- DIAMOND_PICKAXE
+- IRON_PICKAXE
+- STONE_PICKAXE
+- GOLDEN_PICKAXE
+- NETHERITE_PICKAXE
+- IRON_AXE
+- WOODEN_AXE
+- STONE_AXE
+- DIAMOND_AXE
+- GOLDEN_AXE
+- NETHERITE_AXE
+- IRON_SHOVEL
+- WOODEN_SHOVEL
+- STONE_SHOVEL
+- DIAMOND_SHOVEL
+- GOLDEN_SHOVEL
+- NETHERITE_SHOVEL
