@@ -40,12 +40,12 @@ presets:
     name: 'LVL Strategy - Weighted Random'
     strategies:
       weighted-random:
-        11-50: 0
-        5-10: 1
-        4-8: 10
-        3-6: 25
-        2-4: 50
-        1-2: 100
+        11-50: 50
+        5-10: 100
+        4-8: 0
+        3-6: 0
+        2-4: 0
+        1-2: 0
 
   lvlstrategy-distance-from-origin:
     name: 'LVL Strategy - Distance-from-Origin'
@@ -292,7 +292,7 @@ default-rule:
     #===== Choose Strategies =====
     #- lvlstrategy-random
     - lvlstrategy-weighted-random
-    - lvlstrategy-distance-from-origin
+    #- lvlstrategy-distance-from-origin
     #- lvlstrategy-y-coordinate
 
     #===== Choose Modifiers =====

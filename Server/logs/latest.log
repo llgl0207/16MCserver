@@ -1,240 +1,26 @@
-[13:27:25] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[13:27:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[13:27:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:27:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[13:27:29] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
- - HuskHomes (4.8.3)
-[13:27:29] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - ChainMining (1.0.9), DuelTime (3.1.3), GSit (1.13.0), LevelledMobs (4.2.0.1 b93), LuckPerms (5.4.152), PlayerDoll (2.3), SkinsRestorer (15.5.1)
-[13:27:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:27:35] [ServerMain/INFO]: Loaded 1290 recipes
-[13:27:35] [ServerMain/INFO]: Loaded 1399 advancements
-[13:27:36] [Server thread/INFO]: Starting minecraft server version 1.21
-[13:27:36] [Server thread/INFO]: Loading properties
-[13:27:36] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[13:27:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:27:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:27:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:27:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
-[13:27:37] [Server thread/INFO]: Default game type: SURVIVAL
-[13:27:37] [Server thread/INFO]: Generating keypair
-[13:27:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:27:37] [Server thread/INFO]: Using default channel type
-[13:27:37] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[13:27:37] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[13:27:39] [Server thread/INFO]: [ChainMining] Loading server plugin ChainMining v1.0.9
-[13:27:39] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[13:27:39] [Server thread/INFO]: [PlayerDoll] Loading server plugin PlayerDoll v2.3
-[13:27:39] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.152
-[13:27:40] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.2.0.1 b93
-[13:27:40] [Server thread/INFO]: [LevelledMobs] Loading commands
-[13:27:41] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
-[13:27:41] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
-[13:27:41] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
-[13:27:41] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.13.0
-[13:27:41] [Server thread/INFO]: [DuelTime] Loading server plugin DuelTime v3.1.3
-[13:27:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:27:41] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[13:27:42] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[13:27:43] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[13:27:44] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[13:27:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.152
-[13:27:44] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
- If this message is repeated a lot, please see https://skinsrestorer.net/firewall
-[13:27:44] [Server thread/INFO]:         __    
-[13:27:44] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.152
-[13:27:44] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[13:27:44] [Server thread/INFO]: 
-[13:27:44] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[13:27:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[13:27:45] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[13:27:45] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[13:27:45] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1028ms)
-[13:27:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:27:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:27:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:27:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:27:45] [Server thread/INFO]: Preparing level "world"
-[13:27:46] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_nether is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_nether's world directory if you want to be able to load the duplicate world.
-[13:27:46] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_the_end is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_the_end's world directory if you want to be able to load the duplicate world.
-[13:27:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:27:47] [Server thread/INFO]: Time elapsed: 1118 ms
-[13:27:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:27:47] [Server thread/INFO]: Time elapsed: 107 ms
-[13:27:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:27:47] [Server thread/INFO]: Time elapsed: 112 ms
-[13:27:47] [Server thread/INFO]: [ChainMining] Enabling ChainMining v1.0.9
-[13:27:47] [Server thread/INFO]: [ChainMining] 插件启用成功，作者PuddingKC，QQ:3116078709
-[13:27:47] [Server thread/INFO]: [PlayerDoll] Enabling PlayerDoll v2.3
-[13:27:47] [Server thread/WARN]: [PlayerDoll] Config [Basic Config] version does not match the latest (32).
-Default values will be used.
-[13:27:47] [Server thread/INFO]: [PlayerDoll] Saved config [Basic Config]
-[13:27:47] [Server thread/WARN]: [PlayerDoll] Config [Flag Config] version does not match the latest (32).
-Default values will be used.
-[13:27:47] [Server thread/INFO]: [PlayerDoll] Saved config [Flag Config]
-[13:27:47] [Server thread/WARN]: [PlayerDoll] Config [Permission Config] version does not match the latest (32).
-Default values will be used.
-[13:27:47] [Server thread/INFO]: [PlayerDoll] Saved config [Permission Config]
-[13:27:47] [Thread-13/INFO]: [PlayerDoll] Checking New Versions...
-[13:27:47] [Server thread/INFO]: [PlayerDoll] Config did not assign Server Branch. Detecting...
-[13:27:47] [Server thread/INFO]: [PlayerDoll] Server is running on PAPERSERIES
-[13:27:47] [Server thread/INFO]: [PlayerDoll] Detected Server Version [1.21 (v1_21_R1)]
-[13:27:48] [Thread-13/WARN]: Exception in thread "Thread-13" java.lang.RuntimeException: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-[13:27:48] [Thread-13/WARN]: 	at PlayerDoll-Main-2.3.jar//me.autobot.playerdoll.PlayerDoll.lambda$checkUpdate$1(PlayerDoll.java:268)
-[13:27:48] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
-[13:27:48] [Thread-13/WARN]: Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1326)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476)
-[13:27:48] [Server thread/ERROR]: Could not pass event CommandRegisterEvent to PlayerDoll v2.3
-java.lang.NullPointerException: Argument Class does not exist.
-	at java.base/java.util.Objects.requireNonNull(Objects.java:246) ~[?:?]
-	at PlayerDoll-Main-2.3.jar/me.autobot.playerdoll.api.command.CommandArgUtil.getArgumentImpl(CommandArgUtil.java:28) ~[PlayerDoll-Main-2.3.jar:?]
-	at PlayerDoll-Main-2.3.jar/me.autobot.playerdoll.command.BuiltinCommandBuilder.<init>(BuiltinCommandBuilder.java:47) ~[PlayerDoll-Main-2.3.jar:?]
-	at PlayerDoll-Main-2.3.jar/me.autobot.playerdoll.listener.APIEventCall.onAPIRegisterCommand(APIEventCall.java:12) ~[PlayerDoll-Main-2.3.jar:?]
-	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at PlayerDoll-Main-2.3.jar/me.autobot.playerdoll.PlayerDoll.onEnable(PlayerDoll.java:87) ~[PlayerDoll-Main-2.3.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+[20:48:07] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[20:48:07] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[20:48:07] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:48:07] [ServerMain/ERROR]: Failed to start the minecraft server
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:397) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1227) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1137) ~[gson-2.10.1.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1075) ~[gson-2.10.1.jar:?]
+	at io.papermc.paper.pluginremap.RemappedPluginIndex.readIndex(RemappedPluginIndex.java:74) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.pluginremap.RemappedPluginIndex.<init>(RemappedPluginIndex.java:62) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.pluginremap.PluginRemapper.<init>(PluginRemapper.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.pluginremap.PluginRemapper.create(PluginRemapper.java:78) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.PluginInitializerManager.<init>(PluginInitializerManager.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.PluginInitializerManager.parse(PluginInitializerManager.java:64) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.PluginInitializerManager.init(PluginInitializerManager.java:88) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.Main.main(Main.java:123) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
-[13:27:48] [Thread-13/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1325)
-[13:27:48] [Thread-13/WARN]: 	at PlayerDoll-Main-2.3.jar//me.autobot.playerdoll.PlayerDoll.lambda$checkUpdate$1(PlayerDoll.java:258)
-[13:27:48] [Thread-13/WARN]: 	... 1 more
-[13:27:48] [Thread-13/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.validator.Validator.validate(Validator.java:256)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310)
-[13:27:48] [Thread-13/WARN]: 	... 19 more
-[13:27:48] [Thread-13/WARN]: Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
-[13:27:48] [Thread-13/WARN]: 	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
-[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383)
-[13:27:48] [Thread-13/WARN]: 	... 24 more
-[13:27:48] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.2.0.1 b93
-[13:27:48] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[13:27:48] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[13:27:48] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21 for nametag support
-[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[13:27:48] [Server thread/INFO]: [LevelledMobs] Current rules hash: 6cd49f946ae1c18e9d4b3a480426339ede532cfb376c8698b77d72bb1fd4ea99
-[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[13:27:48] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[13:27:48] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[13:27:48] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[13:27:48] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 538ms)
-[13:27:48] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
-[13:27:48] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
-[13:27:48] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
-[13:27:49] [Server thread/INFO]: [GSit] Enabling GSit v1.13.0
-[13:27:49] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[13:27:49] [Server thread/INFO]: [DuelTime] Enabling DuelTime v3.1.3
-[13:27:50] [ForkJoinPool.commonPool-worker-2/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9 (running v4.8.3)
-[13:27:50] [Server thread/INFO]: [spark] Starting background profiler...
-[13:27:50] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[13:27:50] [Server thread/INFO]: Done preparing level "world" (5.016s)
-[13:27:50] [Server thread/INFO]: Running delayed init tasks
-[13:27:50] [Server thread/WARN]: [PlayerDoll] Task #7 for PlayerDoll v2.3 generated an exception
-java.lang.NullPointerException: Class Constructor cannot be Null.
-	at java.base/java.util.Objects.requireNonNull(Objects.java:246) ~[?:?]
-	at PlayerDoll-Main-2.3.jar/me.autobot.playerdoll.api.connection.ConnectionFetcher.setDollCustomLoginListener(ConnectionFetcher.java:65) ~[PlayerDoll-Main-2.3.jar:?]
-	at PlayerDoll-Main-2.3.jar/me.autobot.playerdoll.PlayerDoll.postEnable(PlayerDoll.java:103) ~[PlayerDoll-Main-2.3.jar:?]
-	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[13:27:50] [Server thread/INFO]: Done (26.209s)! For help, type "help"
-[13:27:50] [Server thread/INFO]: Timings Reset
-[13:27:53] [Craft Scheduler Thread - 5 - LevelledMobs/WARN]: [LevelledMobs] LevelledMobs Update Checker Notice:
-[13:27:53] [Craft Scheduler Thread - 5 - LevelledMobs/WARN]: [LevelledMobs] Your LevelledMobs version is outdated! Please update to v4.2.0.2 as soon as possible. (You're running v4.2.0.1)
-[13:27:55] [Craft Scheduler Thread - 6 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
-[13:28:06] [User Authenticator #0/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[13:28:09] [Server thread/INFO]: Yahooingalaxy joined the game
-[13:28:09] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:51364] logged in with entity id 164 at ([world]62.09897003071388, 107.5625, -15.74817620491436)
-[13:29:32] [Server thread/INFO]: Yahooingalaxy issued server command: /gamemode creative
-[13:29:32] [Server thread/INFO]: [Yahooingalaxy: Set own game mode to Creative Mode]
-[13:38:46] [Server thread/INFO]: Yahooingalaxy issued server command: /time add
-[13:40:14] [Server thread/INFO]: Yahooingalaxy has made the advancement [Bring Home the Beacon]
-[13:46:48] [Server thread/INFO]: Yahooingalaxy lost connection: Disconnected
-[13:46:48] [Server thread/INFO]: Yahooingalaxy left the game
-[13:47:26] [Server thread/INFO]: Stopping the server
-[13:47:26] [Server thread/INFO]: Stopping server
-[13:47:26] [Server thread/INFO]: [DuelTime] Disabling DuelTime v3.1.3
-[13:47:26] [Server thread/INFO]: [GSit] Disabling GSit v1.13.0
-[13:47:26] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[13:47:26] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
-[13:47:26] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
-[13:47:26] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
-[13:47:26] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.1 b93
-[13:47:26] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[13:47:26] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[13:47:26] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 3ms)
-[13:47:26] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.152
-[13:47:26] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[13:47:26] [Server thread/INFO]: [LuckPerms] Closing storage...
-[13:47:26] [Craft Scheduler Thread - 1 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[13:47:26] [Craft Scheduler Thread - 0 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[13:47:26] [Server thread/INFO]: [LuckPerms] Goodbye!
-[13:47:26] [Server thread/INFO]: [PlayerDoll] Disabling PlayerDoll v2.3
-[13:47:28] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
-[13:47:28] [Server thread/INFO]: [ChainMining] Disabling ChainMining v1.0.9
-[13:47:28] [Server thread/INFO]: Saving players
-[13:47:29] [Server thread/INFO]: Saving worlds
-[13:47:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saved 35 block chunks, 105 entity chunks, 1 poi chunks in world 'world' in 0.11s
-[13:47:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 12 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[13:47:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 20 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[13:47:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:47:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:47:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:47:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.1.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:386) ~[gson-2.10.1.jar:?]
+	... 16 more
