@@ -1,85 +1,98 @@
-[16:20:39] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[16:20:39] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[16:20:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:20:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[16:20:43] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[13:27:25] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[13:27:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[13:27:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:27:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[13:27:29] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - HuskHomes (4.8.3)
-[16:20:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+[13:27:29] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
  - ChainMining (1.0.9), DuelTime (3.1.3), GSit (1.13.0), LevelledMobs (4.2.0.1 b93), LuckPerms (5.4.152), PlayerDoll (2.3), SkinsRestorer (15.5.1)
-[16:20:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:20:48] [ServerMain/INFO]: Loaded 1290 recipes
-[16:20:49] [ServerMain/INFO]: Loaded 1399 advancements
-[16:20:51] [Server thread/INFO]: Starting minecraft server version 1.21
-[16:20:51] [Server thread/INFO]: Loading properties
-[16:20:51] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[16:20:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:20:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:20:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:20:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
-[16:20:52] [Server thread/INFO]: Default game type: SURVIVAL
-[16:20:52] [Server thread/INFO]: Generating keypair
-[16:20:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:20:52] [Server thread/INFO]: Using default channel type
-[16:20:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[16:20:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[16:20:54] [Server thread/INFO]: [ChainMining] Loading server plugin ChainMining v1.0.9
-[16:20:54] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[16:20:54] [Server thread/INFO]: [PlayerDoll] Loading server plugin PlayerDoll v2.3
-[16:20:54] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.152
-[16:20:55] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.2.0.1 b93
-[16:20:55] [Server thread/INFO]: [LevelledMobs] Loading commands
-[16:20:56] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
-[16:20:56] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
-[16:20:56] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
-[16:20:56] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.13.0
-[16:20:56] [Server thread/INFO]: [DuelTime] Loading server plugin DuelTime v3.1.3
-[16:20:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:20:56] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[16:20:57] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[16:20:58] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[16:20:59] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[16:20:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.152
-[16:20:59] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
+[13:27:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:27:35] [ServerMain/INFO]: Loaded 1290 recipes
+[13:27:35] [ServerMain/INFO]: Loaded 1399 advancements
+[13:27:36] [Server thread/INFO]: Starting minecraft server version 1.21
+[13:27:36] [Server thread/INFO]: Loading properties
+[13:27:36] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[13:27:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:27:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:27:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:27:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
+[13:27:37] [Server thread/INFO]: Default game type: SURVIVAL
+[13:27:37] [Server thread/INFO]: Generating keypair
+[13:27:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:27:37] [Server thread/INFO]: Using default channel type
+[13:27:37] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:27:37] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:27:39] [Server thread/INFO]: [ChainMining] Loading server plugin ChainMining v1.0.9
+[13:27:39] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[13:27:39] [Server thread/INFO]: [PlayerDoll] Loading server plugin PlayerDoll v2.3
+[13:27:39] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.152
+[13:27:40] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.2.0.1 b93
+[13:27:40] [Server thread/INFO]: [LevelledMobs] Loading commands
+[13:27:41] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
+[13:27:41] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
+[13:27:41] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
+[13:27:41] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.13.0
+[13:27:41] [Server thread/INFO]: [DuelTime] Loading server plugin DuelTime v3.1.3
+[13:27:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:27:41] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[13:27:42] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[13:27:43] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[13:27:44] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[13:27:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.152
+[13:27:44] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
  If this message is repeated a lot, please see https://skinsrestorer.net/firewall
-[16:20:59] [Server thread/INFO]:         __    
-[16:20:59] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.152
-[16:20:59] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:20:59] [Server thread/INFO]: 
-[16:20:59] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:20:59] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:20:59] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:21:00] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:21:00] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 865ms)
-[16:21:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:21:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:21:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:21:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:21:00] [Server thread/INFO]: Preparing level "world"
-[16:21:00] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_nether is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_nether's world directory if you want to be able to load the duplicate world.
-[16:21:00] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_the_end is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_the_end's world directory if you want to be able to load the duplicate world.
-[16:21:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:21:01] [Server thread/INFO]: Time elapsed: 902 ms
-[16:21:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:21:01] [Server thread/INFO]: Time elapsed: 73 ms
-[16:21:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:21:01] [Server thread/INFO]: Time elapsed: 81 ms
-[16:21:01] [Server thread/INFO]: [ChainMining] Enabling ChainMining v1.0.9
-[16:21:01] [Server thread/INFO]: [ChainMining] 插件启用成功，作者PuddingKC，QQ:3116078709
-[16:21:01] [Server thread/INFO]: [PlayerDoll] Enabling PlayerDoll v2.3
-[16:21:01] [Server thread/WARN]: [PlayerDoll] Config [Basic Config] version does not match the latest (32).
+[13:27:44] [Server thread/INFO]:         __    
+[13:27:44] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.152
+[13:27:44] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[13:27:44] [Server thread/INFO]: 
+[13:27:44] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:27:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:27:45] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:27:45] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:27:45] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1028ms)
+[13:27:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:27:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:27:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:27:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:27:45] [Server thread/INFO]: Preparing level "world"
+[13:27:46] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_nether is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_nether's world directory if you want to be able to load the duplicate world.
+[13:27:46] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_the_end is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_the_end's world directory if you want to be able to load the duplicate world.
+[13:27:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:27:47] [Server thread/INFO]: Time elapsed: 1118 ms
+[13:27:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:27:47] [Server thread/INFO]: Time elapsed: 107 ms
+[13:27:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:27:47] [Server thread/INFO]: Time elapsed: 112 ms
+[13:27:47] [Server thread/INFO]: [ChainMining] Enabling ChainMining v1.0.9
+[13:27:47] [Server thread/INFO]: [ChainMining] 插件启用成功，作者PuddingKC，QQ:3116078709
+[13:27:47] [Server thread/INFO]: [PlayerDoll] Enabling PlayerDoll v2.3
+[13:27:47] [Server thread/WARN]: [PlayerDoll] Config [Basic Config] version does not match the latest (32).
 Default values will be used.
-[16:21:01] [Server thread/INFO]: [PlayerDoll] Saved config [Basic Config]
-[16:21:01] [Server thread/WARN]: [PlayerDoll] Config [Flag Config] version does not match the latest (32).
+[13:27:47] [Server thread/INFO]: [PlayerDoll] Saved config [Basic Config]
+[13:27:47] [Server thread/WARN]: [PlayerDoll] Config [Flag Config] version does not match the latest (32).
 Default values will be used.
-[16:21:01] [Server thread/INFO]: [PlayerDoll] Saved config [Flag Config]
-[16:21:01] [Server thread/WARN]: [PlayerDoll] Config [Permission Config] version does not match the latest (32).
+[13:27:47] [Server thread/INFO]: [PlayerDoll] Saved config [Flag Config]
+[13:27:47] [Server thread/WARN]: [PlayerDoll] Config [Permission Config] version does not match the latest (32).
 Default values will be used.
-[16:21:01] [Server thread/INFO]: [PlayerDoll] Saved config [Permission Config]
-[16:21:01] [Thread-13/INFO]: [PlayerDoll] Checking New Versions...
-[16:21:01] [Server thread/INFO]: [PlayerDoll] Config did not assign Server Branch. Detecting...
-[16:21:01] [Server thread/INFO]: [PlayerDoll] Server is running on PAPERSERIES
-[16:21:01] [Server thread/INFO]: [PlayerDoll] Detected Server Version [1.21 (v1_21_R1)]
-[16:21:01] [Server thread/ERROR]: Could not pass event CommandRegisterEvent to PlayerDoll v2.3
+[13:27:47] [Server thread/INFO]: [PlayerDoll] Saved config [Permission Config]
+[13:27:47] [Thread-13/INFO]: [PlayerDoll] Checking New Versions...
+[13:27:47] [Server thread/INFO]: [PlayerDoll] Config did not assign Server Branch. Detecting...
+[13:27:47] [Server thread/INFO]: [PlayerDoll] Server is running on PAPERSERIES
+[13:27:47] [Server thread/INFO]: [PlayerDoll] Detected Server Version [1.21 (v1_21_R1)]
+[13:27:48] [Thread-13/WARN]: Exception in thread "Thread-13" java.lang.RuntimeException: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[13:27:48] [Thread-13/WARN]: 	at PlayerDoll-Main-2.3.jar//me.autobot.playerdoll.PlayerDoll.lambda$checkUpdate$1(PlayerDoll.java:268)
+[13:27:48] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
+[13:27:48] [Thread-13/WARN]: Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1326)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476)
+[13:27:48] [Server thread/ERROR]: Could not pass event CommandRegisterEvent to PlayerDoll v2.3
 java.lang.NullPointerException: Argument Class does not exist.
 	at java.base/java.util.Objects.requireNonNull(Objects.java:246) ~[?:?]
 	at PlayerDoll-Main-2.3.jar/me.autobot.playerdoll.api.command.CommandArgUtil.getArgumentImpl(CommandArgUtil.java:28) ~[PlayerDoll-Main-2.3.jar:?]
@@ -104,75 +117,62 @@ java.lang.NullPointerException: Argument Class does not exist.
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[16:21:01] [Thread-13/WARN]: Exception in thread "Thread-13" java.lang.RuntimeException: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-[16:21:01] [Thread-13/WARN]: 	at PlayerDoll-Main-2.3.jar//me.autobot.playerdoll.PlayerDoll.lambda$checkUpdate$1(PlayerDoll.java:268)
-[16:21:01] [Thread-13/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1570)
-[16:21:01] [Thread-13/WARN]: Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:378)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:316)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1326)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1203)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1146)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
-[16:21:01] [Thread-13/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1325)
-[16:21:01] [Thread-13/WARN]: 	at PlayerDoll-Main-2.3.jar//me.autobot.playerdoll.PlayerDoll.lambda$checkUpdate$1(PlayerDoll.java:258)
-[16:21:01] [Thread-13/WARN]: 	... 1 more
-[16:21:01] [Thread-13/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.validator.Validator.validate(Validator.java:256)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310)
-[16:21:01] [Thread-13/WARN]: 	... 19 more
-[16:21:01] [Thread-13/WARN]: Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
-[16:21:01] [Thread-13/WARN]: 	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
-[16:21:01] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383)
-[16:21:01] [Thread-13/WARN]: 	... 24 more
-[16:21:02] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.2.0.1 b93
-[16:21:02] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[16:21:02] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[16:21:02] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21 for nametag support
-[16:21:02] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[16:21:02] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[16:21:02] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[16:21:02] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[16:21:02] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[16:21:02] [Server thread/INFO]: [LevelledMobs] Current rules hash: 6cd49f946ae1c18e9d4b3a480426339ede532cfb376c8698b77d72bb1fd4ea99
-[16:21:02] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[16:21:02] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[16:21:02] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[16:21:02] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[16:21:02] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 560ms)
-[16:21:02] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
-[16:21:03] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
-[16:21:03] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
-[16:21:03] [Server thread/INFO]: [GSit] Enabling GSit v1.13.0
-[16:21:03] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[16:21:03] [Server thread/INFO]: [DuelTime] Enabling DuelTime v3.1.3
-[16:21:05] [ForkJoinPool.commonPool-worker-2/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9 (running v4.8.3)
-[16:21:05] [Server thread/INFO]: [spark] Starting background profiler...
-[16:21:05] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[16:21:05] [Server thread/INFO]: Done preparing level "world" (5.169s)
-[16:21:05] [Server thread/INFO]: Running delayed init tasks
-[16:21:05] [Server thread/WARN]: [PlayerDoll] Task #7 for PlayerDoll v2.3 generated an exception
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:447)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:201)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1507)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1422)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:586)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:187)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+[13:27:48] [Thread-13/WARN]: 	at java.base/java.net.URL.openStream(URL.java:1325)
+[13:27:48] [Thread-13/WARN]: 	at PlayerDoll-Main-2.3.jar//me.autobot.playerdoll.PlayerDoll.lambda$checkUpdate$1(PlayerDoll.java:258)
+[13:27:48] [Thread-13/WARN]: 	... 1 more
+[13:27:48] [Thread-13/WARN]: Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:388)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:271)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.validator.Validator.validate(Validator.java:256)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:230)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1310)
+[13:27:48] [Thread-13/WARN]: 	... 19 more
+[13:27:48] [Thread-13/WARN]: Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
+[13:27:48] [Thread-13/WARN]: 	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
+[13:27:48] [Thread-13/WARN]: 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:383)
+[13:27:48] [Thread-13/WARN]: 	... 24 more
+[13:27:48] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.2.0.1 b93
+[13:27:48] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[13:27:48] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
+[13:27:48] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21 for nametag support
+[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[13:27:48] [Server thread/INFO]: [LevelledMobs] Current rules hash: 6cd49f946ae1c18e9d4b3a480426339ede532cfb376c8698b77d72bb1fd4ea99
+[13:27:48] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[13:27:48] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[13:27:48] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[13:27:48] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[13:27:48] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 538ms)
+[13:27:48] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
+[13:27:48] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
+[13:27:48] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
+[13:27:49] [Server thread/INFO]: [GSit] Enabling GSit v1.13.0
+[13:27:49] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[13:27:49] [Server thread/INFO]: [DuelTime] Enabling DuelTime v3.1.3
+[13:27:50] [ForkJoinPool.commonPool-worker-2/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9 (running v4.8.3)
+[13:27:50] [Server thread/INFO]: [spark] Starting background profiler...
+[13:27:50] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13:27:50] [Server thread/INFO]: Done preparing level "world" (5.016s)
+[13:27:50] [Server thread/INFO]: Running delayed init tasks
+[13:27:50] [Server thread/WARN]: [PlayerDoll] Task #7 for PlayerDoll v2.3 generated an exception
 java.lang.NullPointerException: Class Constructor cannot be Null.
 	at java.base/java.util.Objects.requireNonNull(Objects.java:246) ~[?:?]
 	at PlayerDoll-Main-2.3.jar/me.autobot.playerdoll.api.connection.ConnectionFetcher.setDollCustomLoginListener(ConnectionFetcher.java:65) ~[PlayerDoll-Main-2.3.jar:?]
@@ -182,776 +182,59 @@ java.lang.NullPointerException: Class Constructor cannot be Null.
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1226) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[16:21:05] [Server thread/INFO]: Done (26.389s)! For help, type "help"
-[16:21:05] [Server thread/INFO]: Timings Reset
-[16:21:08] [Craft Scheduler Thread - 5 - LevelledMobs/WARN]: [LevelledMobs] LevelledMobs Update Checker Notice:
-[16:21:08] [Craft Scheduler Thread - 5 - LevelledMobs/WARN]: [LevelledMobs] Your LevelledMobs version is outdated! Please update to v4.2.0.2 as soon as possible. (You're running v4.2.0.1)
-[16:21:10] [Craft Scheduler Thread - 6 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
-[16:24:45] [User Authenticator #0/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[16:24:47] [Server thread/INFO]: mrpckannan joined the game
-[16:24:47] [Server thread/INFO]: mrpckannan[/127.0.0.1:51002] logged in with entity id 111 at ([world]70.56197736651704, 107.0, -9.654148171272322)
-[16:26:26] [Server thread/INFO]: [Not Secure] [Server] 怎么就你一个
-[16:28:09] [Async Chat Thread - #2/INFO]: [Not Secure] [无段位]<mrpckannan> abaaba
-[16:29:42] [Server thread/INFO]: mrpckannan issued server command: /mine
-[16:31:39] [Server thread/INFO]: mrpckannan issued server command: /home
-[16:36:41] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:overworld run tp @s 691.16 0.00 -173.16 936.89 19.20
-[16:36:53] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:overworld run tp 691.16 0.00 -173.16 936.89 19.20
-[16:36:54] [Craft Scheduler Thread - 11 - HuskHomes/WARN]: [HuskHomes] Plugin HuskHomes v4.8.3 generated an exception while executing task 44927
-java.lang.RuntimeException: net.william278.huskhomes.teleport.TeleportationException: Error executing teleport: WORLD_NOT_FOUND
-	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:45) ~[HuskHomes-Paper-4.8.3.jar:?]
-	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.event.EventDispatcher.lambda$fireEvent$0(EventDispatcher.java:55) ~[HuskHomes-Paper-4.8.3.jar:?]
-	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.21.jar:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-Caused by: net.william278.huskhomes.teleport.TeleportationException: Error executing teleport: WORLD_NOT_FOUND
-	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.user.BukkitUser.teleportLocally(BukkitUser.java:114) ~[HuskHomes-Paper-4.8.3.jar:?]
-	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.teleport.Teleport.lambda$executeLocal$5(Teleport.java:129) ~[HuskHomes-Paper-4.8.3.jar:?]
-	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:43) ~[HuskHomes-Paper-4.8.3.jar:?]
-	... 7 more
-[16:37:32] [Server thread/INFO]: mrpckannan issued server command: /tp 691.16 0.00 -173.16 936.89 19.20
-[16:37:32] [Craft Scheduler Thread - 5 - HuskHomes/WARN]: [HuskHomes] Plugin HuskHomes v4.8.3 generated an exception while executing task 47283
-java.lang.RuntimeException: net.william278.huskhomes.teleport.TeleportationException: Error executing teleport: WORLD_NOT_FOUND
-	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:45) ~[HuskHomes-Paper-4.8.3.jar:?]
-	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.event.EventDispatcher.lambda$fireEvent$0(EventDispatcher.java:55) ~[HuskHomes-Paper-4.8.3.jar:?]
-	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.21.jar:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-Caused by: net.william278.huskhomes.teleport.TeleportationException: Error executing teleport: WORLD_NOT_FOUND
-	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.user.BukkitUser.teleportLocally(BukkitUser.java:114) ~[HuskHomes-Paper-4.8.3.jar:?]
-	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.teleport.Teleport.lambda$executeLocal$5(Teleport.java:129) ~[HuskHomes-Paper-4.8.3.jar:?]
-	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.libraries.desertwell.util.ThrowingConsumer.accept(ThrowingConsumer.java:43) ~[HuskHomes-Paper-4.8.3.jar:?]
-	... 7 more
-[16:38:04] [User Authenticator #1/INFO]: UUID of player Kousaka_Haruka is d79d2332-0714-3285-a4cf-0497307cb9c8
-[16:38:05] [Server thread/INFO]: Kousaka_Haruka joined the game
-[16:38:05] [Server thread/INFO]: Kousaka_Haruka[/127.0.0.1:59112] logged in with entity id 2970 at ([world]47.26588700489124, 136.66821422197498, -32.75424034064156)
-[16:38:08] [Server thread/INFO]: mrpckannan issued server command: /tp ~ ~ ~
-[16:38:21] [Server thread/INFO]: Kousaka_Haruka issued server command: /mine
-[16:38:23] [Server thread/INFO]: mrpckannan issued server command: /tp 691.16 0.00 -173.16
-[16:38:31] [Server thread/INFO]: mrpckannan issued server command: /tp 691.16 0.00 -173.16
-[16:38:36] [Server thread/INFO]: mrpckannan issued server command: /sethome
-[16:38:43] [Server thread/INFO]: mrpckannan issued server command: /homelist
-[16:38:50] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:edithome mrpckannan.home
-[16:39:12] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:edithome mrpckannan.home rename mine
-[16:44:38] [Server thread/INFO]: Kousaka_Haruka issued server command: /time set day
-[16:44:38] [Server thread/INFO]: [Kousaka_Haruka: Set the time to 1000]
-[16:46:08] [User Authenticator #2/INFO]: UUID of player wo8suei is d7e9d751-3c59-38e5-a52f-93b4ded50606
-[16:46:09] [Server thread/INFO]: wo8suei joined the game
-[16:46:09] [Server thread/INFO]: wo8suei[/127.0.0.1:59834] logged in with entity id 6044 at ([world]62.5, 108.05, 0.5)
-[16:49:16] [Server thread/INFO]: wo8suei lost connection: Disconnected
-[16:49:16] [Server thread/INFO]: wo8suei left the game
-[16:49:17] [User Authenticator #3/INFO]: UUID of player wo8suei is d7e9d751-3c59-38e5-a52f-93b4ded50606
-[16:49:17] [Server thread/INFO]: wo8suei joined the game
-[16:49:17] [Server thread/INFO]: wo8suei[/127.0.0.1:60035] logged in with entity id 7369 at ([world]101.59135730096985, 103.0, 35.15966957874136)
-[16:50:05] [Server thread/INFO]: mrpckannan issued server command: /home
-[16:50:15] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:edithome mrpckannan.base_camp
-[16:50:26] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:home mrpckannan.base_camp
-[16:53:16] [User Authenticator #4/INFO]: UUID of player kobe_bryant is 9f7f62ed-43cd-35db-ad7c-73913a79719f
-[16:53:17] [Server thread/INFO]: kobe_bryant joined the game
-[16:53:17] [Server thread/INFO]: kobe_bryant[/127.0.0.1:60276] logged in with entity id 8459 at ([world]70.3856041926459, 97.0, 30.30000001192093)
-[16:54:24] [Server thread/INFO]: kobe_bryant issued server command: /tp wo8suei
-[16:54:26] [Server thread/INFO]: Kousaka_Haruka issued server command: /time set day
-[16:54:26] [Server thread/INFO]: [Kousaka_Haruka: Set the time to 1000]
-[16:54:46] [Async Chat Thread - #3/INFO]: [Not Secure] [无段位]<wo8suei> ?
-[16:54:53] [Async Chat Thread - #3/INFO]: [Not Secure] [青铜III]<Kousaka_Haruka> ?
-[16:56:00] [Server thread/INFO]: mrpckannan issued server command: /spectate
-[16:56:04] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
-[16:56:04] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
-[16:56:06] [Server thread/INFO]: mrpckannan issued server command: /spectate
-[16:57:42] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[16:57:42] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[16:57:42] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[16:58:00] [Server thread/INFO]: Kousaka_Haruka issued server command: /effect clear
-[16:58:00] [Server thread/INFO]: [Kousaka_Haruka: Removed every effect from Kousaka_Haruka]
-[16:58:30] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[16:58:30] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[16:58:33] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[16:58:54] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[16:58:56] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[16:59:06] [User Authenticator #5/INFO]: UUID of player wo8suei is d7e9d751-3c59-38e5-a52f-93b4ded50606
-[16:59:06] [Server thread/INFO]: wo8suei lost connection: You logged in from another location
-[16:59:07] [Server thread/INFO]: wo8suei left the game
-[16:59:07] [Server thread/INFO]: wo8suei joined the game
-[16:59:07] [Server thread/INFO]: wo8suei[/127.0.0.1:60652] logged in with entity id 10360 at ([world]27.216879629022984, 114.3735325419649, -74.0585216992344)
-[16:59:10] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:01:51] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:02:02] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill 57 133 -26 30 133 -40 air
-[17:02:02] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 378 block(s)]
-[17:02:21] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill 57 134 -26 30 134 -40 air
-[17:02:21] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 364 block(s)]
-[17:02:48] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:03:10] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[17:03:10] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[17:03:14] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[17:03:14] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[17:03:21] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[17:03:21] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[17:03:24] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[17:03:24] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[17:03:35] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[17:03:35] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[17:03:39] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:03:39] [Server thread/INFO]: kobe_bryant was killed
-[17:03:39] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:03:56] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:03:56] [Server thread/INFO]: kobe_bryant was killed
-[17:03:56] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:04:24] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[17:04:24] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[17:04:43] [Server thread/INFO]: Kousaka_Haruka issued server command: /time set day
-[17:04:43] [Server thread/INFO]: [Kousaka_Haruka: Set the time to 1000]
-[17:05:14] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:14] [Server thread/INFO]: kobe_bryant was killed
-[17:05:14] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:22] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:22] [Server thread/INFO]: kobe_bryant was killed
-[17:05:22] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:28] [Server thread/INFO]: wo8suei issued server command: /
-[17:05:29] [Server thread/INFO]: wo8suei issued server command: /
-[17:05:31] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:31] [Server thread/INFO]: kobe_bryant was killed
-[17:05:31] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:31] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:31] [Server thread/INFO]: kobe_bryant was killed
-[17:05:31] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:32] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:32] [Server thread/INFO]: kobe_bryant was killed
-[17:05:32] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:32] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:32] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:33] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:33] [Server thread/INFO]: kobe_bryant was killed
-[17:05:33] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:33] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:33] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:33] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:33] [Server thread/INFO]: kobe_bryant was killed
-[17:05:33] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:34] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:34] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:34] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:34] [Server thread/INFO]: kobe_bryant was killed
-[17:05:34] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:34] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:34] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:34] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:34] [Server thread/INFO]: kobe_bryant was killed
-[17:05:34] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:35] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:35] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:35] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:35] [Server thread/INFO]: kobe_bryant was killed
-[17:05:35] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:35] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:35] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:36] [Server thread/INFO]: wo8suei issued server command: /
-[17:05:36] [Server thread/INFO]: wo8suei issued server command: /
-[17:05:36] [Server thread/INFO]: wo8suei issued server command: /
-[17:05:37] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:37] [Server thread/INFO]: kobe_bryant was killed
-[17:05:37] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:38] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:38] [Server thread/INFO]: kobe_bryant was killed
-[17:05:38] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:38] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:38] [Server thread/INFO]: kobe_bryant was killed
-[17:05:38] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:39] [Server thread/INFO]: wo8suei issued server command: /kill kobe_bryant
-[17:05:39] [Server thread/INFO]: kobe_bryant was killed
-[17:05:39] [Server thread/INFO]: [wo8suei: Killed kobe_bryant]
-[17:05:39] [Server thread/INFO]: wo8suei issued server command: /
-[17:05:54] [User Authenticator #6/INFO]: UUID of player zajk is fa6f1944-2475-39d4-a2a2-1a4540d7f452
-[17:05:55] [Server thread/INFO]: zajk joined the game
-[17:05:55] [Server thread/INFO]: zajk[/127.0.0.1:61060] logged in with entity id 12426 at ([world]-296.42374276361227, 94.0, -46.85272030703323)
-[17:06:45] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:08:03] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:08:03] [Server thread/WARN]: zajk moved too quickly! 398.97888645323707,23.033183217179072,-3.4883796915938916
-[17:08:04] [Server thread/INFO]: zajk fell from a high place
-[17:08:17] [Server thread/INFO]: zajk issued server command: /huskhomes:back
-[17:08:35] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:09:12] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
-[17:09:12] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
-[17:09:17] [Server thread/INFO]: kobe_bryant issued server command: /mine
-[17:09:31] [Server thread/INFO]: Kousaka_Haruka issued server command: /mine setting
-[17:09:33] [Server thread/INFO]: zajk fell from a high place
-[17:09:44] [Server thread/INFO]: kobe_bryant issued server command: /mine setting
-[17:10:02] [Server thread/INFO]: zajk issued server command: /mine setting
-[17:10:26] [Server thread/INFO]: zajk issued server command: /mine
-[17:11:07] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[17:11:07] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[17:12:10] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:12:36] [Server thread/INFO]: kobe_bryant issued server command: /fill 13 113 -52
-[17:13:01] [Server thread/INFO]: kobe_bryant issued server command: /fill 13 113 -52 23 113 -63 minecraft:water
-[17:13:01] [Server thread/INFO]: [kobe_bryant: Successfully filled 119 block(s)]
-[17:13:31] [Server thread/INFO]: Kousaka_Haruka issued server command: /time set day
-[17:13:31] [Server thread/INFO]: [Kousaka_Haruka: Set the time to 1000]
-[17:13:31] [Server thread/INFO]: kobe_bryant issued server command: /fill 14 113 -60
-[17:13:47] [Server thread/INFO]: kobe_bryant issued server command: /fill 14 113 -60 31 113 -79 minecraft:water
-[17:13:47] [Server thread/INFO]: [kobe_bryant: Successfully filled 242 block(s)]
-[17:14:03] [Server thread/INFO]: kobe_bryant issued server command: /fill 14 113 -68
-[17:14:19] [Server thread/INFO]: kobe_bryant issued server command: /fill 14 113 -68 23 113 -79 minecraft:dirt
-[17:14:19] [Server thread/INFO]: [kobe_bryant: Successfully filled 120 block(s)]
-[17:14:58] [Server thread/INFO]: kobe_bryant issued server command: /fill 31 113 -79
-[17:15:11] [Server thread/INFO]: kobe_bryant issued server command: /fill 31 113 -79 39 113 -72 water
-[17:15:11] [Server thread/INFO]: [kobe_bryant: Successfully filled 44 block(s)]
-[17:15:13] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:15:16] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:15:41] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:15:45] [Server thread/INFO]: kobe_bryant issued server command: /fill 31 113 -79 43 113 -83 water\
-[17:15:49] [Server thread/INFO]: kobe_bryant issued server command: /fill 31 113 -79 43 113 -83 water
-[17:15:49] [Server thread/INFO]: [kobe_bryant: Successfully filled 44 block(s)]
-[17:16:27] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:16:48] [Server thread/INFO]: kobe_bryant issued server command: /effect give Kousaka_Haruka minecraft:levitation infinite 255
-[17:16:48] [Server thread/INFO]: [kobe_bryant: Applied effect Levitation to Kousaka_Haruka]
-[17:16:54] [Server thread/INFO]: zajk fell out of the world
-[17:17:06] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival Kousaka_Haruka
-[17:17:06] [Server thread/INFO]: [kobe_bryant: Set Kousaka_Haruka's game mode to Survival Mode]
-[17:17:11] [Server thread/INFO]: Kousaka_Haruka issued server command: /effect clear
-[17:17:11] [Server thread/INFO]: [Kousaka_Haruka: Removed every effect from Kousaka_Haruka]
-[17:17:21] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:17:32] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[17:17:32] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[17:17:53] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:18:14] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:18:27] [Server thread/INFO]: kobe_bryant issued server command: /fill 64 170 -64
-[17:18:36] [Server thread/INFO]: kobe_bryant issued server command: /fill 64 170 -64 68 115 -60 air
-[17:18:36] [Server thread/INFO]: [kobe_bryant: Successfully filled 266 block(s)]
-[17:19:16] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:19:55] [Server thread/INFO]: zajk was slain by Lvl 5 | Enderman
-[17:20:03] [Server thread/INFO]: kobe_bryant issued server command: /tp zajk
-[17:20:03] [Server thread/INFO]: zajk issued server command: /huskhomes:back
-[17:20:18] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:20:28] [Server thread/INFO]: kobe_bryant issued server command: /tp zajk
-[17:20:28] [Server thread/WARN]: kobe_bryant moved too quickly! -667.2100055773772,-45.0,-821.6269282762648
-[17:20:57] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
-[17:20:57] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
-[17:21:21] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:21:47] [Server thread/INFO]: kobe_bryant issued server command: /kill
-[17:21:47] [Server thread/INFO]: kobe_bryant was killed
-[17:21:47] [Server thread/INFO]: [kobe_bryant: Killed kobe_bryant]
-[17:21:59] [Server thread/INFO]: kobe_bryant issued server command: /huskhomes:back
-[17:22:05] [Server thread/INFO]: zajk issued server command: /kill
-[17:22:05] [Server thread/INFO]: zajk was killed
-[17:22:05] [Server thread/INFO]: [zajk: Killed zajk]
-[17:22:05] [Server thread/INFO]: kobe_bryant issued server command: /kill
-[17:22:05] [Server thread/INFO]: kobe_bryant was killed
-[17:22:05] [Server thread/INFO]: [kobe_bryant: Killed kobe_bryant]
-[17:22:07] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[17:22:07] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[17:22:16] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
-[17:22:16] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
-[17:22:19] [Server thread/INFO]: Kousaka_Haruka issued server command: /kill
-[17:22:19] [Server thread/INFO]: Kousaka_Haruka was killed
-[17:22:19] [Server thread/INFO]: [Kousaka_Haruka: Killed Kousaka_Haruka]
-[17:22:22] [Server thread/INFO]: Kousaka_Haruka issued server command: /huskhomes:back
-[17:22:22] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -21.18363927071229,45.22533141325155,-13.838475760592772
-[17:22:22] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -21.18363927071229,45.22533141325155,-13.838475760592772
-[17:22:23] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:22:28] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp wo8suei
-[17:22:28] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 53.341027305156445,-39.72533141325155,-98.22795059546196
-[17:22:31] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[17:22:31] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[17:22:34] [Server thread/INFO]: kobe_bryant issued server command: /gamemode survival
-[17:22:34] [Server thread/INFO]: [kobe_bryant: Set own game mode to Survival Mode]
-[17:22:35] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:22:47] [Server thread/INFO]: wo8suei issued server command: /mine
-[17:22:51] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[17:22:51] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[17:22:55] [Server thread/INFO]: wo8suei issued server command: /gamemode survival
-[17:22:55] [Server thread/INFO]: [wo8suei: Set own game mode to Survival Mode]
-[17:23:04] [Server thread/INFO]: Kousaka_Haruka issued server command: /tpa wo8suei
-[17:23:25] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:23:44] [Server thread/INFO]: Kousaka_Haruka issued server command: /time set day
-[17:23:44] [Server thread/INFO]: [Kousaka_Haruka: Set the time to 1000]
-[17:23:57] [Server thread/INFO]: wo8suei issued server command: /gamemode creative
-[17:23:57] [Server thread/INFO]: [wo8suei: Set own game mode to Creative Mode]
-[17:24:27] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:25:02] [Server thread/INFO]: kobe_bryant issued server command: /summon minecraft:endermite
-[17:25:02] [Server thread/INFO]: [kobe_bryant: Summoned new Endermite]
-[17:25:29] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:25:30] [Server thread/INFO]: Named entity Endermite['命'/20386, uuid='8ccca0c0-a125-4ba7-b40b-f0f853c26b1d', l='ServerLevel[world_the_end]', x=214.73, y=23.06, z=0.80, cpos=[13, 0], tl=561, v=true] died: 命 was shot by kobe_bryant
-[17:25:55] [Server thread/INFO]: kobe_bryant issued server command: /summon minecraft:endermite
-[17:25:55] [Server thread/INFO]: [kobe_bryant: Summoned new Endermite]
-[17:26:32] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:26:32] [Server thread/INFO]: kobe_bryant issued server command: /summon minecraft:endermite
-[17:26:32] [Server thread/INFO]: [kobe_bryant: Summoned new Endermite]
-[17:27:34] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:28:03] [Server thread/INFO]: Named entity Endermite['命'/20908, uuid='b17629d4-31d2-43e6-8db8-fdf845aab888', l='ServerLevel[world_the_end]', x=213.73, y=19.00, z=2.16, cpos=[13, 0], tl=2558, v=true] died: 命 was slain by Enderman
-[17:28:20] [Server thread/INFO]: kobe_bryant issued server command: /summon minecraft:endermite
-[17:28:20] [Server thread/INFO]: [kobe_bryant: Summoned new Endermite]
-[17:28:36] [Server thread/INFO]: mrpckannan issued server command: /spectate Kousaka_Haruka
-[17:28:46] [Server thread/INFO]: Named entity Endermite['命'/21274, uuid='dd3918f3-bf20-425f-8002-a3c450777a10', l='ServerLevel[world_the_end]', x=212.46, y=19.00, z=-0.49, cpos=[13, -1], tl=2680, v=true] died: 命 was slain by Enderman
-[17:29:31] [Server thread/INFO]: kobe_bryant issued server command: /summon minecraft:ender_dragon
-[17:29:31] [Server thread/INFO]: [kobe_bryant: Summoned new Ender Dragon]
-[17:29:35] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:29:42] [Server thread/INFO]: zajk suffocated in a wall
-[17:29:44] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:29:44] [Server thread/WARN]: zajk moved too quickly! 153.99158271272782,-88.5,2.6044880507088486
-[17:29:47] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
-[17:29:47] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 184.5555702821192,-120.37067647942578,28.39152422615284
-[17:29:49] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:30:00] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:30:00] [Server thread/WARN]: zajk moved too quickly! 16.802307331880996,35.913177333795645,-4.561097948418615
-[17:30:03] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
-[17:30:03] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 16.478940070216083,35.515671503659185,-11.065236923788582
-[17:30:05] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:30:09] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant4
-[17:30:10] [Server thread/INFO]: zajk suffocated in a wall
-[17:30:15] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
-[17:30:20] [Server thread/INFO]: Kousaka_Haruka issued server command: /kill
-[17:30:20] [Server thread/INFO]: Kousaka_Haruka was killed
-[17:30:20] [Server thread/INFO]: [Kousaka_Haruka: Killed Kousaka_Haruka]
-[17:30:24] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[17:30:24] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[17:30:39] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[17:30:39] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[17:30:46] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:30:53] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:31:03] [Server thread/INFO]: zajk issued server command: /gamemode spectator
-[17:31:03] [Server thread/INFO]: [zajk: Set own game mode to Spectator Mode]
-[17:31:08] [Server thread/INFO]: Kousaka_Haruka issued server command: /kill @e[distance=10..]
-[17:31:08] [Server thread/INFO]: Named entity EnderMan['命'/20161, uuid='aabb5549-a72e-4a68-b6c6-e72b37d26989', l='ServerLevel[world_the_end]', x=213.30, y=1.00, z=-0.70, cpos=[13, -1], tl=7938, v=true] died: 命 was killed
-[17:31:08] [Server thread/INFO]: Named entity EnderMan['命'/19787, uuid='f1904d45-b6dd-493b-a4c8-ee3de23223dd', l='ServerLevel[world_the_end]', x=214.46, y=1.00, z=1.06, cpos=[13, 0], tl=8856, v=true] died: 命 was killed
-[17:31:08] [Server thread/INFO]: kobe_bryant was killed
-[17:31:08] [Server thread/INFO]: Named entity EnderMan['命'/19606, uuid='fe7803a6-fd51-40e9-ab76-32e19521bae9', l='ServerLevel[world_the_end]', x=215.01, y=1.00, z=1.70, cpos=[13, 0], tl=9242, v=true] died: 命 was killed
-[17:31:08] [Server thread/INFO]: Named entity Endermite['命'/22380, uuid='49077ca9-e4f0-474b-ae5e-5516d12b2a49', l='ServerLevel[world_the_end]', x=214.51, y=23.25, z=0.51, cpos=[13, 0], tl=3354, v=true] died: 命 was killed
-[17:31:08] [Server thread/INFO]: Named entity EnderMan['命'/19808, uuid='8cf4d420-e112-48a2-b49b-83865b38780b', l='ServerLevel[world_the_end]', x=213.30, y=1.00, z=-0.70, cpos=[13, -1], tl=8804, v=true] died: 命 was killed
-[17:31:08] [Server thread/INFO]: Named entity EnderMan['命'/19501, uuid='49e0667f-4125-439a-909e-cf0479c397ab', l='ServerLevel[world_the_end]', x=214.04, y=1.00, z=0.11, cpos=[13, 0], tl=9511, v=true] died: 命 was killed
-[17:31:08] [Server thread/INFO]: Named entity EnderMan['命'/22088, uuid='a85c307d-5877-4a60-a78b-9ba63d06a6d7', l='ServerLevel[world_the_end]', x=215.11, y=1.00, z=0.28, cpos=[13, 0], tl=3889, v=true] died: 命 was killed
-[17:31:08] [Server thread/INFO]: [Kousaka_Haruka: Killed 80 entities]
-[17:31:11] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:31:19] [Server thread/INFO]: kobe_bryant issued server command: /tp Kousaka_Haruka
-[17:31:24] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
-[17:31:24] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
-[17:31:28] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:31:28] [Server thread/INFO]: kobe_bryant issued server command: /huskhomes:back
-[17:31:28] [Server thread/WARN]: kobe_bryant moved too quickly! -180.19999998807907,101.8556640533763,-42.19999998807907
-[17:31:29] [Server thread/INFO]: kobe_bryant issued server command: /huskhomes:back
-[17:31:30] [Server thread/INFO]: kobe_bryant issued server command: /huskhomes:back
-[17:31:32] [Server thread/INFO]: kobe_bryant issued server command: /huskhomes:back
-[17:31:37] [Server thread/INFO]: kobe_bryant issued server command: /huskhomes:back
-[17:31:51] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[17:31:51] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[17:31:59] [Folia Async Scheduler Thread Timer/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
- If this message is repeated a lot, please see https://skinsrestorer.net/firewall
-[17:32:02] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:32:09] [Server thread/INFO]: kobe_bryant issued server command: /kill enddragon
-[17:32:12] [Server thread/INFO]: zajk has made the advancement [Minecraft: Trial(s) Edition]
-[17:32:23] [Server thread/INFO]: kobe_bryant issued server command: /kill Kousaka_Haruka
-[17:32:23] [Server thread/INFO]: Kousaka_Haruka was killed
-[17:32:23] [Server thread/INFO]: [kobe_bryant: Killed Kousaka_Haruka]
-[17:32:36] [Server thread/INFO]: zajk issued server command: /spawnpoint
-[17:32:36] [Server thread/INFO]: [zajk: Set spawn point to 143, -12, -20 [0.0] in minecraft:overworld for zajk]
-[17:32:47] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
-[17:32:47] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
-[17:32:48] [Server thread/INFO]: zajk issued server command: /gamemode survival
-[17:32:48] [Server thread/INFO]: [zajk: Set own game mode to Survival Mode]
-[17:32:54] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[17:32:54] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[17:33:09] [Server thread/INFO]: zajk fell from a high place
-[17:33:14] [Server thread/INFO]: zajk issued server command: /huskhomes:back
-[17:33:15] [Server thread/WARN]: zajk moved too quickly! -6.368573531586094,-13.0,15.839212658002499
-[17:33:16] [Server thread/INFO]: zajk issued server command: /
-[17:33:54] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp wo8suei
-[17:33:55] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -0.4848352878566402,-61.10572076676627,-172.88493226568238
-[17:34:18] [Server thread/INFO]: Kousaka_Haruka issued server command: /time set day
-[17:34:18] [Server thread/INFO]: [Kousaka_Haruka: Set the time to 1000]
-[17:34:35] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:34:43] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:34:44] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:34:44] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:34:45] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:34:46] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:34:47] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:34:48] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:34:49] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:34:49] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:35:07] [Server thread/INFO]: zajk issued server command: /spawnpoint
-[17:35:07] [Server thread/INFO]: [zajk: Set spawn point to 153, -13, 41 [0.0] in minecraft:overworld for zajk]
-[17:36:36] [Server thread/INFO]: kobe_bryant issued server command: /fill 9 87 36
-[17:36:39] [Server thread/INFO]: zajk has completed the challenge [It Spreads]
-[17:36:42] [Server thread/INFO]: zajk was slain by Lvl 11 | Husk
-[17:36:45] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
-[17:36:45] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
-[17:36:53] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[17:36:53] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[17:37:03] [Server thread/INFO]: kobe_bryant issued server command: /fill 9 87 36 15 0 42 air
-[17:37:03] [Server thread/INFO]: [kobe_bryant: Successfully filled 3817 block(s)]
-[17:37:05] [Server thread/INFO]: kobe_bryant issued server command: /kill
-[17:37:05] [Server thread/INFO]: kobe_bryant was killed
-[17:37:05] [Server thread/INFO]: [kobe_bryant: Killed kobe_bryant]
-[17:37:16] [Server thread/INFO]: kobe_bryant issued server command: /tp wo8suei
-[17:37:17] [Server thread/INFO]: zajk was slain by Lvl 12 | Husk
-[17:37:20] [Server thread/INFO]: zajk issued server command: /huskhomes:back
-[17:37:22] [Server thread/INFO]: zajk issued server command: /d
-[17:37:32] [Server thread/INFO]: zajk was slain by Lvl 2 | Husk
-[17:38:05] [Server thread/INFO]: kobe_bryant issued server command: /tp -60000 200 0
-[17:38:31] [Server thread/INFO]: kobe_bryant issued server command: /weather clear
-[17:38:31] [Server thread/INFO]: [kobe_bryant: Set the weather to clear]
-[17:39:46] [Server thread/INFO]: kobe_bryant issued server command: /fill -59409 71 128 -59409 171 128 minecraft:red_concrete
-[17:39:46] [Server thread/INFO]: [kobe_bryant: Successfully filled 101 block(s)]
-[17:40:24] [Server thread/INFO]: kobe_bryant issued server command: /fill -59664 68 128 -59664 168 128 minecraft:red_concrete
-[17:40:24] [Server thread/INFO]: [kobe_bryant: Successfully filled 101 block(s)]
-[17:40:35] [Server thread/INFO]: wo8suei issued server command: /kill @e[ type=item]
-[17:40:35] [Server thread/INFO]: [wo8suei: Killed 16 entities]
-[17:40:41] [Server thread/INFO]: zajk issued server command: /gamemode creative
-[17:40:41] [Server thread/INFO]: [zajk: Set own game mode to Creative Mode]
-[17:41:03] [Server thread/INFO]: kobe_bryant issued server command: /tp -50000 100 0
-[17:41:14] [Server thread/INFO]: kobe_bryant issued server command: /tp -60000 100 0
-[17:41:14] [Server thread/WARN]: kobe_bryant moved too quickly! -10000.907999191048,11.168723534676317,-1.136568384208468
-[17:41:42] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 46 0 -60001 246 0 minecraft:red_concrete
-[17:41:42] [Server thread/INFO]: [kobe_bryant: Successfully filled 201 block(s)]
-[17:42:17] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 47 255 -60001 247 255 minecraft:red_concrete
-[17:42:17] [Server thread/INFO]: [kobe_bryant: Successfully filled 201 block(s)]
-[17:42:30] [Server thread/INFO]: wo8suei issued server command: /tp zajk
-[17:42:31] [Server thread/INFO]: wo8suei has made the advancement [Minecraft: Trial(s) Edition]
-[17:42:48] [Server thread/INFO]: zajk issued server command: /gamemode survival
-[17:42:48] [Server thread/INFO]: [zajk: Set own game mode to Survival Mode]
-[17:42:51] [Server thread/INFO]: zajk was shot by Lvl 3 | Bogged
-[17:43:01] [Server thread/INFO]: kobe_bryant issued server command: /fill -60256 9 255 -60256 269 255 minecraft:red_concrete
-[17:43:01] [Server thread/INFO]: [kobe_bryant: Successfully filled 261 block(s)]
-[17:43:06] [Server thread/INFO]: wo8suei issued server command: /tp Kousaka_Haruka
-[17:43:21] [Server thread/INFO]: zajk issued server command: /huskhomes:back
-[17:43:22] [Server thread/WARN]: zajk moved too quickly! -55.96326916007989,0.0,-5.317653825874309
-[17:43:22] [Server thread/INFO]: zajk issued server command: /
-[17:43:26] [Server thread/INFO]: wo8suei issued server command: /sethome
-[17:43:29] [Server thread/INFO]: wo8suei issued server command: /sit
-[17:43:35] [Server thread/INFO]: kobe_bryant issued server command: /fill -60256 59 0 -60256 259 0 minecraft:red_concrete
-[17:43:35] [Server thread/INFO]: [kobe_bryant: Successfully filled 201 block(s)]
-[17:43:39] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[17:43:53] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp wo8suei mrpckannan
-[17:43:59] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 62 0
-[17:44:10] [Server thread/INFO]: Kousaka_Haruka issued server command: /time set day
-[17:44:10] [Server thread/INFO]: [Kousaka_Haruka: Set the time to 1000]
-[17:44:31] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 62 0 -60064 41 31 air
-[17:44:54] [Server thread/INFO]: zajk issued server command: /spawnpoint
-[17:44:54] [Server thread/INFO]: [zajk: Set spawn point to 95, -20, 41 [0.0] in minecraft:overworld for zajk]
-[17:45:05] [Server thread/INFO]: zajk was slain by Lvl 4 | Husk
-[17:45:12] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 62 0 -60064 49 31 air
-[17:45:12] [Server thread/INFO]: [kobe_bryant: Successfully filled 28672 block(s)]
-[17:45:20] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 62 0 -60064 49 31 air
-[17:45:20] [Server thread/INFO]: [kobe_bryant: Successfully filled 28672 block(s)]
-[17:45:33] [Server thread/INFO]: zajk was slain by Lvl 9 | Husk
-[17:45:35] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 62 0 -60064 49 31 air
-[17:45:35] [Server thread/INFO]: [kobe_bryant: Successfully filled 28672 block(s)]
-[17:45:53] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 47 0
-[17:46:02] [Server thread/INFO]: zajk was shot by Lvl 9 | Bogged
-[17:46:11] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 47 0 -60001 67 256 minecraft:red_concrete
-[17:46:45] [Server thread/INFO]: zajk was shot by Lvl 4 | Bogged
-[17:46:51] [Server thread/INFO]: zajk issued server command: /huskhomes:back
-[17:46:51] [Server thread/INFO]: zajk issued server command: /
-[17:47:02] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 47 0 -60001 67 256
-[17:47:11] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 47 0 -60001 67 256 minecraft:red_concrete
-[17:47:13] [Server thread/INFO]: zajk was shot by Lvl 4 | Bogged
-[17:47:21] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
-[17:47:21] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -60046.82544390965,-73.78368984010159,288.3988040664798
-[17:47:40] [Server thread/INFO]: zajk was shot by Lvl 2 | Bogged
-[17:47:42] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 47 0 -60001 67 256 minecraft:red_concrete
-[17:47:42] [Server thread/INFO]: [kobe_bryant: Successfully filled 5369 block(s)]
-[17:47:51] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
-[17:47:51] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -1.696769915652112,-1.5023387729791153,142.6037427654573
-[17:47:52] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 67 255
-[17:48:07] [Server thread/INFO]: wo8suei issued server command: /sit
-[17:48:15] [Server thread/INFO]: kobe_bryant issued server command: /fill -60001 67 255 -60254 57 255 minecraft:red_concrete
-[17:48:15] [Server thread/INFO]: [kobe_bryant: Successfully filled 2783 block(s)]
-[17:48:17] [Server thread/INFO]: zajk was shot by Lvl 2 | Bogged
-[17:48:24] [Server thread/INFO]: wo8suei issued server command: /sit
-[17:48:36] [Server thread/INFO]: kobe_bryant issued server command: /fill -60256 67 255
-[17:48:43] [Server thread/INFO]: zajk issued server command: /gamemode creative
-[17:48:43] [Server thread/INFO]: [zajk: Set own game mode to Creative Mode]
-[17:49:07] [Server thread/INFO]: kobe_bryant issued server command: /fill -60256 67 255 -60256 52 0 minecraft:red_concrete
-[17:49:07] [Server thread/INFO]: [kobe_bryant: Successfully filled 4071 block(s)]
-[17:49:09] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
-[17:49:09] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
-[17:49:14] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[17:49:14] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[17:49:18] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
-[17:49:18] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 2.800734262513288,-15.383335078500338,-169.5215627050635
-[17:49:21] [Server thread/INFO]: kobe_bryant issued server command: /fill -60256 67 0
-[17:49:48] [Server thread/INFO]: kobe_bryant issued server command: /fill -60256 67 0 -60001 47 0 minecraft:red_concrete
-[17:49:48] [Server thread/INFO]: [kobe_bryant: Successfully filled 5339 block(s)]
-[17:49:58] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp Kousaka_Haruka
-[17:50:01] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 62 1
-[17:50:01] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp kobe_bryant
-[17:50:01] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 241.90940995956043,-7.8842660636941275,2.7623008062200727
-[17:50:26] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp wo8suei
-[17:50:26] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 60096.219009828616,43.14655430115725,-7.384500928374038
-[17:50:44] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 62 1 -60064 48 31 air
-[17:50:44] [Server thread/INFO]: [kobe_bryant: Successfully filled 29295 block(s)]
-[17:51:13] [Server thread/INFO]: zajk issued server command: /gamemode survival
-[17:51:13] [Server thread/INFO]: [zajk: Set own game mode to Survival Mode]
-[17:51:15] [User Authenticator #7/INFO]: UUID of player 666 is 1ee79799-5aa3-3433-bd37-90203ecd5ce7
-[17:51:18] [Server thread/INFO]: kobe_bryant issued server command: /fill -60064 67 1
-[17:51:20] [Server thread/INFO]: 666 joined the game
-[17:51:20] [Server thread/INFO]: 666[/127.0.0.1:63571] logged in with entity id 39900 at ([world]58.5, 113.0, -11.5)
-[17:51:24] [Server thread/INFO]: wo8suei issued server command: /sit
-[17:51:29] [Async Chat Thread - #5/INFO]: [Not Secure] [无段位]<wo8suei> ????
-[17:51:34] [Server thread/INFO]: wo8suei issued server command: /tp 666
-[17:51:34] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode adventure 666
-[17:51:34] [Server thread/INFO]: [Kousaka_Haruka: Set 666's game mode to Adventure Mode]
-[17:51:36] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<666> me
-[17:51:39] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<wo8suei> ?
-[17:51:42] [Server thread/INFO]: kobe_bryant issued server command: /fill -60064 67 1 -60064 -49 31 minecraft:red_concrete
-[17:51:42] [Server thread/INFO]: [kobe_bryant: Successfully filled 3600 block(s)]
-[17:51:54] [Server thread/INFO]: kobe_bryant issued server command: /fill -60064 67 31
-[17:51:54] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<wo8suei> who are you?
-[17:52:12] [Server thread/INFO]: kobe_bryant issued server command: /fill -60064 67 31 -60001 -67 31 minecraft:red_concrete
-[17:52:24] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<666> 手机好卡
-[17:52:27] [Server thread/INFO]: kobe_bryant issued server command: /fill -60064 67 31 -60001 0 31 minecraft:red_concrete
-[17:52:27] [Server thread/INFO]: [kobe_bryant: Successfully filled 4263 block(s)]
-[17:52:36] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<wo8suei> hym?
-[17:52:53] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<666> yes
-[17:53:03] [Server thread/INFO]: zajk issued server command: /gamemode creative
-[17:53:03] [Server thread/INFO]: [zajk: Set own game mode to Creative Mode]
-[17:53:04] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 63 1
-[17:53:16] [Async Chat Thread - #5/INFO]: [Not Secure] [无段位]<666> 给我op
-[17:53:18] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 63 1 -60063 33 30 air
-[17:53:20] [Server thread/INFO]: wo8suei issued server command: /op 666
-[17:53:20] [Server thread/INFO]: [wo8suei: Made 666 a server operator]
-[17:53:24] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 63 1 -60063 53 30 air
-[17:53:24] [Server thread/INFO]: [kobe_bryant: Successfully filled 18602 block(s)]
-[17:53:29] [Server thread/INFO]: zajk issued server command: /gamemode survival
-[17:53:29] [Server thread/INFO]: [zajk: Set own game mode to Survival Mode]
-[17:53:33] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 33 1 -60063 53 30 air
-[17:53:39] [Server thread/INFO]: wo8suei lost connection: Disconnected
-[17:53:39] [Server thread/INFO]: wo8suei left the game
-[17:53:47] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 35 1 -60063 53 30 air
-[17:53:53] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 37 1 -60063 53 30 air
-[17:53:54] [Server thread/INFO]: [kobe_bryant: Successfully filled 29760 block(s)]
-[17:53:54] [Server thread/INFO]: 666 issued server command: /gamemode spectator
-[17:53:54] [Server thread/INFO]: [666: Set own game mode to Spectator Mode]
-[17:54:04] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 37 1 -60063 13 30 air
-[17:54:11] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 37 1 -60063 22 30 air
-[17:54:11] [Server thread/INFO]: [kobe_bryant: Successfully filled 28329 block(s)]
-[17:54:17] [Server thread/INFO]: Kousaka_Haruka issued server command: /time set day
-[17:54:17] [Server thread/INFO]: [Kousaka_Haruka: Set the time to 1000]
-[17:54:20] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 7 1 -60063 22 30 air
-[17:54:20] [Server thread/INFO]: [kobe_bryant: Successfully filled 28319 block(s)]
-[17:54:28] [Server thread/INFO]: zajk was shot by Lvl 6 | Bogged
-[17:54:30] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 7 1 -60063 -8 30 air
-[17:54:30] [Server thread/INFO]: [kobe_bryant: Successfully filled 28425 block(s)]
-[17:54:34] [Server thread/INFO]: 666 issued server command: /tp mrpckannan
-[17:54:41] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 -23 1 -60063 -8 30 air
-[17:54:41] [Server thread/INFO]: [kobe_bryant: Successfully filled 28378 block(s)]
-[17:54:49] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 -23 1 -60063 -41 30 air
-[17:54:59] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 -23 1 -60063 -40 30 air
-[17:55:06] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 -23 1 -60063 -439 30 air
-[17:55:11] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 -23 1 -60063 -39 30 air
-[17:55:11] [Server thread/INFO]: [kobe_bryant: Successfully filled 29854 block(s)]
-[17:55:11] [Server thread/INFO]: zajk was slain by Lvl 8 | Husk
-[17:55:19] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 -54 1 -60063 -39 30 air
-[17:55:19] [Server thread/INFO]: [kobe_bryant: Successfully filled 27716 block(s)]
-[17:55:26] [Server thread/INFO]: kobe_bryant issued server command: /fill -60002 -54 1 -60063 -64 30 air
-[17:55:27] [Server thread/INFO]: [kobe_bryant: Successfully filled 19267 block(s)]
-[17:55:28] [Server thread/INFO]: zajk issued server command: /gamemode creative
-[17:55:28] [Server thread/INFO]: [zajk: Set own game mode to Creative Mode]
-[17:55:28] [Server thread/INFO]: 666 lost connection: Disconnected
-[17:55:28] [Server thread/INFO]: 666 left the game
-[17:55:45] [Server thread/INFO]: zajk issued server command: /gamemode survival
-[17:55:45] [Server thread/INFO]: [zajk: Set own game mode to Survival Mode]
-[17:55:47] [Server thread/INFO]: kobe_bryant issued server command: /fill -60065 67 31
-[17:55:59] [User Authenticator #8/INFO]: UUID of player 666 is 1ee79799-5aa3-3433-bd37-90203ecd5ce7
-[17:56:00] [Server thread/INFO]: zajk was slain by Lvl 8 | Husk
-[17:56:01] [Server thread/INFO]: 666 joined the game
-[17:56:01] [Server thread/INFO]: 666[/127.0.0.1:63811] logged in with entity id 42262 at ([world]96.30000001192093, 114.03784995786951, -89.110981719804)
-[17:56:03] [Server thread/INFO]: kobe_bryant issued server command: /fill -60065 67 31 -60128 48 31 minecraft:red_concrete
-[17:56:03] [Server thread/INFO]: [kobe_bryant: Successfully filled 1278 block(s)]
-[17:56:09] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:56:14] [Server thread/INFO]: kobe_bryant issued server command: /fill -60128 63 31
-[17:56:26] [Server thread/INFO]: kobe_bryant issued server command: /fill -60128 63 31 -60128 67 0 minecraft:red_concrete
-[17:56:26] [Server thread/INFO]: [kobe_bryant: Successfully filled 150 block(s)]
-[17:56:49] [Server thread/INFO]: kobe_bryant issued server command: /fill -60128 63 31 -60128 50 0 minecraft:red_concrete
-[17:56:49] [Server thread/INFO]: [kobe_bryant: Successfully filled 389 block(s)]
-[17:56:58] [Server thread/INFO]: zajk issued server command: /tp kobe_bryant
-[17:56:58] [Server thread/WARN]: zajk moved too quickly! -10.900581071371562,4.747397125176462,-6.261831312377154
-[17:57:00] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 62 30
-[17:57:13] [Server thread/INFO]: zajk issued server command: /tp mrpckannan
-[17:57:13] [Server thread/WARN]: zajk moved too quickly! 60164.785263042395,94.78217827416233,-52.272571730885986
-[17:57:25] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 62 30 -60065 47 1air
-[17:57:29] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 62 30 -60065 47 1 air
-[17:57:29] [Server thread/INFO]: [kobe_bryant: Successfully filled 30240 block(s)]
-[17:57:29] [Server thread/INFO]: 666 lost connection: Timed out
-[17:57:29] [Server thread/INFO]: 666 left the game
-[17:57:39] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 32 30 -60065 47 1 air
-[17:57:40] [Server thread/INFO]: [kobe_bryant: Successfully filled 28555 block(s)]
-[17:57:52] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 32 30 -60065 17 1 air
-[17:57:52] [Server thread/INFO]: [kobe_bryant: Successfully filled 28660 block(s)]
-[17:57:53] [Server thread/INFO]: zajk issued server command: /spawnpoint
-[17:57:53] [Server thread/INFO]: [zajk: Set spawn point to 27, 112, -18 [0.0] in minecraft:overworld for zajk]
-[17:57:58] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 2 30 -60065 17 1 air
-[17:57:58] [Server thread/INFO]: [kobe_bryant: Successfully filled 29012 block(s)]
-[17:58:06] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 2 30 -60065 -14 1 air
-[17:58:06] [Server thread/INFO]: [kobe_bryant: Successfully filled 29450 block(s)]
-[17:58:16] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 -31 30 -60065 -14 1 air
-[17:58:22] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 -30 30 -60065 -14 1 air
-[17:58:23] [Server thread/INFO]: [kobe_bryant: Successfully filled 29387 block(s)]
-[17:58:30] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 -30 30 -60065 -46 1 air
-[17:58:30] [Server thread/INFO]: [kobe_bryant: Successfully filled 29926 block(s)]
-[17:58:46] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 -55 30 -60065 -46 1 air
-[17:58:46] [Server thread/INFO]: [kobe_bryant: Successfully filled 18123 block(s)]
-[17:58:53] [Server thread/INFO]: kobe_bryant issued server command: /fill -60127 -55 30 -60065 -64 1 air
-[17:58:53] [Server thread/INFO]: [kobe_bryant: Successfully filled 18123 block(s)]
-[17:59:13] [Server thread/INFO]: zajk has made the advancement [Enchanter]
-[17:59:37] [Server thread/INFO]: kobe_bryant issued server command: /fill -60192 65 31
-[17:59:59] [Server thread/INFO]: kobe_bryant issued server command: /fill -60192 65 31 -60192 8 0 minecraft:red_concrete
-[17:59:59] [Server thread/INFO]: [kobe_bryant: Successfully filled 1819 block(s)]
-[18:00:13] [Server thread/INFO]: kobe_bryant issued server command: /fill -60192 65 31 -60129 67 31 minecraft:red_concrete
-[18:00:13] [Server thread/INFO]: [kobe_bryant: Successfully filled 190 block(s)]
-[18:00:23] [Server thread/INFO]: kobe_bryant issued server command: /fill -60129 62 1
-[18:00:37] [Server thread/INFO]: zajk issued server command: /experience add zajk 1000000000
-[18:00:37] [Server thread/INFO]: [zajk: Gave 1000000000 experience points to zajk]
-[18:00:49] [Server thread/INFO]: kobe_bryant issued server command: /fill -60129 62 1 -60191 47 30 air
-[18:00:49] [Server thread/INFO]: [kobe_bryant: Successfully filled 30240 block(s)]
-[18:00:59] [Server thread/INFO]: kobe_bryant issued server command: /fill -60129 32 1 -60191 47 30 air
-[18:00:59] [Server thread/INFO]: [kobe_bryant: Successfully filled 28733 block(s)]
-[18:01:09] [Server thread/INFO]: kobe_bryant issued server command: /fill -60129 32 1 -60191 17 30 air
-[18:01:09] [Server thread/INFO]: [kobe_bryant: Successfully filled 29031 block(s)]
-[18:01:14] [Server thread/INFO]: kobe_bryant issued server command: /fill -60129 2 1 -60191 17 30 air
-[18:01:14] [Server thread/INFO]: [kobe_bryant: Successfully filled 29073 block(s)]
-[18:01:23] [Server thread/INFO]: kobe_bryant issued server command: /fill -60129 2 1 -60191 -13 30 air
-[18:01:23] [Server thread/INFO]: [kobe_bryant: Successfully filled 28694 block(s)]
-[18:01:32] [Server thread/INFO]: kobe_bryant issued server command: /fill -60129 -28 1 -60191 -13 30 air
-[18:01:32] [Server thread/INFO]: [kobe_bryant: Successfully filled 28962 block(s)]
-[18:01:41] [Server thread/INFO]: kobe_bryant issued server command: /fill -60129 -28 1 -60191 -44 30 air
-[18:01:41] [Server thread/INFO]: [kobe_bryant: Successfully filled 29821 block(s)]
-[18:01:49] [Server thread/INFO]: kobe_bryant issued server command: /fill -60129 -55 1 -60191 -44 30 air
-[18:01:49] [Server thread/INFO]: [kobe_bryant: Successfully filled 20226 block(s)]
-[18:01:53] [Server thread/INFO]: kobe_bryant issued server command: /fill -60129 -55 1 -60191 -64 30 air
-[18:01:53] [Server thread/INFO]: [kobe_bryant: Successfully filled 17922 block(s)]
-[18:02:13] [Server thread/INFO]: kobe_bryant issued server command: /fill -60193 65 31
-[18:02:44] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
-[18:02:44] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
-[18:03:12] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[18:03:12] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[18:03:14] [Server thread/INFO]: kobe_bryant issued server command: /kill
-[18:03:14] [Server thread/INFO]: kobe_bryant was killed
-[18:03:14] [Server thread/INFO]: [kobe_bryant: Killed kobe_bryant]
-[18:03:47] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
-[18:03:47] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
-[18:03:49] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[18:03:49] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[18:03:52] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[18:03:52] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[18:03:54] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[18:03:54] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[18:04:37] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
-[18:04:37] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
-[18:04:44] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[18:04:44] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[18:04:51] [Server thread/INFO]: zajk lost connection: Disconnected
-[18:04:51] [Server thread/INFO]: zajk left the game
-[18:05:05] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
-[18:05:05] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
-[18:05:09] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[18:05:09] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[18:05:19] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[18:05:19] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[18:05:23] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[18:05:23] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[18:06:31] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[18:06:31] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[18:06:33] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[18:06:33] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[18:06:35] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[18:06:35] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[18:06:37] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[18:06:37] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[18:06:51] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[18:06:51] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[18:06:56] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[18:06:56] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[18:08:24] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[18:08:24] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[18:08:32] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[18:08:32] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[18:08:41] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[18:08:41] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[18:08:43] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[18:08:43] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[18:09:41] [Server thread/INFO]: Kousaka_Haruka issued server command: /time set day
-[18:09:41] [Server thread/INFO]: [Kousaka_Haruka: Set the time to 1000]
-[18:11:24] [Server thread/INFO]: kobe_bryant issued server command: /execute at kobe_bryant [hasitem={item=diamond_chestplate,location=slot.armor.chest}] run effect speed 1 3 true
-[18:11:29] [Server thread/INFO]: kobe_bryant issued server command: /execute at kobe_bryant [hasitem={item=diamond_chestplate,location=slot.armor.chest}] run effect speed 1 3
-[18:12:03] [Server thread/INFO]: kobe_bryant lost connection: Disconnected
-[18:12:03] [Server thread/INFO]: kobe_bryant left the game
-[18:13:35] [User Authenticator #9/INFO]: UUID of player kobe_bryant is 9f7f62ed-43cd-35db-ad7c-73913a79719f
-[18:13:36] [Server thread/INFO]: kobe_bryant joined the game
-[18:13:36] [Server thread/INFO]: kobe_bryant[/127.0.0.1:64736] logged in with entity id 48191 at ([world]94.04076062184511, 165.71070827770595, -62.04596824178242)
-[18:13:53] [Server thread/INFO]: kobe_bryant issued server command: /tp -632 ~ 4968
-[18:14:42] [Server thread/INFO]: kobe_bryant issued server command: /gamemode spectator
-[18:14:42] [Server thread/INFO]: [kobe_bryant: Set own game mode to Spectator Mode]
-[18:14:54] [Server thread/INFO]: kobe_bryant issued server command: /gamemode creative
-[18:14:54] [Server thread/INFO]: [kobe_bryant: Set own game mode to Creative Mode]
-[18:18:02] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[18:18:02] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[18:18:02] [Server thread/INFO]: kobe_bryant issued server command: /give Kousaka_Haruka minecraft:end_rod 9999
-[18:18:05] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[18:18:05] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[18:18:10] [Server thread/INFO]: kobe_bryant issued server command: /give Kousaka_Haruka minecraft:end_rod 6400
-[18:18:10] [Server thread/INFO]: [kobe_bryant: Gave 6400 [End Rod] to Kousaka_Haruka]
-[18:18:20] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[18:18:20] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[18:18:23] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[18:18:23] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[18:18:49] [Server thread/INFO]: kobe_bryant issued server command: /mine setting
-[18:19:22] [Server thread/INFO]: kobe_bryant issued server command: /mine setting
-[18:19:25] [Server thread/INFO]: Kousaka_Haruka lost connection: Disconnected
-[18:19:25] [Server thread/INFO]: Kousaka_Haruka left the game
-[18:24:36] [Server thread/INFO]: kobe_bryant issued server command: /effect clear kobe_bryant[nbt={Inventory:[{Slt:102b,id:"minecraft:diamond_chestplate",tag:{Tags:["speed"]}}]}]
-[18:25:21] [Server thread/INFO]: kobe_bryant issued server command: /effect clear kobe_bryant[nbt={Inventory:[{Slt:102b,id:"minecraft:diamond_chestplate",tag:{Tags:["speed"]}}]}] minecraft:speed 255 1
-[18:26:07] [Server thread/INFO]: kobe_bryant issued server command: /kikll
-[18:26:10] [Server thread/INFO]: kobe_bryant issued server command: /kill
-[18:26:10] [Server thread/INFO]: kobe_bryant was killed
-[18:26:10] [Server thread/INFO]: [kobe_bryant: Killed kobe_bryant]
-[18:26:22] [Server thread/INFO]: kobe_bryant issued server command: /quit
-[18:26:24] [Server thread/INFO]: kobe_bryant lost connection: Disconnected
-[18:26:24] [Server thread/INFO]: kobe_bryant left the game
-[18:37:49] [Server thread/INFO]: Stopping the server
-[18:37:49] [Server thread/INFO]: Stopping server
-[18:37:49] [Server thread/INFO]: [DuelTime] Disabling DuelTime v3.1.3
-[18:37:49] [Server thread/INFO]: [GSit] Disabling GSit v1.13.0
-[18:37:49] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[18:37:49] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
-[18:37:49] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
-[18:37:49] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
-[18:37:49] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.1 b93
-[18:37:49] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[18:37:49] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[18:37:49] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 3ms)
-[18:37:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.152
-[18:37:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:37:49] [Craft Scheduler Thread - 1 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[18:37:49] [Craft Scheduler Thread - 2 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[18:37:49] [Server thread/INFO]: [LuckPerms] Closing storage...
-[18:37:49] [Server thread/INFO]: [LuckPerms] Goodbye!
-[18:37:49] [Server thread/INFO]: [PlayerDoll] Disabling PlayerDoll v2.3
-[18:37:51] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
-[18:37:51] [Server thread/INFO]: [ChainMining] Disabling ChainMining v1.0.9
-[18:37:51] [Server thread/INFO]: Saving players
-[18:37:51] [Server thread/INFO]: mrpckannan lost connection: Server closed
-[18:37:51] [Server thread/INFO]: mrpckannan left the game
-[18:37:51] [Server thread/INFO]: Saving worlds
-[18:37:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Saved 42 block chunks, 221 entity chunks, 0 poi chunks in world 'world' in 0.23s
-[18:37:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Saved 8 block chunks, 13 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
-[18:37:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:37:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 48 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
-[18:37:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:37:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:37:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:37:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:27:50] [Server thread/INFO]: Done (26.209s)! For help, type "help"
+[13:27:50] [Server thread/INFO]: Timings Reset
+[13:27:53] [Craft Scheduler Thread - 5 - LevelledMobs/WARN]: [LevelledMobs] LevelledMobs Update Checker Notice:
+[13:27:53] [Craft Scheduler Thread - 5 - LevelledMobs/WARN]: [LevelledMobs] Your LevelledMobs version is outdated! Please update to v4.2.0.2 as soon as possible. (You're running v4.2.0.1)
+[13:27:55] [Craft Scheduler Thread - 6 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[13:28:06] [User Authenticator #0/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
+[13:28:09] [Server thread/INFO]: Yahooingalaxy joined the game
+[13:28:09] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:51364] logged in with entity id 164 at ([world]62.09897003071388, 107.5625, -15.74817620491436)
+[13:29:32] [Server thread/INFO]: Yahooingalaxy issued server command: /gamemode creative
+[13:29:32] [Server thread/INFO]: [Yahooingalaxy: Set own game mode to Creative Mode]
+[13:38:46] [Server thread/INFO]: Yahooingalaxy issued server command: /time add
+[13:40:14] [Server thread/INFO]: Yahooingalaxy has made the advancement [Bring Home the Beacon]
+[13:46:48] [Server thread/INFO]: Yahooingalaxy lost connection: Disconnected
+[13:46:48] [Server thread/INFO]: Yahooingalaxy left the game
+[13:47:26] [Server thread/INFO]: Stopping the server
+[13:47:26] [Server thread/INFO]: Stopping server
+[13:47:26] [Server thread/INFO]: [DuelTime] Disabling DuelTime v3.1.3
+[13:47:26] [Server thread/INFO]: [GSit] Disabling GSit v1.13.0
+[13:47:26] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[13:47:26] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[13:47:26] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[13:47:26] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[13:47:26] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.1 b93
+[13:47:26] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[13:47:26] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[13:47:26] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 3ms)
+[13:47:26] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.152
+[13:47:26] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:47:26] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:47:26] [Craft Scheduler Thread - 1 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[13:47:26] [Craft Scheduler Thread - 0 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[13:47:26] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:47:26] [Server thread/INFO]: [PlayerDoll] Disabling PlayerDoll v2.3
+[13:47:28] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[13:47:28] [Server thread/INFO]: [ChainMining] Disabling ChainMining v1.0.9
+[13:47:28] [Server thread/INFO]: Saving players
+[13:47:29] [Server thread/INFO]: Saving worlds
+[13:47:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saved 35 block chunks, 105 entity chunks, 1 poi chunks in world 'world' in 0.11s
+[13:47:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 12 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[13:47:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:47:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 20 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[13:47:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:47:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:47:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:47:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
