@@ -1,361 +1,183 @@
-[14:51:03] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.1+8-16; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[14:51:03] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[14:51:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:51:06] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[14:51:06] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[19:47:47] [ServerMain/INFO]: [bootstrap] Running Java 22 (Java HotSpot(TM) 64-Bit Server VM 22.0.2+9-70; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[19:47:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[19:47:49] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:47:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[19:47:53] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - HuskHomes (4.8.3)
-[14:51:06] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+[19:47:53] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
  - ChainMining (1.0.9), DuelTime (3.1.3), GSit (1.13.0), LevelledMobs (4.2.0.1 b93), SkinsRestorer (15.5.1)
-[14:51:10] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:51:11] [ServerMain/INFO]: Loaded 1290 recipes
-[14:51:11] [ServerMain/INFO]: Loaded 1399 advancements
-[14:51:14] [Server thread/INFO]: Starting minecraft server version 1.21
-[14:51:14] [Server thread/INFO]: Loading properties
-[14:51:14] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[14:51:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:51:14] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:51:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:51:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
-[14:51:15] [Server thread/INFO]: Default game type: SURVIVAL
-[14:51:15] [Server thread/INFO]: Generating keypair
-[14:51:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:51:15] [Server thread/INFO]: Using default channel type
-[14:51:15] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[14:51:15] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[14:51:17] [Server thread/INFO]: [ChainMining] Loading server plugin ChainMining v1.0.9
-[14:51:17] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
-[14:51:17] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.2.0.1 b93
-[14:51:17] [Server thread/INFO]: [LevelledMobs] Loading commands
-[14:51:17] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
-[14:51:18] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
-[14:51:18] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
-[14:51:18] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.13.0
-[14:51:18] [Server thread/INFO]: [DuelTime] Loading server plugin DuelTime v3.1.3
-[14:51:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:51:18] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
-[14:51:19] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[14:51:20] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[14:51:21] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[14:51:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:51:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:51:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:51:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:51:21] [Server thread/INFO]: Preparing level "world"
-[14:51:21] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
- If this message is repeated a lot, please see https://skinsrestorer.net/firewall
-[14:51:21] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_nether is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_nether's world directory if you want to be able to load the duplicate world.
-[14:51:21] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_the_end is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_the_end's world directory if you want to be able to load the duplicate world.
-[14:51:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:51:22] [Server thread/INFO]: Time elapsed: 534 ms
-[14:51:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:51:22] [Server thread/INFO]: Time elapsed: 682 ms
-[14:51:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:51:23] [Server thread/INFO]: Time elapsed: 110 ms
-[14:51:23] [Server thread/INFO]: [ChainMining] Enabling ChainMining v1.0.9
-[14:51:23] [Server thread/INFO]: [ChainMining] 插件启用成功，作者PuddingKC，QQ:3116078709
-[14:51:23] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.2.0.1 b93
-[14:51:23] [Server thread/INFO]: [LevelledMobs] Enabling commands
-[14:51:23] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[14:51:23] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21 for nametag support
-[14:51:23] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[14:51:23] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[14:51:23] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[14:51:23] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[14:51:23] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[14:51:23] [Server thread/INFO]: [LevelledMobs] Current rules hash: 1f049e285c683bf10707eb885918101a97ba8283d774ee8782356a0a673e2270
-[14:51:23] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[14:51:23] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[14:51:23] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[14:51:23] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[14:51:23] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 591ms)
-[14:51:23] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
-[14:51:23] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
-[14:51:23] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
-[14:51:23] [Server thread/INFO]: [GSit] Enabling GSit v1.13.0
-[14:51:24] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[14:51:24] [Server thread/INFO]: [DuelTime] Enabling DuelTime v3.1.3
-[14:51:25] [ForkJoinPool.commonPool-worker-2/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9 (running v4.8.3)
-[14:51:25] [Server thread/INFO]: [spark] Starting background profiler...
-[14:51:25] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[14:51:25] [Server thread/INFO]: Done preparing level "world" (4.656s)
-[14:51:25] [Server thread/INFO]: Running delayed init tasks
-[14:51:25] [Server thread/INFO]: Done (22.867s)! For help, type "help"
-[14:51:25] [Server thread/INFO]: Timings Reset
-[14:51:28] [Craft Scheduler Thread - 5 - LevelledMobs/WARN]: [LevelledMobs] LevelledMobs Update Checker Notice:
-[14:51:28] [Craft Scheduler Thread - 5 - LevelledMobs/WARN]: [LevelledMobs] Your LevelledMobs version is outdated! Please update to v4.2.0.2 as soon as possible. (You're running v4.2.0.1)
-[14:51:30] [Craft Scheduler Thread - 6 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
-[14:52:36] [User Authenticator #0/INFO]: UUID of player Kousaka_Haruka is d79d2332-0714-3285-a4cf-0497307cb9c8
-[14:52:37] [Server thread/INFO]: Kousaka_Haruka joined the game
-[14:52:37] [Server thread/INFO]: Kousaka_Haruka[/127.0.0.1:55336] logged in with entity id 44 at ([world]-90747.8524084703, 68.0, 55982.29404176625)
-[14:54:59] [Server thread/INFO]: Kousaka_Haruka issued server command: /effect give Kousaka_Haruka minecraft:jump_boost infinite 100
-[14:54:59] [Server thread/INFO]: [Kousaka_Haruka: Applied effect Jump Boost to Kousaka_Haruka]
-[14:55:01] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 0.0,10.520000457763672,0.0
-[14:55:02] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 0.048759381053969264,10.520000457763672,0.1933255098410882
-[14:55:13] [Server thread/INFO]: Kousaka_Haruka issued server command: /effect clear
-[14:55:13] [Server thread/INFO]: [Kousaka_Haruka: Removed every effect from Kousaka_Haruka]
-[14:55:52] [Server thread/INFO]: Kousaka_Haruka issued server command: /kill
-[14:55:53] [Server thread/INFO]: Kousaka_Haruka was killed
-[14:55:53] [Server thread/INFO]: [Kousaka_Haruka: Killed Kousaka_Haruka]
-[14:59:59] [User Authenticator #1/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[15:00:01] [Server thread/INFO]: mrpckannan joined the game
-[15:00:01] [Server thread/INFO]: mrpckannan[/127.0.0.1:55604] logged in with entity id 2854 at ([world]-90756.08055580656, 68.0, 55996.92276639714)
-[15:00:34] [Server thread/INFO]: mrpckannan issued server command: /warp
-[15:00:38] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:warp Camp_Base
-[15:00:48] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ 135 ~ 52 135 -29 minecraft:smooth_quartz_slab
-[15:00:48] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 125 block(s)]
-[15:01:13] [Server thread/INFO]: mrpckannan issued server command: /tp Kousaka_Haruka
-[15:02:00] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[15:02:00] [Server thread/INFO]: mrpckannan left the game
-[15:02:25] [User Authenticator #2/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[15:02:26] [Server thread/INFO]: mrpckannan joined the game
-[15:02:26] [Server thread/INFO]: mrpckannan[/127.0.0.1:55677] logged in with entity id 3353 at ([world]38.518566227604886, 123.0, -38.82518235587128)
-[15:03:25] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ 135 ~ 52 135 -29 minecraft:air
-[15:03:25] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 18 block(s)]
-[15:03:31] [Server thread/INFO]: Kousaka_Haruka issued server command: /fill ~ 135 ~ 52 135 -29 minecraft:air
-[15:03:31] [Server thread/INFO]: [Kousaka_Haruka: Successfully filled 108 block(s)]
-[15:05:23] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
-[15:05:23] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
-[15:05:28] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
-[15:05:28] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
-[15:05:48] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
-[15:05:48] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
-[15:05:51] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
-[15:05:51] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
-[15:06:44] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[15:06:44] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -178.14281389599682,-35.0,6.57977956236038
-[15:06:57] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode spectator
-[15:06:57] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Spectator Mode]
-[15:07:09] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[15:07:09] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[15:07:18] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode survival
-[15:07:18] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Survival Mode]
-[15:13:54] [Server thread/INFO]: mrpckannan issued server command: /homelist
-[15:14:00] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:edithome mrpckannan.base_camp
-[15:14:02] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:delhome mrpckannan.base_camp
-[15:14:09] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:edithome mrpckannan.mine
-[15:14:12] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:edithome mrpckannan.stone
-[15:14:15] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:delhome mrpckannan.stone
-[15:14:24] [Server thread/INFO]: mrpckannan issued server command: /sethome temp1
-[15:15:07] [Server thread/INFO]: mrpckannan issued server command: /warp
-[15:15:12] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:warp Camp_Base
-[15:15:41] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:warp Industry_Base
-[15:16:12] [Server thread/INFO]: mrpckannan issued server command: /setwarp temp1
-[15:17:31] [Server thread/INFO]: Kousaka_Haruka issued server command: /kill
-[15:17:31] [Server thread/INFO]: Kousaka_Haruka was killed
-[15:17:31] [Server thread/INFO]: [Kousaka_Haruka: Killed Kousaka_Haruka]
-[15:18:09] [Server thread/INFO]: Kousaka_Haruka was slain by Lvl 46 | Zombie
-[15:18:44] [Server thread/INFO]: Kousaka_Haruka was slain by Lvl 46 | Zombie
-[15:19:23] [Server thread/INFO]: Kousaka_Haruka was slain by Lvl 46 | Zombie
-[15:19:56] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[15:19:56] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -153.37520219181144,-21.246800019478798,294.58407366038597
-[15:21:28] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:warp Camp_Base
-[15:21:44] [Server thread/INFO]: Kousaka_Haruka lost connection: Disconnected
-[15:21:44] [Server thread/INFO]: Kousaka_Haruka left the game
-[15:22:29] [User Authenticator #3/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[15:22:30] [Server thread/INFO]: Yahooingalaxy joined the game
-[15:22:30] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:56173] logged in with entity id 8047 at ([world]15.080584924636254, 106.24829113350485, -265.21773553091896)
-[15:22:55] [Server thread/INFO]: Yahooingalaxy issued server command: /tp mrpckannan
-[15:23:14] [Server thread/INFO]: Yahooingalaxy issued server command: /gamemode survival
-[15:23:14] [Server thread/INFO]: [Yahooingalaxy: Set own game mode to Survival Mode]
-[15:23:26] [Server thread/INFO]: Yahooingalaxy lost connection: Disconnected
-[15:23:26] [Server thread/INFO]: Yahooingalaxy left the game
-[15:23:39] [Async Chat Thread - #0/INFO]: [Not Secure] [无段位]<mrpckannan> 哪来的风弹
-[15:23:48] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:warp Industry_Base
-[15:23:52] [Server thread/INFO]: mrpckannan issued server command: /warp
-[15:23:56] [Server thread/INFO]: mrpckannan issued server command: /warp
-[15:24:08] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[15:24:08] [Server thread/INFO]: mrpckannan left the game
-[15:24:11] [User Authenticator #4/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[15:24:12] [Server thread/INFO]: mrpckannan joined the game
-[15:24:12] [Server thread/INFO]: mrpckannan[/127.0.0.1:56276] logged in with entity id 8510 at ([world]-29.46818223248836, 98.0, 209.10156783056087)
-[15:28:14] [Server thread/INFO]: There are 1 of a max of 20 players online: mrpckannan
-[15:28:36] [User Authenticator #5/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[15:28:37] [Server thread/INFO]: Yahooingalaxy joined the game
-[15:28:37] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:56383] logged in with entity id 8909 at ([world]70.80506640103276, 107.0, -4.522258879216955)
-[15:28:57] [Server thread/INFO]: Yahooingalaxy lost connection: Disconnected
-[15:28:57] [Server thread/INFO]: Yahooingalaxy left the game
-[15:30:11] [User Authenticator #6/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[15:30:12] [Server thread/INFO]: Yahooingalaxy joined the game
-[15:30:12] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:56531] logged in with entity id 9183 at ([world]70.80506640103276, 107.0, -4.522258879216955)
-[15:30:37] [Server thread/INFO]: Yahooingalaxy lost connection: Disconnected
-[15:30:37] [Server thread/INFO]: Yahooingalaxy left the game
-[15:37:39] [Server thread/INFO]: mrpckannan issued server command: /editwarp temp1 relocate
-[15:37:46] [Server thread/INFO]: mrpckannan issued server command: /warp
-[15:37:49] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:warp Camp_Base
-[15:38:40] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[15:38:40] [Server thread/INFO]: mrpckannan left the game
-[15:38:44] [User Authenticator #7/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[15:38:45] [Server thread/INFO]: mrpckannan joined the game
-[15:38:45] [Server thread/INFO]: mrpckannan[/127.0.0.1:57306] logged in with entity id 10177 at ([world]77.8284696679003, 102.0, 25.69999998807907)
-[15:40:29] [Server thread/INFO]: mrpckannan issued server command: /warp
-[15:40:32] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:warp temp1
-[15:46:13] [User Authenticator #8/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[15:46:14] [Server thread/INFO]: Yahooingalaxy joined the game
-[15:46:14] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:64700] logged in with entity id 10955 at ([world]70.80506640103276, 107.0, -4.522258879216955)
-[15:46:54] [Server thread/INFO]: Yahooingalaxy issued server command: /tp mrpckannan
-[15:47:01] [Server thread/INFO]: Yahooingalaxy has made the advancement [Stone Age]
-[15:47:30] [Server thread/INFO]: Yahooingalaxy was slain by Lvl 28 | Zombie
-[15:47:43] [Server thread/INFO]: Yahooingalaxy issued server command: /gamemode creative
-[15:47:43] [Server thread/INFO]: [Yahooingalaxy: Set own game mode to Creative Mode]
-[15:47:50] [Server thread/INFO]: Yahooingalaxy issued server command: /tp mrpckannan
-[15:47:54] [Server thread/INFO]: mrpckannan issued server command: /time set midnight
-[15:47:54] [Server thread/INFO]: [mrpckannan: Set the time to 18000]
-[15:49:00] [Async Chat Thread - #1/INFO]: [Not Secure] [无段位]<Yahooingalaxy> 这啥
-[15:49:11] [Server thread/INFO]: mrpckannan issued server command: /gamerule randomTickSpeed 40
-[15:49:11] [Server thread/INFO]: [mrpckannan: Gamerule randomTickSpeed is now set to: 40]
-[15:49:43] [Server thread/INFO]: mrpckannan issued server command: /gamerule randomTickSpeed 20
-[15:49:43] [Server thread/INFO]: [mrpckannan: Gamerule randomTickSpeed is now set to: 20]
-[15:50:15] [Server thread/INFO]: Yahooingalaxy lost connection: Timed out
-[15:50:15] [Server thread/INFO]: Yahooingalaxy left the game
-[15:50:22] [User Authenticator #9/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[15:50:23] [Server thread/INFO]: Yahooingalaxy joined the game
-[15:50:23] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:64799] logged in with entity id 11677 at ([world]-69.07644793618299, 80.0, 237.28026753953316)
-[15:51:05] [Server thread/INFO]: mrpckannan lost connection: Timed out
-[15:51:05] [Server thread/INFO]: mrpckannan left the game
-[15:51:07] [Server thread/INFO]: Yahooingalaxy lost connection: Timed out
-[15:51:07] [Server thread/INFO]: Yahooingalaxy left the game
-[15:51:21] [User Authenticator #9/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[15:51:22] [Server thread/INFO]: Yahooingalaxy joined the game
-[15:51:22] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:64849] logged in with entity id 11749 at ([world]-68.9667756196544, 80.0, 238.34690128435173)
-[15:52:26] [Server thread/INFO]: Yahooingalaxy lost connection: Timed out
-[15:52:26] [Server thread/INFO]: Yahooingalaxy left the game
-[15:52:54] [User Authenticator #10/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[15:52:55] [Server thread/INFO]: Yahooingalaxy joined the game
-[15:52:55] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:64933] logged in with entity id 11971 at ([world]-68.9667756196544, 80.0, 238.34690128435173)
-[15:53:45] [User Authenticator #10/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[15:53:45] [Server thread/INFO]: Yahooingalaxy lost connection: You logged in from another location
-[15:53:45] [Server thread/INFO]: Yahooingalaxy left the game
-[15:53:46] [Server thread/INFO]: Yahooingalaxy joined the game
-[15:53:46] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:64971] logged in with entity id 12172 at ([world]-69.2228576534555, 80.0, 238.22786628692518)
-[15:54:17] [Server thread/INFO]: Yahooingalaxy lost connection: Timed out
-[15:54:17] [Server thread/INFO]: Yahooingalaxy left the game
-[15:56:38] [User Authenticator #11/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[15:56:39] [User Authenticator #12/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[15:56:39] [Server thread/INFO]: mrpckannan joined the game
-[15:56:39] [Server thread/INFO]: mrpckannan[/127.0.0.1:65050] logged in with entity id 12211 at ([world]-31.99282306442814, 95.17380333872785, 222.31322598725546)
-[15:56:40] [Server thread/INFO]: Yahooingalaxy joined the game
-[15:56:40] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:65062] logged in with entity id 12212 at ([world]-69.2228576534555, 80.0, 238.22786628692518)
-[15:58:49] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[15:58:49] [Server thread/INFO]: mrpckannan left the game
-[15:58:53] [User Authenticator #13/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[15:58:59] [Server thread/INFO]: mrpckannan (/127.0.0.1:65407) lost connection: Disconnected
-[15:59:03] [Server thread/INFO]: Yahooingalaxy lost connection: Timed out
-[15:59:03] [Server thread/INFO]: Yahooingalaxy left the game
-[15:59:15] [User Authenticator #13/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[15:59:16] [Server thread/INFO]: Yahooingalaxy joined the game
-[15:59:16] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:65447] logged in with entity id 12582 at ([world]-69.93992505129681, 80.0, 237.29789093194432)
-[15:59:20] [User Authenticator #13/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[15:59:23] [Server thread/INFO]: mrpckannan joined the game
-[15:59:23] [Server thread/INFO]: mrpckannan[/127.0.0.1:65455] logged in with entity id 12712 at ([world]-40.507366943765255, 95.0, 215.0821024467618)
-[16:00:31] [Server thread/INFO]: mrpckannan issued server command: /warp
-[16:00:35] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:warp Camp_Base
-[16:01:18] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:warp temp1
-[16:03:42] [Async Chat Thread - #3/INFO]: [Not Secure] [无段位]<Yahooingalaxy> 这啥
-[16:07:10] [Server thread/INFO]: mrpckannan issued server command: /kill @e[type=item]
-[16:07:10] [Server thread/INFO]: [mrpckannan: Killed 13 entities]
-[16:10:20] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
-[16:10:20] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
-[16:10:24] [Server thread/INFO]: mrpckannan issued server command: /gamemode creative
-[16:10:24] [Server thread/INFO]: [mrpckannan: Set own game mode to Creative Mode]
-[16:10:25] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
-[16:10:25] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
-[16:10:28] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
-[16:10:28] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
-[16:10:30] [Server thread/INFO]: mrpckannan issued server command: /gamemode creative
-[16:10:30] [Server thread/INFO]: [mrpckannan: Set own game mode to Creative Mode]
-[16:10:45] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
-[16:10:45] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
-[16:10:46] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
-[16:11:31] [Server thread/INFO]: mrpckannan lost connection: Timed out
-[16:11:31] [Server thread/INFO]: mrpckannan left the game
-[16:11:38] [User Authenticator #14/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[16:11:41] [User Authenticator #15/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[16:11:41] [Server thread/INFO]: Yahooingalaxy lost connection: You logged in from another location
-[16:11:41] [Server thread/INFO]: Yahooingalaxy left the game
-[16:11:47] [Server thread/INFO]: mrpckannan joined the game
-[16:11:47] [Server thread/INFO]: mrpckannan[/127.0.0.1:49384] logged in with entity id 14166 at ([world]-26.69999998807907, 114.0, 216.20119707495454)
-[16:12:06] [Server thread/INFO]: Yahooingalaxy (/127.0.0.1:49392) lost connection: Timed out
-[16:12:15] [User Authenticator #15/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[16:12:26] [Server thread/INFO]: mrpckannan issued server command: /kill
-[16:12:26] [Server thread/INFO]: mrpckannan was killed
-[16:12:26] [Server thread/INFO]: [mrpckannan: Killed mrpckannan]
-[16:12:26] [Server thread/INFO]: Yahooingalaxy joined the game
-[16:12:26] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:49407] logged in with entity id 14269 at ([world]-74.1758597191171, 84.61865215305843, 243.37534011174162)
-[16:12:49] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[16:12:49] [Server thread/INFO]: mrpckannan left the game
-[16:13:10] [User Authenticator #15/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[16:13:16] [Server thread/INFO]: mrpckannan joined the game
-[16:13:16] [Server thread/INFO]: mrpckannan[/127.0.0.1:49702] logged in with entity id 14366 at ([world]-26.69999998807907, 114.0, 216.20119707495454)
-[16:13:50] [Server thread/INFO]: mrpckannan lost connection: Timed out
-[16:13:50] [Server thread/INFO]: mrpckannan left the game
-[16:14:01] [User Authenticator #15/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[16:14:09] [Server thread/INFO]: mrpckannan joined the game
-[16:14:09] [Server thread/INFO]: mrpckannan[/127.0.0.1:49760] logged in with entity id 14605 at ([world]60.5, 107.5, -11.5)
-[16:14:36] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[16:14:36] [Server thread/INFO]: mrpckannan left the game
-[16:14:47] [Server thread/INFO]: [Not Secure] [Server] 你们为什么一直退又一直进
-[16:17:14] [Server thread/INFO]: Yahooingalaxy lost connection: Disconnected
-[16:17:14] [Server thread/INFO]: Yahooingalaxy left the game
-[16:17:56] [User Authenticator #16/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[16:17:57] [User Authenticator #17/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[16:17:59] [Server thread/INFO]: Yahooingalaxy joined the game
-[16:17:59] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:50006] logged in with entity id 15044 at ([world]-75.95336379936455, 80.0, 225.41366324003553)
-[16:18:01] [Server thread/INFO]: mrpckannan joined the game
-[16:18:01] [Server thread/INFO]: mrpckannan[/127.0.0.1:50014] logged in with entity id 15045 at ([world]60.5, 107.5, -11.5)
-[16:18:37] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[16:18:37] [Server thread/INFO]: mrpckannan left the game
-[16:19:24] [User Authenticator #18/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[16:19:27] [Server thread/INFO]: mrpckannan joined the game
-[16:19:27] [Server thread/INFO]: mrpckannan[/127.0.0.1:50088] logged in with entity id 15459 at ([world]62.93270944136206, 107.5, -9.733240659273955)
-[16:20:16] [Server thread/WARN]: mrpckannan moved too quickly! -0.4868751951446768,0.8322033533667508,10.284591681100444
-[16:20:21] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[16:20:21] [Server thread/INFO]: mrpckannan left the game
-[16:21:04] [Server thread/INFO]: Yahooingalaxy lost connection: Disconnected
-[16:21:04] [Server thread/INFO]: Yahooingalaxy left the game
-[16:21:53] [User Authenticator #19/INFO]: UUID of player Yahooingalaxy is 6ec5a3cc-c398-379c-a74c-8eef659ebcbb
-[16:21:54] [Server thread/INFO]: Yahooingalaxy joined the game
-[16:21:54] [Server thread/INFO]: Yahooingalaxy[/127.0.0.1:50324] logged in with entity id 15778 at ([world]-77.28295649255983, 81.20000004768372, 227.30000001192093)
-[16:22:05] [Server thread/INFO]: Yahooingalaxy lost connection: Disconnected
-[16:22:05] [Server thread/INFO]: Yahooingalaxy left the game
-[16:22:26] [User Authenticator #19/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
-[16:22:27] [Server thread/INFO]: mrpckannan joined the game
-[16:22:27] [Server thread/INFO]: mrpckannan[/127.0.0.1:50458] logged in with entity id 15929 at ([world]78.35506301317353, 103.0, 22.173006161221878)
-[16:25:04] [Server thread/INFO]: mrpckannan lost connection: Timed out
-[16:25:04] [Server thread/INFO]: mrpckannan left the game
-[16:27:35] [Server thread/INFO]: Stopping the server
-[16:27:35] [Server thread/INFO]: Stopping server
-[16:27:35] [Server thread/INFO]: [DuelTime] Disabling DuelTime v3.1.3
-[16:27:36] [Server thread/INFO]: [GSit] Disabling GSit v1.13.0
-[16:27:36] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[16:27:36] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
-[16:27:36] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
-[16:27:36] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
-[16:27:36] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.1 b93
-[16:27:36] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[16:27:36] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[16:27:36] [Craft Scheduler Thread - 1 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[16:27:36] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 3ms)
-[16:27:36] [Craft Scheduler Thread - 3 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[16:27:36] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
-[16:27:36] [Server thread/INFO]: [ChainMining] Disabling ChainMining v1.0.9
-[16:27:36] [Server thread/INFO]: Saving players
-[16:27:36] [Server thread/INFO]: Saving worlds
-[16:27:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 27 entity chunks, 0 poi chunks in world 'world' in 0.06s
-[16:27:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 21 entity chunks, 0 poi chunks in world 'world_nether' in 0.02s
-[16:27:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[16:27:36] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 2 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[16:27:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:27:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:27:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:27:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:48:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:48:04] [ServerMain/INFO]: Loaded 1290 recipes
+[19:48:04] [ServerMain/INFO]: Loaded 1399 advancements
+[19:48:06] [Server thread/INFO]: Starting minecraft server version 1.21
+[19:48:06] [Server thread/INFO]: Loading properties
+[19:48:06] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[19:48:07] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:48:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:48:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:48:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and population gen parallelism of 2 threads
+[19:48:08] [Server thread/INFO]: Default game type: SURVIVAL
+[19:48:08] [Server thread/INFO]: Generating keypair
+[19:48:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:48:08] [Server thread/INFO]: Using default channel type
+[19:48:08] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:48:08] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:48:12] [Server thread/INFO]: [ChainMining] Loading server plugin ChainMining v1.0.9
+[19:48:12] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.1
+[19:48:12] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.2.0.1 b93
+[19:48:12] [Server thread/INFO]: [LevelledMobs] Loading commands
+[19:48:14] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
+[19:48:14] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
+[19:48:14] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
+[19:48:14] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.13.0
+[19:48:15] [Server thread/INFO]: [DuelTime] Loading server plugin DuelTime v3.1.3
+[19:48:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:48:15] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.1
+[19:48:17] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[19:48:20] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[19:48:24] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[19:48:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:48:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:48:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:48:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:48:24] [Server thread/INFO]: Preparing level "world"
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.1
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: d5d8613
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.5.2) is available! Downloading update...
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[19:48:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[19:48:25] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_nether is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_nether's world directory if you want to be able to load the duplicate world.
+[19:48:26] [Server thread/INFO]: [STDOUT] [org.bukkit.craftbukkit.CraftServer] World world_the_end is a duplicate of another world and has been prevented from loading. Please delete the uid.dat file from world_the_end's world directory if you want to be able to load the duplicate world.
+[19:48:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:48:27] [Server thread/INFO]: Time elapsed: 942 ms
+[19:48:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:48:27] [Server thread/INFO]: Time elapsed: 858 ms
+[19:48:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:48:28] [Server thread/INFO]: Time elapsed: 334 ms
+[19:48:28] [Server thread/INFO]: [ChainMining] Enabling ChainMining v1.0.9
+[19:48:28] [Server thread/INFO]: [ChainMining] 插件启用成功，作者PuddingKC，QQ:3116078709
+[19:48:28] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.2.0.1 b93
+[19:48:28] [Server thread/INFO]: [LevelledMobs] Enabling commands
+[19:48:28] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
+[19:48:28] [Server thread/INFO]: [LevelledMobs] Using NMS version 1.21 for nametag support
+[19:48:28] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[19:48:28] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[19:48:28] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[19:48:28] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[19:48:29] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[19:48:30] [Server thread/INFO]: [LevelledMobs] Current rules hash: 1f049e285c683bf10707eb885918101a97ba8283d774ee8782356a0a673e2270
+[19:48:30] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[19:48:30] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[19:48:30] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[19:48:30] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[19:48:30] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 2275ms)
+[19:48:30] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
+[19:48:31] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
+[19:48:31] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
+[19:48:31] [Server thread/INFO]: [GSit] Enabling GSit v1.13.0
+[19:48:31] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[19:48:31] [Server thread/INFO]: [DuelTime] Enabling DuelTime v3.1.3
+[19:48:32] [ForkJoinPool.commonPool-worker-2/WARN]: [HuskHomes] A new version of HuskHomes is available: v4.9 (running v4.8.3)
+[19:48:35] [Server thread/INFO]: [spark] Starting background profiler...
+[19:48:35] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[19:48:36] [Server thread/INFO]: Done preparing level "world" (11.350s)
+[19:48:36] [Server thread/INFO]: Running delayed init tasks
+[19:48:36] [Server thread/INFO]: Done (49.958s)! For help, type "help"
+[19:48:36] [Server thread/INFO]: Timings Reset
+[19:48:37] [Craft Scheduler Thread - 5 - LevelledMobs/WARN]: [LevelledMobs] LevelledMobs Update Checker Notice:
+[19:48:37] [Craft Scheduler Thread - 5 - LevelledMobs/WARN]: [LevelledMobs] Your LevelledMobs version is outdated! Please update to v4.2.0.2 as soon as possible. (You're running v4.2.0.1)
+[19:48:41] [Craft Scheduler Thread - 6 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[19:48:46] [Folia Async Scheduler Thread #1/WARN]: [SkinsRestorer] [GitHubUpdate] Could not download update
+net.skinsrestorer.shared.exception.UpdateException: Download failed
+	at SkinsRestorer.jar/net.skinsrestorer.bukkit.update.UpdateDownloaderGithub.readStringFromUrl(UpdateDownloaderGithub.java:96) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.bukkit.update.UpdateDownloaderGithub.downloadUpdate(UpdateDownloaderGithub.java:111) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.update.UpdateCheckerGitHub.checkForUpdate(UpdateCheckerGitHub.java:103) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.shared.update.UpdateCheckExecutor.lambda$checkUpdate$0(UpdateCheckExecutor.java:38) ~[SkinsRestorer.jar:?]
+	at SkinsRestorer.jar/net.skinsrestorer.bukkit.folia.FoliaSchedulerProvider.lambda$getCancellingTaskConsumer$0(FoliaSchedulerProvider.java:84) ~[SkinsRestorer.jar:?]
+	at io.papermc.paper.threadedregions.scheduler.FoliaAsyncScheduler$AsyncScheduledTask.run(FoliaAsyncScheduler.java:217) ~[paper-1.21.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:589) ~[?:?]
+	at java.base/sun.nio.ch.Net.connect(Net.java:578) ~[?:?]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:752) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:181) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1243) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1129) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1691) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1615) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at SkinsRestorer.jar/net.skinsrestorer.bukkit.update.UpdateDownloaderGithub.readStringFromUrl(UpdateDownloaderGithub.java:84) ~[SkinsRestorer.jar:?]
+	... 8 more
+[19:49:10] [User Authenticator #0/INFO]: UUID of player mrpckannan is ad5e6c97-b59c-3ef6-9394-32deb8609c6d
+[19:49:13] [Server thread/INFO]: mrpckannan joined the game
+[19:49:14] [Server thread/INFO]: mrpckannan[/127.0.0.1:53947] logged in with entity id 67 at ([world]31.850532610077735, 123.5, 0.5744749855920864)
+[19:49:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2764ms or 55 ticks behind
+[19:49:28] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:overworld run tp @s 31.85 123.50 0.57 159.30 21.15
+[19:49:28] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to 31.850000, 123.500000, 0.570000]
+[19:49:32] [Server thread/INFO]: mrpckannan issued server command: /warp
+[19:49:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3062ms or 61 ticks behind
+[19:49:36] [Server thread/INFO]: mrpckannan issued server command: /huskhomes:warp Camp_Base
+[19:50:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7083ms or 141 ticks behind
+[19:50:13] [Server thread/INFO]: mrpckannan issued server command: /execute in minecraft:the_nether run tp @s 22.11 117.00 -0.94 -81.47 22.80
+[19:50:13] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to 22.110000, 117.000000, -0.940000]
+[19:50:15] [Server thread/INFO]: mrpckannan lost connection: Disconnected
+[19:50:16] [Server thread/INFO]: mrpckannan left the game
+[19:50:20] [Server thread/INFO]: Stopping server
+[19:50:20] [Server thread/INFO]: [DuelTime] Disabling DuelTime v3.1.3
+[19:50:20] [Server thread/INFO]: [GSit] Disabling GSit v1.13.0
+[19:50:20] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[19:50:20] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[19:50:20] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[19:50:20] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[19:50:20] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.1 b93
+[19:50:20] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[19:50:20] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[19:50:20] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 3ms)
+[19:50:20] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[19:50:20] [Craft Scheduler Thread - 2 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[19:50:20] [Craft Scheduler Thread - 0 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[19:50:20] [Server thread/INFO]: [ChainMining] Disabling ChainMining v1.0.9
+[19:50:20] [Server thread/INFO]: Saving players
+[19:50:20] [Server thread/INFO]: Saving worlds
+[19:50:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:50:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:50:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:50:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:50:23] [Server thread/INFO]: [ChunkHolderManager] Saved 435 block chunks, 325 entity chunks, 0 poi chunks in world 'world' in 2.56s
+[19:50:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:50:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:50:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:50:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:50:28] [Server thread/INFO]: [ChunkHolderManager] Saved 542 block chunks, 542 entity chunks, 0 poi chunks in world 'world_nether' in 4.84s
+[19:50:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:50:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:50:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:50:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:50:28] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.37s
+[19:50:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:50:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:50:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:50:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

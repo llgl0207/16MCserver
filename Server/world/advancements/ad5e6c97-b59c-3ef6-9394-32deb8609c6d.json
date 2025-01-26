@@ -383,6 +383,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-01-26 17:59:59 +0800",
       "minecraft:skeleton": "2024-12-07 22:17:25 +0800",
       "minecraft:phantom": "2025-01-11 17:02:52 +0800",
       "minecraft:zombified_piglin": "2025-01-26 15:04:55 +0800",
@@ -3448,6 +3449,18 @@
   "minecraft:adventure/who_needs_rockets": {
     "criteria": {
       "who_needs_rockets": "2025-01-25 15:59:24 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-01-26 18:00:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2025-01-26 18:05:23 +0800"
     },
     "done": true
   },
