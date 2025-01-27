@@ -40,7 +40,7 @@ presets:
     name: 'LVL Strategy - Weighted Random'
     strategies:
       weighted-random:
-        11-50: 50
+        11-50: 1
         5-10: 100
         4-8: 0
         3-6: 0
