@@ -1,131 +1,100 @@
-[00:00:15] [Server thread/INFO]: [Not Secure] [Server] 你们要玩到几点
-[00:00:59] [Async Chat Thread - #2/INFO]: [Not Secure] [无段位]<GINKA> 666
-[00:01:46] [Server thread/INFO]: GINKA has made the advancement [The End?]
-[00:02:31] [Async Chat Thread - #4/INFO]: [Not Secure] [无段位]<mrpckannan> 别看小黑眼睛
-[00:02:37] [Async Chat Thread - #4/INFO]: [Not Secure] [无段位]<GINKA> nima
-[00:02:41] [Server thread/INFO]: GINKA was slain by Lvl 50 | Enderman
-[00:02:49] [Server thread/INFO]: mrpckannan issued server command: /tp GINKA
-[00:02:49] [Server thread/INFO]: [mrpckannan: Teleported mrpckannan to GINKA]
-[00:02:53] [User Authenticator #3/INFO]: UUID of player Kousaka_Haruka is d79d2332-0714-3285-a4cf-0497307cb9c8
-[00:02:54] [Server thread/INFO]: Kousaka_Haruka joined the game
-[00:02:54] [Server thread/INFO]: Kousaka_Haruka[/127.0.0.1:53046] logged in with entity id 2538 at ([world]163.36061439951848, 187.0, -5.6674073546849195)
-[00:03:01] [Async Chat Thread - #4/INFO]: [Not Secure] [无段位]<GINKA> zebmodawenhao
-[00:03:16] [Async Chat Thread - #4/INFO]: [Not Secure] [无段位]<mrpckannan> ??s
-[00:03:17] [Async Chat Thread - #4/INFO]: [Not Secure] [青铜III]<Kousaka_Haruka> ?
-[00:03:20] [Async Chat Thread - #4/INFO]: [Not Secure] [无段位]<GINKA> ？
-[00:03:20] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp GINKA
-[00:03:20] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to GINKA]
-[00:03:20] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -94.8448510544999,-80.0,5.40305221924098
-[00:03:26] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode survival
-[00:03:26] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Survival Mode]
-[00:04:11] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime help
-[00:04:22] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime level
-[00:04:33] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<GINKA> weishenmonikeyidazhongwen
-[00:04:35] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime p
-[00:04:42] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> F3+F4快捷换模式
-[00:04:53] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> 你没开中文输入法
-[00:05:07] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> 按shift试试
-[00:05:22] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime p a Kousaka_Haruka 10000
-[00:05:27] [Async Chat Thread - #6/INFO]: [Not Secure] [青铜III]<Kousaka_Haruka> 111
-[00:05:28] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> 先进聊天界面再shift
-[00:05:32] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<GINKA> 我去 这么厉害
-[00:05:50] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime l a Kousaka_Haruka 10000
-[00:06:02] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> f3+f4换模式
-[00:06:06] [Folia Async Scheduler Thread Timer/WARN]: [SkinsRestorer] Failed to get release info from api.github.com. 
- If this message is repeated a lot, please see https://skinsrestorer.net/firewall
-[00:06:15] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
-[00:06:15] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
-[00:06:16] [Server thread/INFO]: mrpckannan issued server command: /gamemode survival
-[00:06:16] [Server thread/INFO]: [mrpckannan: Set own game mode to Survival Mode]
-[00:06:17] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime level e a Kousaka_Haruka 10000
-[00:06:17] [Server thread/INFO]: [恭喜] 玩家 Kousaka_Haruka 的段位升到了 钻石V
-[00:06:20] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime level e a Kousaka_Haruka 10000
-[00:06:45] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<GINKA> 我放弃了
-[00:06:45] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> 摁f3和f4试试
-[00:07:10] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> 你是不是开了功能键
-[00:07:32] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<GINKA> 因为这个是调音量的
-[00:07:46] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> 摁住fn
-[00:08:20] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> 摁住fn建再按一下esc
-[00:08:32] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> 就可以关闭功能键
-[00:08:51] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<mrpckannan> 然后再试试f3+f4
-[00:09:00] [Async Chat Thread - #6/INFO]: [Not Secure] [无段位]<GINKA> 键盘上就是这样设定的
-[00:09:39] [Server thread/INFO]: GINKA has reached the goal [Sky's the Limit]
-[00:10:05] [Server thread/INFO]: mrpckannan issued server command: /gamemode spectator
-[00:10:05] [Server thread/INFO]: [mrpckannan: Set own game mode to Spectator Mode]
-[00:10:08] [Async Chat Thread - #8/INFO]: [Not Secure] [钻石V]<Kousaka_Haruka> 我的剑
-[00:10:31] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<GINKA> 嘻嘻
-[00:11:10] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<GINKA> 怎么丢东西
-[00:11:14] [Async Chat Thread - #8/INFO]: [Not Secure] [钻石V]<Kousaka_Haruka> Q
-[00:11:40] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<mrpckannan> 也可以打开背包丢东西
-[00:12:14] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<mrpckannan> 把东西从背包里拿起然后在界面外放下
-[00:12:15] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode creative
-[00:12:15] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Creative Mode]
-[00:12:27] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<GINKA> 这个烟花不会炸
-[00:12:35] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<GINKA> 哑炮
-[00:12:40] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp GINKA Kousaka_Haruka
-[00:12:40] [Server thread/INFO]: [Kousaka_Haruka: Teleported GINKA to Kousaka_Haruka]
-[00:13:12] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode survival
-[00:13:12] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Survival Mode]
-[00:13:17] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<GINKA> 谁是Q
-[00:13:23] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<mrpckannan> Q哥
-[00:13:37] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<GINKA> 你是谁
-[00:13:48] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<mrpckannan> 对了游戏里不要说真名
-[00:13:55] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<mrpckannan> 我在录像
-[00:14:02] [Async Chat Thread - #8/INFO]: [Not Secure] [钻石V]<Kousaka_Haruka> 那完了
-[00:14:12] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<mrpckannan> ?
-[00:14:13] [Async Chat Thread - #9/INFO]: [Not Secure] [钻石V]<Kousaka_Haruka> 我一直说的是真名
-[00:14:28] [Async Chat Thread - #9/INFO]: [Not Secure] [无段位]<mrpckannan> 聊天栏别说
-[00:14:53] [Async Chat Thread - #9/INFO]: [Not Secure] [无段位]<mrpckannan> 语音我不会放出来
-[00:14:55] [Async Chat Thread - #9/INFO]: [Not Secure] [钻石V]<Kousaka_Haruka> 我是server
-[00:15:15] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[00:15:15] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to mrpckannan]
-[00:15:15] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -3.260603918749652,-4.2134675727971,41.20461673759222
-[00:15:21] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp GINKA
-[00:15:21] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to GINKA]
-[00:15:22] [Async Chat Thread - #9/INFO]: [Not Secure] [无段位]<GINKA> 好的 我是GAL大王 我要睡觉了
-[00:15:35] [Async Chat Thread - #8/INFO]: [Not Secure] [无段位]<mrpckannan> 明天见
-[00:15:44] [Server thread/INFO]: GINKA lost connection: Disconnected
-[00:15:44] [Server thread/INFO]: GINKA left the game
-[00:15:51] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan
-[00:15:51] [Server thread/INFO]: [Kousaka_Haruka: Teleported Kousaka_Haruka to mrpckannan]
-[00:15:51] [Server thread/INFO]: mrpckannan lost connection: Disconnected
-[00:15:51] [Server thread/INFO]: mrpckannan left the game
-[00:15:54] [Server thread/INFO]: Kousaka_Haruka lost connection: Disconnected
-[00:15:54] [Server thread/INFO]: Kousaka_Haruka left the game
-[00:16:03] [Server thread/INFO]: Stopping the server
-[00:16:03] [Server thread/INFO]: Stopping server
-[00:16:03] [Server thread/INFO]: [DuelTime] Disabling DuelTime v3.1.3
-[00:16:03] [Server thread/INFO]: [GSit] Disabling GSit v1.13.0
-[00:16:03] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[00:16:03] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
-[00:16:03] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
-[00:16:03] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
-[00:16:03] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.1 b93
-[00:16:03] [Server thread/INFO]: [LevelledMobs] Unregistering commands
-[00:16:03] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[00:16:03] [Craft Scheduler Thread - 0 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[00:16:03] [Craft Scheduler Thread - 3 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[00:16:03] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 2ms)
-[00:16:03] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
-[00:16:03] [Server thread/INFO]: [ChainMining] Disabling ChainMining v1.0.9
-[00:16:03] [Server thread/INFO]: Saving players
-[00:16:03] [Server thread/INFO]: Saving worlds
-[00:16:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Saved 44 block chunks, 157 entity chunks, 0 poi chunks in world 'world' in 0.14s
-[00:16:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 12 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[00:16:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[00:16:03] [Server thread/INFO]: [ChunkHolderManager] Saved 11 block chunks, 47 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[00:16:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:16:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:16:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:16:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:15] [Async Chat Thread - #44/INFO]: [Not Secure] [无段位]<Yahooingalaxy> hym
+[00:00:15] [Server thread/INFO]: Kousaka_Haruka issued server command: /sit
+[00:00:23] [Server thread/INFO]: Kousaka_Haruka issued server command: /tp mrpckannan Kousaka_Haruka
+[00:00:23] [Server thread/INFO]: [Kousaka_Haruka: Teleported mrpckannan to Kousaka_Haruka]
+[00:00:46] [Async Chat Thread - #44/INFO]: [Not Secure] [无段位]<mrpckannan> wait
+[00:01:37] [Async Chat Thread - #44/INFO]: [Not Secure] [无段位]<mrpckannan> 我去弄点火箭
+[00:05:12] [Server thread/INFO]: zajk issued server command: /
+[00:06:49] [Async Chat Thread - #46/INFO]: [Not Secure] [无段位]<mrpckannan> 等我截图
+[00:07:05] [Async Chat Thread - #46/INFO]: [Not Secure] [无段位]<mrpckannan> 等会
+[00:07:17] [Async Chat Thread - #46/INFO]: [Not Secure] [无段位]<mrpckannan> 你们先看会别的
+[00:07:24] [Async Chat Thread - #46/INFO]: [Not Secure] [无段位]<mrpckannan> 我调一下
+[00:09:08] [Async Chat Thread - #48/INFO]: [Not Secure] [无段位]<mrpckannan> back
+[00:09:39] [Async Chat Thread - #48/INFO]: [Not Secure] [无段位]<mrpckannan> ok
+[00:13:03] [Async Chat Thread - #50/INFO]: [Not Secure] [无段位]<mrpckannan> 上来
+[00:14:02] [Server thread/INFO]: zajk issued server command: /gamemode creative
+[00:14:02] [Server thread/INFO]: [zajk: Set own game mode to Creative Mode]
+[00:14:58] [Async Chat Thread - #52/INFO]: [Not Secure] [无段位]<mrpckannan> ok
+[00:19:57] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime send zajk
+[00:20:02] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime send Yahooingalaxy
+[00:20:06] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime send mrpckannan
+[00:20:31] [Async Chat Thread - #54/INFO]: [Not Secure] [无段位]<mrpckannan> 大咩
+[00:21:22] [Async Chat Thread - #54/INFO]: [Not Secure] [无段位]<mrpckannan> 我去刷牙
+[00:21:36] [Server thread/INFO]: zajk issued server command: /dueltime accept
+[00:21:36] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 32.52918167252611,143.2382898335443,65.94797147734243
+[00:21:43] [Server thread/INFO]: zajk issued server command: /gamemode survival
+[00:21:43] [Server thread/INFO]: [zajk: Set own game mode to Survival Mode]
+[00:21:44] [Server thread/INFO]: Kousaka_Haruka issued server command: /gamemode survival
+[00:21:44] [Server thread/INFO]: [Kousaka_Haruka: Set own game mode to Survival Mode]
+[00:21:46] [Async Chat Thread - #54/INFO]: [Not Secure] [无段位]<Yahooingalaxy> zou la
+[00:21:51] [Server thread/INFO]: Yahooingalaxy lost connection: Disconnected
+[00:21:51] [Server thread/INFO]: Yahooingalaxy left the game
+[00:21:57] [Server thread/INFO]: [恭喜] 玩家 zajk 的段位升到了 青铜I
+[00:21:57] [Server thread/INFO]: [战报] 玩家 zajk 在经典模式竞技场 Arena 上以 20 秒的时间击败了对手 Kousaka_Haruka ！
+[00:21:57] [Server thread/INFO]: Kousaka_Haruka was shot by zajk
+[00:22:02] [Async Chat Thread - #54/INFO]: [Not Secure] [青铜I]<zajk> ?
+[00:22:04] [Async Chat Thread - #54/INFO]: [Not Secure] [钻石V]<Kousaka_Haruka> ?
+[00:22:10] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime send zajk
+[00:22:12] [Server thread/INFO]: zajk issued server command: /dueltime accept
+[00:22:12] [Server thread/WARN]: Kousaka_Haruka moved too quickly! 34.48903783940381,156.0,54.33095309339094
+[00:22:13] [Server thread/INFO]: zajk issued server command: /dueltime accept
+[00:22:41] [Server thread/INFO]: [战报] 玩家 Kousaka_Haruka 在经典模式竞技场 Arena 上以 29 秒的时间击败了对手 zajk ！
+[00:22:41] [Server thread/INFO]: zajk was slain by Kousaka_Haruka
+[00:22:45] [Server thread/INFO]: zajk issued server command: /dueltime accept
+[00:23:09] [Server thread/INFO]: zajk issued server command: /gamemode creative
+[00:23:09] [Server thread/INFO]: [zajk: Set own game mode to Creative Mode]
+[00:24:17] [Server thread/INFO]: zajk issued server command: /gamemode survival
+[00:24:17] [Server thread/INFO]: [zajk: Set own game mode to Survival Mode]
+[00:24:22] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime send zajk
+[00:24:26] [Server thread/INFO]: zajk issued server command: /dueltime accept
+[00:24:26] [Server thread/WARN]: Kousaka_Haruka moved too quickly! -9.648298449480478,168.0,-24.410513147297625
+[00:24:40] [Server thread/INFO]: [恭喜] 玩家 zajk 的段位升到了 青铜II
+[00:24:40] [Server thread/INFO]: [战报] 玩家 zajk 在经典模式竞技场 Arena 上以 14 秒的时间击败了对手 Kousaka_Haruka ！
+[00:24:40] [Server thread/INFO]: Kousaka_Haruka was slain by zajk using [czf之剑]
+[00:24:54] [Server thread/INFO]: Kousaka_Haruka issued server command: /dueltime send zajk
+[00:25:08] [Server thread/INFO]: zajk issued server command: /dueltime accept
+[00:27:56] [Server thread/INFO]: [战报] 玩家 Kousaka_Haruka 在经典模式竞技场 Arena 上以 168 秒的时间击败了对手 zajk ！
+[00:27:56] [Server thread/INFO]: zajk was shot by Kousaka_Haruka
+[00:28:46] [Server thread/INFO]: Kousaka_Haruka lost connection: Disconnected
+[00:28:46] [Server thread/INFO]: Kousaka_Haruka left the game
+[00:29:43] [Server thread/INFO]: zajk lost connection: Disconnected
+[00:29:43] [Server thread/INFO]: zajk left the game
+[00:31:12] [Server thread/INFO]: Stopping the server
+[00:31:12] [Server thread/INFO]: Stopping server
+[00:31:12] [Server thread/INFO]: [DuelTime] Disabling DuelTime v3.1.3
+[00:31:12] [Server thread/INFO]: [GSit] Disabling GSit v1.13.0
+[00:31:12] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[00:31:12] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[00:31:12] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[00:31:12] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[00:31:12] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.2.0.1 b93
+[00:31:12] [Server thread/INFO]: [LevelledMobs] Unregistering commands
+[00:31:12] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[00:31:12] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 5ms)
+[00:31:12] [Craft Scheduler Thread - 1 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[00:31:12] [Craft Scheduler Thread - 3 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[00:31:12] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.1
+[00:31:12] [Server thread/INFO]: [ChainMining] Disabling ChainMining v1.0.9
+[00:31:12] [Server thread/INFO]: Saving players
+[00:31:12] [Server thread/INFO]: mrpckannan lost connection: Server closed
+[00:31:12] [Server thread/INFO]: mrpckannan left the game
+[00:31:12] [Server thread/INFO]: Saving worlds
+[00:31:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Saved 28 block chunks, 166 entity chunks, 0 poi chunks in world 'world' in 0.12s
+[00:31:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Saved 16 block chunks, 57 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
+[00:31:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:31:12] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 45 entity chunks, 0 poi chunks in world 'world_the_end' in 0.03s
+[00:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

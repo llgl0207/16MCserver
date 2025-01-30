@@ -1,1 +1,1 @@
-java -Xmx4g -Xms1g -jar paper-1.21-130.jar
+java -Xmx3g -jar paper-1.21-130.jar
