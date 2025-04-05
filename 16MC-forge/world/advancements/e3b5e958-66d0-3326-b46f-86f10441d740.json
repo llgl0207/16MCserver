@@ -1,0 +1,70 @@
+{
+  "apotheosis:give_book": {
+    "criteria": {
+      "tick": "2025-03-29 17:27:58 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:grant_book_on_first_join": {
+    "criteria": {
+      "tick": "2025-03-29 17:27:58 +0800"
+    },
+    "done": true
+  },
+  "parcool:grant_parcool_guide": {
+    "criteria": {
+      "tick": "2025-03-29 17:27:58 +0800"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-03-29 17:27:58 +0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_chest": {
+    "criteria": {
+      "inv_changed-chest": "2025-03-29 17:27:58 +0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_netherite": {
+    "criteria": {
+      "inv_changed-netherite": "2025-03-29 17:27:58 +0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_glowstone": {
+    "criteria": {
+      "inv_changed-glowstone": "2025-03-29 17:27:58 +0800"
+    },
+    "done": true
+  },
+  "touhou_little_maid:give_smart_slab": {
+    "criteria": {
+      "tick": "2025-03-29 17:27:58 +0800"
+    },
+    "done": true
+  },
+  "toms_storage:unlock_dia_pearl": {
+    "criteria": {
+      "inv_changed-ender_pearl": "2025-03-29 17:27:58 +0800",
+      "inv_changed-diamond": "2025-03-29 17:27:58 +0800"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2025-03-29 17:27:58 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2025-03-29 17:27:59 +0800"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
